@@ -75,90 +75,100 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const lsCorpusContainer = document.getElementById('ls-text');
-            const tTextContainer = document.getElementById('t-text');
+       
+       
+       document.addEventListener('DOMContentLoaded', function() {
+    const lsCorpusContainer = document.getElementById('ls-text');
+    const tTextContainer = document.getElementById('t-text');
 
-            // Load LS Corpus and T Text CSV files and process the data
-            Promise.all([
-                fetchAndLoadCSV('ls-corpus-test.csv', lsCorpusContainer),
-                fetchAndLoadCSV('t-text-test.csv', tTextContainer)
-            ]).then(() => {
-                // Now that text is loaded, load key.csv and process the data
-                fetch('key.csv')
-                    .then(response => response.text())
-                    .then(csvData => {
-                        const keyData = parseCSV(csvData);
+    // Load LS Corpus and T Text CSV files and process the data
+    Promise.all([
+        fetchAndLoadCSV('ls-corpus-test.csv', lsCorpusContainer),
+        fetchAndLoadCSV('t-text-test.csv', tTextContainer)
+    ]).then(() => {
+        // Now that text is loaded, load key.csv and process the data
+        fetch('key.csv')
+            .then(response => response.text())
+            .then(csvData => {
+                const keyData = parseCSV(csvData);
 
-                        // Iterate through each row of the key data
-                        keyData.forEach(row => {
-                            const lsCorpusCitation = row['Quote in LS'];
-                            const tTextCitation = row['Quote in T Text'];
+                // Store citation and UID mapping
+                const citationUidMap = {};
 
-                            // Highlight LS Corpus citation
-                            highlightCitation(lsCorpusContainer, lsCorpusCitation, 'highlight-ls');
+                // Iterate through each row of the key data
+                keyData.forEach(row => {
+                    const lsCorpusCitation = row['Quote in LS'];
+                    const tTextCitation = row['Quote in T Text'];
+                    const uid = row['UID'];
 
-                            // Highlight T Text citation
-                            highlightCitation(tTextContainer, tTextCitation, 'highlight-t');
-                        });
+                    // Highlight LS Corpus citation
+                    highlightCitation(lsCorpusContainer, lsCorpusCitation, 'highlight-ls', uid);
 
-                        // Add event listener for LS Corpus citations
-                        lsCorpusContainer.addEventListener('click', function(event) {
-                            const clickedElement = event.target;
-                            if (clickedElement.classList.contains('highlight-ls')) {
-                                // Retrieve the associated UID
-                                const uid = clickedElement.getAttribute('data-uid');
-                                // Find the corresponding T Text citation
-                                const tTextCitation = document.querySelector(`[data-uid="${uid}"]`);
-                                // Scroll to the T Text citation
-                                if (tTextCitation) {
-                                    tTextCitation.scrollIntoView({ behavior: 'smooth' });
-                                }
-                            }
-                        });
-                    })
-                    .catch(error => console.error('Error loading or processing key.csv:', error));
-            }).catch(error => console.error('Error loading or processing CSVs:', error));
-        });
+                    // Store the mapping of LS Corpus citation to UID
+                    citationUidMap[lsCorpusCitation] = uid;
 
-        // Function to fetch and load CSV data into a container
-        function fetchAndLoadCSV(csvPath, container) {
-            return fetch(csvPath)
-                .then(response => response.text())
-                .then(csvData => {
-                    // Set the inner HTML of the container with the CSV data
-                    container.innerHTML = csvData;
+                    // Highlight T Text citation
+                    highlightCitation(tTextContainer, tTextCitation, 'highlight-t', uid);
                 });
-        }
 
-        // Function to highlight citations in a container
-        function highlightCitation(container, citation, highlightClass) {
-            if (!container || !citation) return;
+                // Add event listener for LS Corpus citations
+                lsCorpusContainer.addEventListener('click', function(event) {
+                    const clickedElement = event.target;
+                    if (clickedElement.classList.contains('highlight-ls')) {
+                        // Retrieve the associated UID
+                        const lsCorpusCitation = clickedElement.textContent;
+                        const uid = citationUidMap[lsCorpusCitation];
+                        // Find the corresponding T Text citation
+                        const tTextCitation = tTextContainer.querySelector(`[data-uid="${uid}"]`);
+                        // Scroll to the T Text citation
+                        if (tTextCitation) {
+                            tTextCitation.scrollIntoView({ behavior: 'smooth' });
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Error loading or processing key.csv:', error));
+    }).catch(error => console.error('Error loading or processing CSVs:', error));
+});
 
-            // Properly escape the citation for regex use
-            const escapedCitation = citation.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-            const regex = new RegExp(`(${escapedCitation})`, 'g');
+// Function to fetch and load CSV data into a container
+function fetchAndLoadCSV(csvPath, container) {
+    return fetch(csvPath)
+        .then(response => response.text())
+        .then(csvData => {
+            // Set the inner HTML of the container with the CSV data
+            container.innerHTML = csvData;
+        });
+}
 
-            // Replace the matched citation text with highlighted version
-            container.innerHTML = container.innerHTML.replace(regex, (match, p1) => {
-                // Generate a random UID for each citation
-                const uid = Math.floor(Math.random() * 10000);
-                return `<span class="${highlightClass}" data-uid="${uid}">${p1}</span>`;
-            });
-        }
+// Function to highlight citations in a container
+function highlightCitation(container, citation, highlightClass, uid) {
+    if (!container || !citation) return;
 
-        // Simple CSV parser function
-        function parseCSV(text) {
-            const lines = text.split(/\r?\n/);
-            const headers = lines.shift().split(',');
-            return lines.map(line => {
-                const data = line.split(',');
-                return headers.reduce((obj, nextKey, index) => {
-                    obj[nextKey] = data[index];
-                    return obj;
-                }, {});
-            });
-        }
+    // Properly escape the citation for regex use
+    const escapedCitation = citation.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    const regex = new RegExp(`(${escapedCitation})`, 'g');
+
+    // Replace the matched citation text with highlighted version
+    container.innerHTML = container.innerHTML.replace(regex, `<span class="${highlightClass}" data-uid="${uid}">$1</span>`);
+}
+
+// Simple CSV parser function
+function parseCSV(text) {
+    const lines = text.split(/\r?\n/);
+    const headers = lines.shift().split(',');
+    return lines.map(line => {
+        const data = line.split(',');
+        return headers.reduce((obj, nextKey, index) => {
+            obj[nextKey] = data[index];
+            return obj;
+        }, {});
+    });
+}
+
+
+
+
     </script>
 </body>
 </html>
