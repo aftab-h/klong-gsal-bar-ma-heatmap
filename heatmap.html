@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heatmap</title>
-    
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,8 +22,10 @@
         .text-container {
             position: relative;
             width: 45%;
-            max-height: 90vh; /* Maximum height of container, adjust as needed */
-            overflow-y: auto; /* Add scrollbar for vertical overflow */
+            max-height: 90vh;
+            /* Maximum height of container, adjust as needed */
+            overflow-y: auto;
+            /* Add scrollbar for vertical overflow */
             border: 1px solid #ccc;
             padding: 10px;
         }
@@ -33,28 +36,36 @@
 
         .highlight-marker {
             position: absolute;
-            background-color: rgba(255, 255, 0, 0.5); /* Semi-transparent yellow */
-            width: 5px; /* Width of the marker */
-            pointer-events: none; /* Ignore mouse events on markers */
+            background-color: rgba(255, 255, 0, 0.5);
+            /* Semi-transparent yellow */
+            width: 5px;
+            /* Width of the marker */
+            pointer-events: none;
+            /* Ignore mouse events on markers */
         }
 
         .highlight-ls {
-            background-color: yellow; /* Example color for LS Corpus highlights */
+            background-color: yellow;
+            /* Example color for LS Corpus highlights */
         }
 
         .highlight-t {
-            background-color: lightgreen; /* Example color for T Text highlights */
+            background-color: lightgreen;
+            /* Example color for T Text highlights */
         }
 
         /* WebKit-specific scrollbar style */
         .text-container::-webkit-scrollbar {
-            width: 8px; /* Width of the scrollbar */
+            width: 8px;
+            /* Width of the scrollbar */
         }
 
         /* WebKit-specific scrollbar thumb style */
         .text-container::-webkit-scrollbar-thumb {
-            background-color: darkgray; /* Thumb color */
-            border-radius: 4px; /* Roundness of the thumb */
+            background-color: darkgray;
+            /* Thumb color */
+            border-radius: 4px;
+            /* Roundness of the thumb */
         }
     </style>
 
@@ -75,100 +86,118 @@
     </div>
 
     <script>
-       
-       
-       document.addEventListener('DOMContentLoaded', function() {
-    const lsCorpusContainer = document.getElementById('ls-text');
-    const tTextContainer = document.getElementById('t-text');
 
-    // Load LS Corpus and T Text CSV files and process the data
-    Promise.all([
-        fetchAndLoadCSV('ls-corpus-test.csv', lsCorpusContainer),
-        fetchAndLoadCSV('t-text-test.csv', tTextContainer)
-    ]).then(() => {
-        // Now that text is loaded, load key.csv and process the data
-        fetch('key.csv')
-            .then(response => response.text())
-            .then(csvData => {
-                const keyData = parseCSV(csvData);
 
-                // Store citation and UID mapping
-                const citationUidMap = {};
+        document.addEventListener('DOMContentLoaded', function () {
+            const lsCorpusContainer = document.getElementById('ls-text');
+            const tTextContainer = document.getElementById('t-text');
 
-                // Iterate through each row of the key data
-                keyData.forEach(row => {
-                    const lsCorpusCitation = row['Quote in LS'];
-                    const tTextCitation = row['Quote in T Text'];
-                    const uid = row['UID'];
+            // Load LS Corpus and T Text CSV files and process the data
+            Promise.all([
+                fetchAndLoadCSV('ls-corpus-test.csv', lsCorpusContainer),
+                fetchAndLoadCSV('t-text-test.csv', tTextContainer)
+            ]).then(() => {
+                // Now that text is loaded, load key.csv and process the data
+                fetch('key.csv')
+                    .then(response => response.text())
+                    .then(csvData => {
+                        const keyData = parseCSV(csvData);
 
-                    // Highlight LS Corpus citation
-                    highlightCitation(lsCorpusContainer, lsCorpusCitation, 'highlight-ls', uid);
+                        // Store citation and UID mapping
+                        const citationUidMap = {};
 
-                    // Store the mapping of LS Corpus citation to UID
-                    citationUidMap[lsCorpusCitation] = uid;
+                        // Iterate through each row of the key data
+                        keyData.forEach(row => {
+                            const lsCorpusCitation = row['Quote in LS'];
+                            const tTextCitation = row['Quote in T Text'];
+                            const volume = row['Volume'];
+                            const textNo = row['Text No.'];
+                            const uid = row['UID'];
 
-                    // Highlight T Text citation
-                    highlightCitation(tTextContainer, tTextCitation, 'highlight-t', uid);
-                });
+                            // Highlight LS Corpus citation
+                            highlightCitation(lsCorpusContainer, lsCorpusCitation, 'highlight-ls', uid);
 
-                // Add event listener for LS Corpus citations
-                lsCorpusContainer.addEventListener('click', function(event) {
-                    const clickedElement = event.target;
-                    if (clickedElement.classList.contains('highlight-ls')) {
-                        // Retrieve the associated UID
-                        const lsCorpusCitation = clickedElement.textContent;
-                        const uid = citationUidMap[lsCorpusCitation];
-                        // Find the corresponding T Text citation
-                        const tTextCitation = tTextContainer.querySelector(`[data-uid="${uid}"]`);
-                        // Scroll to the T Text citation
-                        if (tTextCitation) {
-                            tTextCitation.scrollIntoView({ behavior: 'smooth' });
-                        }
-                    }
-                });
-            })
-            .catch(error => console.error('Error loading or processing key.csv:', error));
-    }).catch(error => console.error('Error loading or processing CSVs:', error));
-});
+                            // Store the mapping of LS Corpus citation to UID
+                            citationUidMap[lsCorpusCitation] = uid;
 
-// Function to fetch and load CSV data into a container
-function fetchAndLoadCSV(csvPath, container) {
-    return fetch(csvPath)
-        .then(response => response.text())
-        .then(csvData => {
-            // Set the inner HTML of the container with the CSV data
-            container.innerHTML = csvData;
+                            // Highlight T Text citation
+                            highlightCitation(tTextContainer, tTextCitation, 'highlight-t', uid);
+                        });
+
+                        // Add event listener for LS Corpus citations
+                        lsCorpusContainer.addEventListener('click', function (event) {
+                            const clickedElement = event.target;
+                            if (clickedElement.classList.contains('highlight-ls')) {
+                                // Retrieve the associated UID
+                                const lsCorpusCitation = clickedElement.textContent;
+                                const uid = citationUidMap[lsCorpusCitation];
+                                // Find the corresponding T Text citation
+                                const tTextCitation = tTextContainer.querySelector(`[data-uid="${uid}"]`);
+                                // Scroll to the T Text citation
+                                if (tTextCitation) {
+                                    tTextCitation.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                }
+                            }
+                        });
+
+                        // Append LS Corpus info to each T Text citation
+                        appendLSCorpusInfo(tTextContainer, citationUidMap, keyData);
+                    })
+                    .catch(error => console.error('Error loading or processing key.csv:', error));
+            }).catch(error => console.error('Error loading or processing CSVs:', error));
         });
-}
 
-// Function to highlight citations in a container
-function highlightCitation(container, citation, highlightClass, uid) {
-    if (!container || !citation) return;
+        // Function to fetch and load CSV data into a container
+        function fetchAndLoadCSV(csvPath, container) {
+            return fetch(csvPath)
+                .then(response => response.text())
+                .then(csvData => {
+                    // Set the inner HTML of the container with the CSV data
+                    container.innerHTML = csvData;
+                });
+        }
 
-    // Properly escape the citation for regex use
-    const escapedCitation = citation.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-    const regex = new RegExp(`(${escapedCitation})`, 'g');
+        // Function to highlight citations in a container
+        function highlightCitation(container, citation, highlightClass, uid) {
+            if (!container || !citation) return;
 
-    // Replace the matched citation text with highlighted version
-    container.innerHTML = container.innerHTML.replace(regex, `<span class="${highlightClass}" data-uid="${uid}">$1</span>`);
-}
+            // Properly escape the citation for regex use
+            const escapedCitation = citation.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+            const regex = new RegExp(`(${escapedCitation})`, 'g');
 
-// Simple CSV parser function
-function parseCSV(text) {
-    const lines = text.split(/\r?\n/);
-    const headers = lines.shift().split(',');
-    return lines.map(line => {
-        const data = line.split(',');
-        return headers.reduce((obj, nextKey, index) => {
-            obj[nextKey] = data[index];
-            return obj;
-        }, {});
-    });
-}
+            // Replace the matched citation text with highlighted version
+            container.innerHTML = container.innerHTML.replace(regex, `<span class="${highlightClass}" data-uid="${uid}">$1</span>`);
+        }
 
+        // Function to append LS Corpus info to each T Text citation
+        function appendLSCorpusInfo(tTextContainer, citationUidMap, keyData) {
+            const tTextCitations = tTextContainer.querySelectorAll('.highlight-t');
+            tTextCitations.forEach(tTextCitation => {
+                const citationText = tTextCitation.textContent;
+                const uid = tTextCitation.getAttribute('data-uid');
+                const matchingRow = keyData.find(row => row['UID'] === uid);
+                if (matchingRow) {
+                    const volume = matchingRow['Volume'];
+                    const textNo = matchingRow['Text No.'];
+                    tTextCitation.textContent += ` (LS ${volume}.${textNo})`;
+                }
+            });
+        }
 
-
+        // Simple CSV parser function
+        function parseCSV(text) {
+            const lines = text.split(/\r?\n/);
+            const headers = lines.shift().split(',');
+            return lines.map(line => {
+                const data = line.split(',');
+                return headers.reduce((obj, nextKey, index) => {
+                    obj[nextKey] = data[index];
+                    return obj;
+                }, {});
+            });
+        }
 
     </script>
 </body>
+
 </html>
