@@ -67,6 +67,16 @@
             border-radius: 4px;
             /* Roundness of the thumb */
         }
+
+        #customContextMenu {
+            display: none;
+            position: absolute;
+            z-index: 1000;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 3px 3px 5px #888888;
+        }
     </style>
 
 </head>
@@ -83,6 +93,7 @@
             <div id="ls-text">Paste the text of LS Corpus here</div>
             <div class="highlight-marker" id="ls-highlight-marker"></div>
         </div>
+        <div id="customContextMenu">Right-click menu</div>
     </div>
 
     <script>
@@ -91,6 +102,21 @@
         document.addEventListener('DOMContentLoaded', function () {
             const lsCorpusContainer = document.getElementById('ls-text');
             const tTextContainer = document.getElementById('t-text');
+            const contextMenu = document.getElementById('customContextMenu');
+
+            document.addEventListener('contextmenu', function (event) {
+                event.preventDefault(); // Prevent the default context menu from showing
+
+                contextMenu.style.top = `${event.pageY}px`;
+                contextMenu.style.left = `${event.pageX}px`;
+                contextMenu.style.display = 'block';
+            });
+
+            document.addEventListener('click', function () {
+                // Hide the custom context menu when clicking elsewhere
+                contextMenu.style.display = 'none';
+            });
+
 
             // Load LS Corpus and T Text CSV files and process the data
             Promise.all([
