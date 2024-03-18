@@ -1,52 +1,83 @@
-
 document.addEventListener('DOMContentLoaded', function () {
     const lsCorpusContainer = document.getElementById('ls-text');
     const tTextContainer = document.getElementById('t-text');
     const contextMenu = document.getElementById('customContextMenu');
 
-    let citationUidMap = {};
+    document.addEventListener('contextmenu', function (event) {
+        event.preventDefault(); // Prevent the default context menu from showing
 
+        contextMenu.style.top = `${event.pageY}px`;
+        contextMenu.style.left = `${event.pageX}px`;
+        contextMenu.style.display = 'block';
+    });
 
+    document.addEventListener('click', function () {
+        // Hide the custom context menu when clicking elsewhere
+        contextMenu.style.display = 'none';
+    });
+
+    // Load LS Corpus and T Text CSV files and process the data
     Promise.all([
         fetchAndLoadCSV('ls-corpus-test.csv', lsCorpusContainer),
         fetchAndLoadCSV('t-text-test.csv', tTextContainer)
     ]).then(() => {
+        // Now that text is loaded, load key.csv and process the data
         fetch('key.csv')
             .then(response => response.text())
             .then(csvData => {
                 const keyData = parseCSV(csvData);
+
+                // Store citation and UID mapping
+                const citationUidMap = {};
+
+                // Iterate through each row of the key data
                 keyData.forEach(row => {
+                    const lsCorpusCitation = row['Quote in LS'];
                     const tTextCitation = row['Quote in T Text'];
-                    if (!citationUidMap[tTextCitation]) {
-                        citationUidMap[tTextCitation] = [];
-                    }
-                    citationUidMap[tTextCitation].push({
-                        volume: row['Volume'],
-                        textNo: row['Text No.'],
-                        uid: row['UID']
-                    });
+                    const volume = row['Volume'];
+                    const textNo = row['Text No.'];
+                    const uid = row['UID'];
+
+                    // Highlight LS Corpus citation
+                    highlightCitation(lsCorpusContainer, lsCorpusCitation, 'highlight-ls', uid);
+
+                    // Store the mapping of LS Corpus citation to UID
+                    citationUidMap[lsCorpusCitation] = uid;
+
+                    // Highlight T Text citation
+                    highlightCitation(tTextContainer, tTextCitation, 'highlight-t', uid);
                 });
-                highlightCitations(tTextContainer, citationUidMap); 
 
-                // Move the event listener setup here, after highlighting
-                tTextContainer.addEventListener('contextmenu', function (event) {
-                    if (event.target.classList.contains('highlight-t')) {
-                        event.preventDefault();
-                        showContextMenu(event, citationUidMap[event.target.textContent] || []); // Ensure citations exist or default to empty
+                // Add event listener for LS Corpus citations
+                lsCorpusContainer.addEventListener('click', function (event) {
+                    const clickedElement = event.target;
+                    if (clickedElement.classList.contains('highlight-ls')) {
+                        // Retrieve the associated UID
+                        const lsCorpusCitation = clickedElement.textContent;
+                        const uid = citationUidMap[lsCorpusCitation];
+                        // Find the corresponding T Text citation
+                        const tTextCitation = tTextContainer.querySelector(`[data-uid="${uid}"]`);
+                        // Scroll to the T Text citation
+                        if (tTextCitation) {
+                            tTextCitation.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
                     }
                 });
-            });
-        // Hide the custom context menu when clicking elsewhere
-        document.addEventListener('click', function () {
-            contextMenu.style.display = 'none';
-        });
-    });
 
-
-
-
+                // Add event listener for right-click on T Text citations
+                tTextContainer.addEventListener('contextmenu', function(event) {
+                    event.preventDefault(); // Prevent default right-click behavior
+                    const clickedElement = event.target;
+                    if (clickedElement.classList.contains('highlight-t')) {
+                        const uid = clickedElement.getAttribute('data-uid');
+                        const lsCorpusCitations = getLSCorpusCitationsForUID(uid, keyData);
+                        showContextMenu(event, lsCorpusCitations);
+                    }
+                });
+            })
+            .catch(error => console.error('Error loading or processing key.csv:', error));
+    }).catch(error => console.error('Error loading or processing CSVs:', error));
 });
-
 
 // Function to fetch and load CSV data into a container
 function fetchAndLoadCSV(csvPath, container) {
@@ -58,6 +89,45 @@ function fetchAndLoadCSV(csvPath, container) {
         });
 }
 
+// Function to highlight citations in a container
+function highlightCitation(container, citation, highlightClass, uid) {
+    if (!container || !citation) return;
+
+    // Properly escape the citation for regex use
+    const escapedCitation = citation.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    const regex = new RegExp(`(${escapedCitation})`, 'g');
+
+    // Replace the matched citation text with highlighted version
+    container.innerHTML = container.innerHTML.replace(regex, `<span class="${highlightClass}" data-uid="${uid}">$1</span>`);
+}
+
+// Function to get LS Corpus citations for a given UID
+function getLSCorpusCitationsForUID(uid, keyData) {
+    return keyData.filter(row => row['UID'] === uid).map(row => `LS ${row['Volume']}.${row['Text No.']}`);
+}
+
+// Function to display the context menu with LS Corpus citations
+function showContextMenu(event, citations) {
+    const contextMenu = document.getElementById('customContextMenu');
+    // Clear previous options
+    contextMenu.innerHTML = '';
+    // Populate context menu with LS Corpus citations
+    citations.forEach(citation => {
+        const menuItem = document.createElement('div');
+        menuItem.textContent = citation;
+        menuItem.onclick = () => {
+            // Logic to handle clicking on a context menu item
+            console.log(`Clicked on citation: ${citation}`);
+        };
+        contextMenu.appendChild(menuItem);
+    });
+    // Show the custom context menu
+    contextMenu.style.top = `${event.pageY}px`;
+    contextMenu.style.left = `${event.pageX}px`;
+    contextMenu.style.display = 'block';
+}
+
+// Simple CSV parser function
 function parseCSV(text) {
     const lines = text.split(/\r?\n/);
     const headers = lines.shift().split(',');
@@ -69,49 +139,3 @@ function parseCSV(text) {
         }, {});
     });
 }
-
-function highlightCitations(container, citationDataMap) {
-    // Iterate through each citation data entry
-    Object.entries(citationDataMap).forEach(([citationText, citationInfos]) => {
-        // Properly escape the citation text for regex use
-        const escapedCitation = citationText.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-        const regex = new RegExp(`(${escapedCitation})`, 'g');
-
-        // For each match in the container, replace with a highlighted version
-        // that includes data attributes for all citation details.
-        container.innerHTML = container.innerHTML.replace(regex, (match) => {
-            // Construct a data attribute string with all citation info
-            const dataAttributes = citationInfos.map((info, index) =>
-                `data-volume${index}="${info.volume}" data-textno${index}="${info.textNo}" data-uid${index}="${info.uid}"`).join(' ');
-            // Return the modified match with all data attributes
-            return `<span class="highlight-t" ${dataAttributes}>${match}</span>`;
-        });
-    });
-
-    // Now, all highlighted texts have data attributes for their citations.
-    // You can use these attributes to show detailed citation info on interactions like right-click.
-}
-
-// Assuming citationUidMap is structured as:
-// { "citationText": [{volume: "5", textNo: "4", uid: "9833"}, {...}, ...], ... }
-// You can call highlightCitations like this:
-// highlightCitations(tTextContainer, citationUidMap);
-
-
-function showContextMenu(event, citations) {
-    const contextMenu = document.getElementById('customContextMenu');
-    contextMenu.innerHTML = ''; // Clear previous options
-    citations.forEach(citation => {
-        const menuItem = document.createElement('div');
-        menuItem.textContent = `LS ${citation.volume}.${citation.textNo}`;
-        menuItem.onclick = () => alert(`Go to LS ${citation.volume}.${citation.textNo}`); // Replace with actual navigation logic
-        contextMenu.appendChild(menuItem);
-    });
-
-    contextMenu.style.top = `${event.pageY}px`;
-    contextMenu.style.left = `${event.pageX}px`;
-    contextMenu.style.display = 'block';
-}
-
-
-
