@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         uid: row['UID']
                     });
                 });
-                highlightCitations(tTextContainer, citationUidMap); // Corrected function call
+                highlightCitations(tTextContainer, citationUidMap); 
 
                 // Move the event listener setup here, after highlighting
                 tTextContainer.addEventListener('contextmenu', function (event) {
