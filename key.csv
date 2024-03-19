@@ -1,30 +1,30 @@
-Volume,Text No.,Text Title,Match with T Text? (1=yes 0=no),Quote in LS,Ch. in T Text,Quote in T Text,P. No. in T Text,UID
-5,4,btags grol rgyud drug gi ti ka,1,klong gsal las:_sna tshogs rig pa'i rtsal yin phyir:_rig pa stong pa nyid du grol:_dbang dang rgyal po ji bzhin no:_zhes pa'o,3,/sna tshogs rig pa'i rtsal yin phyir/_/rig pa stong pa nyid du grol/_/dbang ldan rgyal po ji bzhin no/_,6,9833
-5,4,btags grol rgyud drug gi ti ka,1,klong gsal las:_ngo bo nyid la rgyun par gnas,3,/ngo bo nyid la rgyud mar gnas/_,6,4859
-5,4,btags grol rgyud drug gi ti ka,1,klong gsal las:_mthong thos bcangs pas sangs rgyas 'grub,48,_/mthong thos bcangs pas sangs rgyas 'grub/_/,153,7271
-5,4,btags grol rgyud drug gi ti ka,1,klong gsal las:_snod dang mi ldan gdams pa spel:_rdo rje'i dmyal bar lhung bar 'gyur,3,/_/snod dang mi ldan gdams pa spel/_/rdo rje'i dmyal bar ltung bar 'gyur/,7,6789
-5,4,btags grol rgyud drug gi ti ka,1,klong gsal las:_nyag gcig 'khor 'das kun gyi gzhi:_rang byung ye shes rang las byung :_de shes ye shes tsam du brjod _ces so:,4,/nyag gcig 'khor 'das kun gyi gzhi/__/rang byung ye shes rang las byung /_/de shes ye shes rtsal du brjod/_,7,9259
-5,4,btags grol rgyud drug gi ti ka,1,klong gsal las:_chos rnams ma lus thams cad kun:_rtsa ba thig le gcig las gyes:_zhes so:,53,/chos rnams ma lus thams cad kyang /_/rtsa ba thig le gcig la gyes/_,161,2762
-5,4,btags grol rgyud drug gi ti ka,1,klong gsal las:_theg pa'i chos rnams ngo bor rdzogs:_ngo bo chos rnams kun gyi don:_de med tshig sogs don med 'gyur:_zhes so:,4,/thig le'i chos rnams ngo bor rdzogs/_/ngo bo chos rnams kun gyi don/__/de med tshig sogs don med 'gyur/,8,4138
-5,4,btags grol rgyud drug gi ti ka,1,klong gsal las:_ma 'gags ye shes chen po nyid:_rang gsal phyogs Ris 'dzin ba bral:_zhes so:,4,ma 'gag ye shes chen po nyid/_/rang gsal phyogs ris 'dzin pa grol/__/de las ma yengs rol par spyod/_/kun 'char spyod kyang mi chags so/,8,4309
-5,4,btags grol rgyud drug gi ti ka,1,klong gsal las:_stong gsal yid gnyis sgom dang bral:_sgom pa kun gyi mchog yin no:_zhes so:,4,/_/stong gsal yid gnyis b+haiM dang bral/_/b+haiM pa kun gyi mchog yin no/_/,8,2354
-5,5,btags grol rgyud drug gi ti ka,1,klong gsal las:_stong gsal yid gnyis sgom dang bral:_sgom pa kun gyi mchog yin no:_zhes so:,4,/_/stong gsal yid gnyis b+haiM dang bral/_/b+haiM pa kun gyi mchog yin no/_/,8,6916
-6,2,btags grol rgyud drug gi ti ka,1,klong gsal las:_stong gsal yid gnyis sgom dang bral:_sgom pa kun gyi mchog yin no:_zhes so:,4,/_/stong gsal yid gnyis b+haiM dang bral/_/b+haiM pa kun gyi mchog yin no/_/,8,1285
-6,3,btags grol rgyud drug gi ti ka,1,klong gsal las:_stong gsal yid gnyis sgom dang bral:_sgom pa kun gyi mchog yin no:_zhes so:,4,/_/stong gsal yid gnyis b+haiM dang bral/_/b+haiM pa kun gyi mchog yin no/_/,8,4398
-7,2,btags grol rgyud drug gi ti ka,1,klong gsal las:_stong gsal yid gnyis sgom dang bral:_sgom pa kun gyi mchog yin no:_zhes so:,4,/_/stong gsal yid gnyis b+haiM dang bral/_/b+haiM pa kun gyi mchog yin no/_/,8,8233
-5,4,btags grol rgyud drug gi ti ka,1,rgyud las:_rang rig rtogs pa dbang gi mchog:_zhu dang bskur ba'i thabs las 'das:_zhes so:,4,/rang rig rtogs pas dbang don mchog_/zhu dang bskur ba'i mtha' las 'das/_/,8,6195
-5,4,btags grol rgyud drug gi ti ka,1,klong gsal las:_snying po'i rgyud 'dir su phrad pa:_rdzogs sangs rgya bar the tshom med:_ces so:,60,snying po'i rgyud 'dir su 'phrad pa/_/rdzogs sangs rgyas par the tshom med/_,173,4365
-5,4a,sras gcig sa bon rgyud kyi ti ka gsal byed nor bu’i phreng ba,1,klong gsal las:_de lta bu'i ye shes de ngo rang thog tu sprad pas:_gang shar sbrul mdud bzhin du grol:_ces so:,5,/_/de lta bu'i ye shes te/_/ngo bo rang thog don 'phrod pas/_/gang shar sbrul mdud bzhin du grol/_,12-13,6353
-5,4a,sras gcig sa bon rgyud kyi ti ka gsal byed nor bu’i phreng ba,1,klong gsal las:_kun 'byung srid rtsa rtogs pas grol:_ces so:,5,_/kun 'byung srid rtsa rtogs pas grol/,13,9804
-5,4a,sras gcig sa bon rgyud kyi ti ka gsal byed nor bu’i phreng ba,1,klong gsal las:_rig pa rtogs tshe 'dzin pa grol:_ces so:,5,/_/rig pa rtogs tshe 'dzin pa grol/,13,8608
-5,4c,’bras bu yongs rdzogs rgyud kyi ti ka gsal byed dri med snying po,1,klong gsal las:_snying nang yab yum zhi ba'i tshul:dung khang khro bo'i tshul du gnas:_zhes so:,18,/_/snying nang yab yum zhi ba'i tshul/_/dung khang khro bo'i tshul du gnas/_,67,3280
-5,7,btags grol don khrid,1,klong gsal las:_gdams pa sbyor dngos rjes gsum mo:_zhes so:,61,/_/gdams pa sbyor dngos rjes 'jug gsum/_/,175,6025
-5,7,btags grol don khrid,1,klong gsal las:_spyi bo mgrin pa snying kha dang :_lte ba gsang ba rkang mthil duH:_a pre tri su nr-i du drug:_gnas so zhes pas ,8,/_/spyi bo mgrin pa snying kha dang /_/lte ba gsang ba rkang mthil du/_/a tri nr-i su pre du drug,23,5354
-5,7,btags grol don khrid,1,klong gsal las:_nyan thos zhi ba'i lta stangs kyis:_lus ngag yid gsum rnal du pheb:_ces so:,63,nyan thos zhi ba'i lta stangs kyis/_/lus ngag yid gsum rnal du phab/_/,179,8723
-5,7,btags grol don khrid,1,klong gsal las:_tsak+Shu zim bus sUr+yaRa blta:[ · ]shar gyi rgyu skar bzhin du gsal:_zhes pas:,8,tsak+Shus zim bus suR+yar lta/_/shar gyi rgya skar bzhin du gsal/_/,23,1879
-5,7,btags grol don khrid,1,klong gsal las:_rkyen bral gsum la gsal bar 'gyur:_zhes pa dang :_,101,/_/rkyen bral gsum la 'char bar 'gyur/,257,9241
-5,7,btags grol don khrid,1,klong gsal las:_rang rig lug rgyud 'di bzhin gsal:_zhes pa dang :,8,/rang rig lug rgyud 'di bzhin gsal/__/,25,7178
-5,7,btags grol don khrid,1,klong gsal las:_gsal stong 'gag med lu gu rgyud:_gsal bde snang rig stong pa nyid:_dbyeRa med gsal ba ma 'dres gnas:_zhes paH:,63,/_/gsal bde snang rig stong pa nyid/_/dbyer med gsal ba ma 'dres gnas/,179,3830
-5,7,btags grol don khrid,1,klong gsal las:_rig gnad lug rgyud btson du bzung :_dngos snang dal ba nyid kyi brten:_zhes pa'o:,8,/_/rig gnad lugs rgyud btson du bzung /_/mngon sum brdal ba nyid kyi rten/,25,3777
-5,7,btags grol don khrid,1,klong gsal las:_blo ni kun rdzob 'khrul par shar:_zhes so:,8,/_/blos bcas kun rdzob 'khrul bar bshad/,25,2861
-5,8,bde gshegs rigs lnga'i phyi sgrub,1,klong gsal las:_lus kyis khyab tshad thams cad la:[ ·]phung po lnga ni rigs lnga dngos:_khams lnga yum lnga nyid du gnas:_zhes pas:,11,/_/lus kyi khyab tshad thams cad la/_/phung po lnga ni rigs lnga dngos/_/khams lnga yum lnga nyid du gnas/,36,6915
+Volume,Text No.,Match with T Text? (1=yes 0=no),Quote in LS,Ch. in T Text,Quote in T Text,P. No. in T Text,UID
+5,4,1,klong gsal las:_sna tshogs rig pa'i rtsal yin phyir:_rig pa stong pa nyid du grol:_dbang dang rgyal po ji bzhin no:_zhes pa'o,3,/sna tshogs rig pa'i rtsal yin phyir/_/rig pa stong pa nyid du grol/_/dbang ldan rgyal po ji bzhin no/_,6,9833
+5,4,1,klong gsal las:_ngo bo nyid la rgyun par gnas,3,/ngo bo nyid la rgyud mar gnas/_,6,4859
+5,4,1,klong gsal las:_mthong thos bcangs pas sangs rgyas 'grub,48,_/mthong thos bcangs pas sangs rgyas 'grub/_/,153,7271
+5,4,1,klong gsal las:_snod dang mi ldan gdams pa spel:_rdo rje'i dmyal bar lhung bar 'gyur,3,/_/snod dang mi ldan gdams pa spel/_/rdo rje'i dmyal bar ltung bar 'gyur/,7,6789
+5,4,1,klong gsal las:_nyag gcig 'khor 'das kun gyi gzhi:_rang byung ye shes rang las byung :_de shes ye shes tsam du brjod _ces so:,4,/nyag gcig 'khor 'das kun gyi gzhi/__/rang byung ye shes rang las byung /_/de shes ye shes rtsal du brjod/_,7,9259
+5,4,1,klong gsal las:_chos rnams ma lus thams cad kun:_rtsa ba thig le gcig las gyes:_zhes so:,53,/chos rnams ma lus thams cad kyang /_/rtsa ba thig le gcig la gyes/_,161,2762
+5,4,1,klong gsal las:_theg pa'i chos rnams ngo bor rdzogs:_ngo bo chos rnams kun gyi don:_de med tshig sogs don med 'gyur:_zhes so:,4,/thig le'i chos rnams ngo bor rdzogs/_/ngo bo chos rnams kun gyi don/__/de med tshig sogs don med 'gyur/,8,4138
+5,4,1,klong gsal las:_ma 'gags ye shes chen po nyid:_rang gsal phyogs Ris 'dzin ba bral:_zhes so:,4,ma 'gag ye shes chen po nyid/_/rang gsal phyogs ris 'dzin pa grol/__/de las ma yengs rol par spyod/_/kun 'char spyod kyang mi chags so/,8,4309
+5,4,1,klong gsal las:_stong gsal yid gnyis sgom dang bral:_sgom pa kun gyi mchog yin no:_zhes so:,4,/_/stong gsal yid gnyis b+haiM dang bral/_/b+haiM pa kun gyi mchog yin no/_/,8,2354
+5,5,1,klong gsal las:_stong gsal yid gnyis sgom dang bral:_sgom pa kun gyi mchog yin no:_zhes so:,4,/_/stong gsal yid gnyis b+haiM dang bral/_/b+haiM pa kun gyi mchog yin no/_/,8,6916
+6,2,1,klong gsal las:_stong gsal yid gnyis sgom dang bral:_sgom pa kun gyi mchog yin no:_zhes so:,4,/_/stong gsal yid gnyis b+haiM dang bral/_/b+haiM pa kun gyi mchog yin no/_/,8,1285
+6,3,1,klong gsal las:_stong gsal yid gnyis sgom dang bral:_sgom pa kun gyi mchog yin no:_zhes so:,4,/_/stong gsal yid gnyis b+haiM dang bral/_/b+haiM pa kun gyi mchog yin no/_/,8,4398
+7,2,1,klong gsal las:_stong gsal yid gnyis sgom dang bral:_sgom pa kun gyi mchog yin no:_zhes so:,4,/_/stong gsal yid gnyis b+haiM dang bral/_/b+haiM pa kun gyi mchog yin no/_/,8,8233
+5,4,1,rgyud las:_rang rig rtogs pa dbang gi mchog:_zhu dang bskur ba'i thabs las 'das:_zhes so:,4,/rang rig rtogs pas dbang don mchog_/zhu dang bskur ba'i mtha' las 'das/_/,8,6195
+5,4,1,klong gsal las:_snying po'i rgyud 'dir su phrad pa:_rdzogs sangs rgya bar the tshom med:_ces so:,60,snying po'i rgyud 'dir su 'phrad pa/_/rdzogs sangs rgyas par the tshom med/_,173,4365
+5,4a,1,klong gsal las:_de lta bu'i ye shes de ngo rang thog tu sprad pas:_gang shar sbrul mdud bzhin du grol:_ces so:,5,/_/de lta bu'i ye shes te/_/ngo bo rang thog don 'phrod pas/_/gang shar sbrul mdud bzhin du grol/_,12-13,6353
+5,4a,1,klong gsal las:_kun 'byung srid rtsa rtogs pas grol:_ces so:,5,_/kun 'byung srid rtsa rtogs pas grol/,13,9804
+5,4a,1,klong gsal las:_rig pa rtogs tshe 'dzin pa grol:_ces so:,5,/_/rig pa rtogs tshe 'dzin pa grol/,13,8608
+5,4c,1,klong gsal las:_snying nang yab yum zhi ba'i tshul:dung khang khro bo'i tshul du gnas:_zhes so:,18,/_/snying nang yab yum zhi ba'i tshul/_/dung khang khro bo'i tshul du gnas/_,67,3280
+5,7,1,klong gsal las:_gdams pa sbyor dngos rjes gsum mo:_zhes so:,61,/_/gdams pa sbyor dngos rjes 'jug gsum/_/,175,6025
+5,7,1,klong gsal las:_spyi bo mgrin pa snying kha dang :_lte ba gsang ba rkang mthil duH:_a pre tri su nr-i du drug:_gnas so zhes pas ,8,/_/spyi bo mgrin pa snying kha dang /_/lte ba gsang ba rkang mthil du/_/a tri nr-i su pre du drug,23,5354
+5,7,1,klong gsal las:_nyan thos zhi ba'i lta stangs kyis:_lus ngag yid gsum rnal du pheb:_ces so:,63,nyan thos zhi ba'i lta stangs kyis/_/lus ngag yid gsum rnal du phab/_/,179,8723
+5,7,1,klong gsal las:_tsak+Shu zim bus sUr+yaRa blta:[ · ]shar gyi rgyu skar bzhin du gsal:_zhes pas:,8,tsak+Shus zim bus suR+yar lta/_/shar gyi rgya skar bzhin du gsal/_/,23,1879
+5,7,1,klong gsal las:_rkyen bral gsum la gsal bar 'gyur:_zhes pa dang :_,101,/_/rkyen bral gsum la 'char bar 'gyur/,257,9241
+5,7,1,klong gsal las:_rang rig lug rgyud 'di bzhin gsal:_zhes pa dang :,8,/rang rig lug rgyud 'di bzhin gsal/__/,25,7178
+5,7,1,klong gsal las:_gsal stong 'gag med lu gu rgyud:_gsal bde snang rig stong pa nyid:_dbyeRa med gsal ba ma 'dres gnas:_zhes paH:,63,/_/gsal bde snang rig stong pa nyid/_/dbyer med gsal ba ma 'dres gnas/,179,3830
+5,7,1,klong gsal las:_rig gnad lug rgyud btson du bzung :_dngos snang dal ba nyid kyi brten:_zhes pa'o:,8,/_/rig gnad lugs rgyud btson du bzung /_/mngon sum brdal ba nyid kyi rten/,25,3777
+5,7,1,klong gsal las:_blo ni kun rdzob 'khrul par shar:_zhes so:,8,/_/blos bcas kun rdzob 'khrul bar bshad/,25,2861
+5,8,1,klong gsal las:_lus kyis khyab tshad thams cad la:[ ·]phung po lnga ni rigs lnga dngos:_khams lnga yum lnga nyid du gnas:_zhes pas:,11,/_/lus kyi khyab tshad thams cad la/_/phung po lnga ni rigs lnga dngos/_/khams lnga yum lnga nyid du gnas/,36,6915

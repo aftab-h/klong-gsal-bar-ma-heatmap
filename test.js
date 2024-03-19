@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const tTextContainer = document.getElementById('t-text');
     const contextMenu = document.getElementById('customContextMenu');
 
+    // Context menu listner
     document.addEventListener('contextmenu', function (event) {
         event.preventDefault(); // Prevent the default context menu from showing
 
@@ -11,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         contextMenu.style.display = 'block';
     });
 
+    // Click hide listener
     document.addEventListener('click', function () {
         // Hide the custom context menu when clicking elsewhere
         contextMenu.style.display = 'none';
@@ -25,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         fetch('key.csv')
             .then(response => response.text())
             .then(csvData => {
+                // Parse key csv data
                 const keyData = parseCSV(csvData);
 
                 // Store citation and UID mapping
@@ -48,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     highlightCitation(tTextContainer, tTextCitation, 'highlight-t', uid);
                 });
 
-                // Add event listener for LS Corpus citations
+                // Add event listener for LS Corpus citations (for scroll-to-target)
                 lsCorpusContainer.addEventListener('click', function (event) {
                     const clickedElement = event.target;
                     if (clickedElement.classList.contains('highlight-ls')) {
@@ -65,12 +68,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
 
                 // Add event listener for right-click on T Text citations
-                tTextContainer.addEventListener('contextmenu', function(event) {
+                tTextContainer.addEventListener('contextmenu', function (event) {
                     event.preventDefault(); // Prevent default right-click behavior
                     const clickedElement = event.target;
                     if (clickedElement.classList.contains('highlight-t')) {
-                        const uid = clickedElement.getAttribute('data-uid');
-                        const lsCorpusCitations = getLSCorpusCitationsForUID(uid, keyData);
+                        const dataUidsString = clickedElement.getAttribute('data-uids');  // Get the data-uids attribute
+                        const uids = JSON.parse(dataUidsString);  // Parse the string back to an array of UIDs
                         showContextMenu(event, lsCorpusCitations);
                     }
                 });
@@ -99,29 +102,38 @@ function highlightCitation(container, citation, highlightClass, uid) {
 
     // Replace the matched citation text with highlighted version
     container.innerHTML = container.innerHTML.replace(regex, `<span class="${highlightClass}" data-uid="${uid}">$1</span>`);
+
+    highlightedElement.setAttribute('data-uids', JSON.stringify(uids)); // Store array of UIDs as JSON string
 }
 
 // Function to get LS Corpus citations for a given UID
-function getLSCorpusCitationsForUID(uid, keyData) {
-    return keyData.filter(row => row['UID'] === uid).map(row => `LS ${row['Volume']}.${row['Text No.']}`);
+function getLSCorpusCitationsForUIDs(uids, keyData) {
+    const allCitations = [];
+    uids.forEach(uid => {
+        const citations = keyData.filter(row => row['UID'] === uid)
+            .map(row => `LS ${row['Volume']}.${row['Text No.']}`);
+        allCitations.push(...citations);  // Spread operator to add retrieved citations to the allCitations array
+    });
+    return allCitations;
 }
 
 // Function to display the context menu with LS Corpus citations
 function showContextMenu(event, citations) {
     const contextMenu = document.getElementById('customContextMenu');
-    // Clear previous options
-    contextMenu.innerHTML = '';
-    // Populate context menu with LS Corpus citations
+    contextMenu.innerHTML = ''; // Clear previous options
+
     citations.forEach(citation => {
         const menuItem = document.createElement('div');
         menuItem.textContent = citation;
         menuItem.onclick = () => {
-            // Logic to handle clicking on a context menu item
-            console.log(`Clicked on citation: ${citation}`);
+            // Logic to handle clicking on a specific LS Corpus citation within the menu
+            console.log(`Clicked on LS Corpus citation: ${citation}`);
+            // You can potentially implement functionality to highlight/scroll to that specific LS Corpus citation
         };
         contextMenu.appendChild(menuItem);
     });
-    // Show the custom context menu
+
+    // Show the context menu
     contextMenu.style.top = `${event.pageY}px`;
     contextMenu.style.left = `${event.pageX}px`;
     contextMenu.style.display = 'block';
