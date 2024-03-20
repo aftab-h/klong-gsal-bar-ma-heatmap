@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const tTextContainer = document.getElementById('t-text');
     const contextMenu = document.getElementById('customContextMenu');
 
+    // Right click behavior
     document.addEventListener('contextmenu', function (event) {
         event.preventDefault(); // Prevent the default context menu from showing
 
@@ -11,11 +12,11 @@ document.addEventListener('DOMContentLoaded', function () {
         contextMenu.style.display = 'block';
     });
 
+    // Left click behavior
     document.addEventListener('click', function () {
         // Hide the custom context menu when clicking elsewhere
         contextMenu.style.display = 'none';
     });
-
 
     // Load LS Corpus and T Text CSV files and process the data
     Promise.all([
@@ -49,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     highlightCitation(tTextContainer, tTextCitation, 'highlight-t', uid);
                 });
 
-                // Add event listener for LS Corpus citations
+                // Left click behavior: Add event listener for LS Corpus citations
                 lsCorpusContainer.addEventListener('click', function (event) {
                     const clickedElement = event.target;
                     if (clickedElement.classList.contains('highlight-ls')) {

@@ -1,3 +1,5 @@
+// DON'T USE. Somehow this no longer works as expected. trash it and use script.js. 
+
 document.addEventListener('DOMContentLoaded', function () {
     const lsCorpusContainer = document.getElementById('ls-text');
     const tTextContainer = document.getElementById('t-text');
