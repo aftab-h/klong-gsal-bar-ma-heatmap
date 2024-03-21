@@ -3,20 +3,49 @@ document.addEventListener('DOMContentLoaded', function () {
     const tTextContainer = document.getElementById('t-text');
     const contextMenu = document.getElementById('customContextMenu');
 
-    // // Right click behavior
-    // document.addEventListener('contextmenu', function (event) {
-    //     event.preventDefault(); // Prevent the default context menu from showing
+    let keyData = []; // Define keyData at the top level to ensure wider scope
 
-    //     contextMenu.style.top = `${event.pageY}px`;
-    //     contextMenu.style.left = `${event.pageX}px`;
-    //     contextMenu.style.display = 'block';
-    // });
+    // Right click behavior (appear context menu)
+    document.addEventListener('contextmenu', function (event) {
+        event.preventDefault(); // Prevent the default context menu from showing
 
-    // // Left click behavior
-    // document.addEventListener('click', function () {
-    //     // Hide the custom context menu when clicking elsewhere
-    //     contextMenu.style.display = 'none';
-    // });
+        contextMenu.style.top = `${event.pageY}px`;
+        contextMenu.style.left = `${event.pageX}px`;
+        contextMenu.style.display = 'block';
+
+        const clickedElement = event.target; // Define clickedElement here
+
+        // Check if clicked quote is highlighted
+        if (clickedElement.classList.contains('highlight-t')) {
+            const tTextCitationText = clickedElement.textContent;
+            const citationDetails = findAllCorrespondingLSCitations(tTextCitationText, keyData);
+
+            // Clear the context menu before adding new content
+            contextMenu.innerHTML = '';
+
+            // Check if there are matching entries and append their details to the context menu
+            if (citationDetails.length > 0) {
+                citationDetails.forEach(detail => {
+                    const { volume, textNo, quoteInLS } = detail;
+                    // Create a new div element for each citation detail
+                    const detailElement = document.createElement('div');
+                    detailElement.textContent = `Volume: ${volume}, Text No.: ${textNo}, Quote in LS: ${quoteInLS}`;
+                    // Append the detail element to the context menu
+                    contextMenu.appendChild(detailElement);
+                });
+
+                contextMenu.style.top = `${event.pageY}px`;
+                contextMenu.style.left = `${event.pageX}px`;
+                contextMenu.style.display = 'block';
+            }
+        }
+    });
+
+    // Left click behavior (hide menu)
+    document.addEventListener('click', function () {
+        // Hide the custom context menu when clicking elsewhere
+        contextMenu.style.display = 'none';
+    });
 
     // Load LS Corpus and T Text CSV files and process the data
     Promise.all([
@@ -75,10 +104,10 @@ document.addEventListener('DOMContentLoaded', function () {
                         const tTextCitationText = clickedElement.textContent;
 
                         // Debug print highlighted text
-                        console.log("You clicked on t text line: "+ tTextCitationText);
+                        console.log("You clicked on t text line: " + tTextCitationText);
 
                         // Log all corresponding LS citations for this T Text citation
-                        logAllCorrespondingLSCitations(tTextCitationText, keyData);
+                        findAllCorrespondingLSCitations(tTextCitationText, keyData);
                     }
                 });
 
@@ -91,14 +120,26 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-function logAllCorrespondingLSCitations(tTextCitationText, keyData) {
+function findAllCorrespondingLSCitations(tTextCitationText, keyData) {
     // Filter the keyData for all entries with the matching T Text citation
     const matchingEntries = keyData.filter(row => row['Quote in T Text'] === tTextCitationText);
 
+    // Log the citation details to console
     console.log(`LS Citations for T Text citation "${tTextCitationText}":`);
     matchingEntries.forEach(entry => {
         console.log(`Volume: ${entry['Volume']}, Text No.: ${entry['Text No.']}, Quote in LS: ${entry['Quote in LS']}`);
     });
+
+    // Create an array to hold citation details (for printing to context menu)
+    const citationDetails = matchingEntries.map(entry => {
+        return {
+            volume: entry['Volume'],
+            textNo: entry['Text No.'],
+            quoteInLS: entry['Quote in LS']
+        };
+    });
+
+    return citationDetails;
 }
 
 // Function to fetch and load CSV data into a container
