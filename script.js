@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let keyData = []; // Define keyData at the top level to ensure wider scope
 
+    const citationUidMap = {};  // Store citation and UID mapping
+
+
     // LOAD AND PARSE KEY.CSV
 
     // Load LS Corpus and T Text CSV files and process the data
@@ -18,9 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(csvData => {
                 keyData = parseCSV(csvData); // This updates the outer `keyData`
                 console.log(keyData);
-
-                // Store citation and UID mapping
-                const citationUidMap = {};
 
                 // Iterate through each row of the key data
                 keyData.forEach(row => {
