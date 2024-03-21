@@ -3,20 +3,20 @@ document.addEventListener('DOMContentLoaded', function () {
     const tTextContainer = document.getElementById('t-text');
     const contextMenu = document.getElementById('customContextMenu');
 
-    // Right click behavior
-    document.addEventListener('contextmenu', function (event) {
-        event.preventDefault(); // Prevent the default context menu from showing
+    // // Right click behavior
+    // document.addEventListener('contextmenu', function (event) {
+    //     event.preventDefault(); // Prevent the default context menu from showing
 
-        contextMenu.style.top = `${event.pageY}px`;
-        contextMenu.style.left = `${event.pageX}px`;
-        contextMenu.style.display = 'block';
-    });
+    //     contextMenu.style.top = `${event.pageY}px`;
+    //     contextMenu.style.left = `${event.pageX}px`;
+    //     contextMenu.style.display = 'block';
+    // });
 
-    // Left click behavior
-    document.addEventListener('click', function () {
-        // Hide the custom context menu when clicking elsewhere
-        contextMenu.style.display = 'none';
-    });
+    // // Left click behavior
+    // document.addEventListener('click', function () {
+    //     // Hide the custom context menu when clicking elsewhere
+    //     contextMenu.style.display = 'none';
+    // });
 
     // Load LS Corpus and T Text CSV files and process the data
     Promise.all([
@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => response.text())
             .then(csvData => {
                 const keyData = parseCSV(csvData);
+                console.log(keyData);
 
                 // Store citation and UID mapping
                 const citationUidMap = {};
@@ -36,8 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 keyData.forEach(row => {
                     const lsCorpusCitation = row['Quote in LS'];
                     const tTextCitation = row['Quote in T Text'];
-                    const volume = row['Volume'];
-                    const textNo = row['Text No.'];
+                    // const volume = row['Volume'];
+                    // const textNo = row['Text No.'];
                     const uid = row['UID'];
 
                     // Highlight LS Corpus citation
@@ -50,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     highlightCitation(tTextContainer, tTextCitation, 'highlight-t', uid);
                 });
 
-                // Left click behavior: Add event listener for LS Corpus citations
+                // Click-Scroll functionality
                 lsCorpusContainer.addEventListener('click', function (event) {
                     const clickedElement = event.target;
                     if (clickedElement.classList.contains('highlight-ls')) {
@@ -66,12 +67,39 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
                 });
 
+
+                tTextContainer.addEventListener('click', function (event) {
+                    const clickedElement = event.target;
+                    if (clickedElement.classList.contains('highlight-t')) {
+                        // Retrieve the text content of the clicked T Text citation
+                        const tTextCitationText = clickedElement.textContent;
+
+                        // Debug print highlighted text
+                        console.log("You clicked on t text line: "+ tTextCitationText);
+
+                        // Log all corresponding LS citations for this T Text citation
+                        logAllCorrespondingLSCitations(tTextCitationText, keyData);
+                    }
+                });
+
+
                 // Append LS Corpus info to each T Text citation
-                appendLSCorpusInfo(tTextContainer, citationUidMap, keyData);
+                //appendLSCorpusInfo(tTextContainer, citationUidMap, keyData);
             })
             .catch(error => console.error('Error loading or processing key.csv:', error));
     }).catch(error => console.error('Error loading or processing CSVs:', error));
 });
+
+
+function logAllCorrespondingLSCitations(tTextCitationText, keyData) {
+    // Filter the keyData for all entries with the matching T Text citation
+    const matchingEntries = keyData.filter(row => row['Quote in T Text'] === tTextCitationText);
+
+    console.log(`LS Citations for T Text citation "${tTextCitationText}":`);
+    matchingEntries.forEach(entry => {
+        console.log(`Volume: ${entry['Volume']}, Text No.: ${entry['Text No.']}, Quote in LS: ${entry['Quote in LS']}`);
+    });
+}
 
 // Function to fetch and load CSV data into a container
 function fetchAndLoadCSV(csvPath, container) {
