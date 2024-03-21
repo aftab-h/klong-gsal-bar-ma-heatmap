@@ -5,6 +5,47 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let keyData = []; // Define keyData at the top level to ensure wider scope
 
+    // LOAD AND PARSE KEY.CSV
+
+    // Load LS Corpus and T Text CSV files and process the data
+    Promise.all([
+        fetchAndLoadCSV('ls-corpus-test.csv', lsCorpusContainer),
+        fetchAndLoadCSV('t-text-test.csv', tTextContainer)
+    ]).then(() => {
+        // Now that text is loaded, load key.csv and process the data
+        fetch('key.csv')
+            .then(response => response.text())
+            .then(csvData => {
+                keyData = parseCSV(csvData); // This updates the outer `keyData`
+                console.log(keyData);
+
+                // Store citation and UID mapping
+                const citationUidMap = {};
+
+                // Iterate through each row of the key data
+                keyData.forEach(row => {
+                    const lsCorpusCitation = row['Quote in LS'];
+                    const tTextCitation = row['Quote in T Text'];
+                    // const volume = row['Volume'];
+                    // const textNo = row['Text No.'];
+                    const uid = row['UID'];
+
+                    // Highlight LS Corpus citation
+                    highlightCitation(lsCorpusContainer, lsCorpusCitation, 'highlight-ls', uid);
+
+                    // Store the mapping of LS Corpus citation to UID
+                    citationUidMap[lsCorpusCitation] = uid;
+
+                    // Highlight T Text citation
+                    highlightCitation(tTextContainer, tTextCitation, 'highlight-t', uid);
+                });
+            })
+            .catch(error => console.error('Error loading or processing key.csv:', error));
+    }).catch(error => console.error('Error loading or processing CSVs:', error));
+
+
+    // SET UP LISTENERS
+
     // Right click behavior (appear context menu)
     document.addEventListener('contextmenu', function (event) {
         event.preventDefault(); // Prevent the default context menu from showing
@@ -47,77 +88,54 @@ document.addEventListener('DOMContentLoaded', function () {
         contextMenu.style.display = 'none';
     });
 
-    // Load LS Corpus and T Text CSV files and process the data
-    Promise.all([
-        fetchAndLoadCSV('ls-corpus-test.csv', lsCorpusContainer),
-        fetchAndLoadCSV('t-text-test.csv', tTextContainer)
-    ]).then(() => {
-        // Now that text is loaded, load key.csv and process the data
-        fetch('key.csv')
-            .then(response => response.text())
-            .then(csvData => {
-                const keyData = parseCSV(csvData);
-                console.log(keyData);
+    // Click-Scroll functionality
+    lsCorpusContainer.addEventListener('click', function (event) {
+        const clickedElement = event.target;
+        if (clickedElement.classList.contains('highlight-ls')) {
+            // Retrieve the associated UID
+            const lsCorpusCitation = clickedElement.textContent;
+            const uid = citationUidMap[lsCorpusCitation];
+            // Find the corresponding T Text citation
+            const tTextCitation = tTextContainer.querySelector(`[data-uid="${uid}"]`);
+            // Scroll to the T Text citation
+            if (tTextCitation) {
+                tTextCitation.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    });
 
-                // Store citation and UID mapping
-                const citationUidMap = {};
+    tTextContainer.addEventListener('click', function (event) {
+        const clickedElement = event.target;
+        if (clickedElement.classList.contains('highlight-t')) {
+            // Retrieve the text content of the clicked T Text citation
+            const tTextCitationText = clickedElement.textContent;
 
-                // Iterate through each row of the key data
-                keyData.forEach(row => {
-                    const lsCorpusCitation = row['Quote in LS'];
-                    const tTextCitation = row['Quote in T Text'];
-                    // const volume = row['Volume'];
-                    // const textNo = row['Text No.'];
-                    const uid = row['UID'];
+            // Debug print highlighted text
+            console.log("You clicked on t text line: " + tTextCitationText);
 
-                    // Highlight LS Corpus citation
-                    highlightCitation(lsCorpusContainer, lsCorpusCitation, 'highlight-ls', uid);
-
-                    // Store the mapping of LS Corpus citation to UID
-                    citationUidMap[lsCorpusCitation] = uid;
-
-                    // Highlight T Text citation
-                    highlightCitation(tTextContainer, tTextCitation, 'highlight-t', uid);
-                });
-
-                // Click-Scroll functionality
-                lsCorpusContainer.addEventListener('click', function (event) {
-                    const clickedElement = event.target;
-                    if (clickedElement.classList.contains('highlight-ls')) {
-                        // Retrieve the associated UID
-                        const lsCorpusCitation = clickedElement.textContent;
-                        const uid = citationUidMap[lsCorpusCitation];
-                        // Find the corresponding T Text citation
-                        const tTextCitation = tTextContainer.querySelector(`[data-uid="${uid}"]`);
-                        // Scroll to the T Text citation
-                        if (tTextCitation) {
-                            tTextCitation.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                        }
-                    }
-                });
+            // Log all corresponding LS citations for this T Text citation
+            findAllCorrespondingLSCitations(tTextCitationText, keyData);
+        }
+    });
 
 
-                tTextContainer.addEventListener('click', function (event) {
-                    const clickedElement = event.target;
-                    if (clickedElement.classList.contains('highlight-t')) {
-                        // Retrieve the text content of the clicked T Text citation
-                        const tTextCitationText = clickedElement.textContent;
-
-                        // Debug print highlighted text
-                        console.log("You clicked on t text line: " + tTextCitationText);
-
-                        // Log all corresponding LS citations for this T Text citation
-                        findAllCorrespondingLSCitations(tTextCitationText, keyData);
-                    }
-                });
 
 
-                // Append LS Corpus info to each T Text citation
-                //appendLSCorpusInfo(tTextContainer, citationUidMap, keyData);
-            })
-            .catch(error => console.error('Error loading or processing key.csv:', error));
-    }).catch(error => console.error('Error loading or processing CSVs:', error));
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function findAllCorrespondingLSCitations(tTextCitationText, keyData) {
