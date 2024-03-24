@@ -107,10 +107,18 @@ document.addEventListener("DOMContentLoaded", function () {
   lsCorpusContainer.addEventListener("click", function (event) {
     const clickedElement = event.target;
     if (clickedElement.classList.contains("highlight-ls")) {
+      console.log("Clicked something that's highlighted-ls...");
+
       // Retrieve the associated UID
       const lsCorpusCitation = clickedElement.textContent;
+
+      console.log("lsCorpusCitation = " + lsCorpusCitation);
+
       const uid = citationUidMap[lsCorpusCitation];
-      // Find the corresponding T Text citation
+
+      console.log("uid = " + uid);
+
+      // Find the corresponding T Text citation in key csv
       const tTextCitation = tTextContainer.querySelector(`[data-uid="${uid}"]`);
       // Scroll to the T Text citation
       if (tTextCitation) {
@@ -166,7 +174,7 @@ function fetchAndLoadData(filePath, container) {
     .then((response) => response.text())
     .then((textData) => {
       // Set the inner HTML of the container with the CSV data
-      container.innerHTML = textData.replace(/\n/g, '<br>'); // Converts newline characters to <br> for HTML display
+      container.innerHTML = textData.replace(/\n/g, "<br>"); // Converts newline characters to <br> for HTML display
     });
 }
 
