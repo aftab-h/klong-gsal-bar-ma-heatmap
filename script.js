@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Load LS Corpus and T Text CSV files and process the data
   Promise.all([
-    fetchAndLoadData("ls-cleaned-test.txt", lsCorpusContainer),
-    fetchAndLoadData("t-text-python-cleaned.txt", tTextContainer),
+    fetchAndLoadData("ls-5-8-complete.txt", lsCorpusContainer),
+    fetchAndLoadData("t-text-python-cleaned_el_3-25-24.txt", tTextContainer),
   ])
     .then(() => {
       // Now that text is loaded, load key.csv and process the data

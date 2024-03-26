@@ -5,7 +5,7 @@ def read_text_file(file_path):
         return file.read()
 
 # Load text file to process
-ls_text = read_text_file('ls-cleaned-test.txt')
+ls_text = read_text_file('ls-5-8-complete.txt')
 
 def append_quote_indexes_to_csv(text, original_csv_path, output_csv_path):
     with open(original_csv_path, newline='', encoding='utf-8') as input_csvfile, \
