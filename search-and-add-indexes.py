@@ -1,3 +1,5 @@
+# This script is for adding the Start and End index columns to my key.csv
+
 import csv
 
 def read_text_file(file_path):
