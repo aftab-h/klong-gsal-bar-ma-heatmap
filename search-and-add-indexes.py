@@ -42,7 +42,7 @@ def append_quote_indexes_to_csv(text, original_csv_path, output_csv_path):
             writer.writerow(row)
 
 # Adjust paths as necessary
-original_csv_path = 'key.csv'
+original_csv_path = 'key_3-26-24.csv'
 output_csv_path = 'key_with_indexes.csv'
 append_quote_indexes_to_csv(ls_text, original_csv_path, output_csv_path)
 
