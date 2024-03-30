@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const tTextContainer = document.getElementById("t-text");
   const contextMenu = document.getElementById("customContextMenu");
 
-  //let keyData = []; // Define keyData at the top level to ensure wider scope
+  let keyData = []; // Define keyData at the top level to ensure wider scope
 
   const citationUidMap = {}; // Store citation and UID mapping
 
@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
       fetch("key_indexed.json")
         .then((response) => response.json())
         .then((jsonData) => {
-          //keyData = parseCSV(jsonData); // This updates the outer `keyData`
-          //console.log(keyData);
+          keyData = jsonData; // This updates the outer `keyData`
+          console.log(keyData);
 
           // Iterate through each row of the key data
           jsonData.forEach((row) => {
@@ -56,9 +56,57 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error("Error loading or processing JSON:", error)
     );
 
-  // SET UP LISTENERS
-
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    // SET UP LISTENERS
+
+  // Right click behavior (appear context menu)
+  document.addEventListener("contextmenu", function (event) {
+    event.preventDefault(); // Prevent the default context menu from showing
+
+    contextMenu.style.top = `${event.pageY}px`;
+    contextMenu.style.left = `${event.pageX}px`;
+    contextMenu.style.display = "block";
+
+    const clickedElement = event.target; // Define clickedElement here
+
+    // Check if clicked quote is highlighted
+    if (clickedElement.classList.contains("highlight-t")) {
+      const tTextCitationText = clickedElement.textContent;
+      const citationDetails = findAllCorrespondingLSCitations(
+        tTextCitationText,
+        keyData
+      );
+
+      // Clear the context menu before adding new content
+      contextMenu.innerHTML = "";
+
+      // Check if there are matching entries and append their details to the context menu
+      if (citationDetails.length > 0) {
+        citationDetails.forEach((detail) => {
+          const { volume, textNo, quoteInLS } = detail;
+          // Create a new div element for each citation detail
+          const detailElement = document.createElement("div");
+          detailElement.textContent = `Volume: ${volume}, Text No.: ${textNo}, Quote in LS: ${quoteInLS}`;
+          // Append the detail element to the context menu
+          contextMenu.appendChild(detailElement);
+        });
+
+        contextMenu.style.top = `${event.pageY}px`;
+        contextMenu.style.left = `${event.pageX}px`;
+        contextMenu.style.display = "block";
+      }
+    }
+  });
 
   // Left click behavior (hide menu)
   document.addEventListener("click", function () {
