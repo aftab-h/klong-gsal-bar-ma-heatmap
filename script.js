@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Load LS Corpus and T Text CSV files and process the data
   Promise.all([
-    fetchAndLoadData("ls-5-8-complete.txt", lsCorpusContainer),
-    fetchAndLoadData("t-text-python-cleaned_el_3-25-24.txt", tTextContainer),
+    fetchAndLoadData("key_and_data/ls-5-8-complete.txt", lsCorpusContainer),
+    fetchAndLoadData("key_and_data/t-text-python-cleaned_el_3-25-24.txt", tTextContainer),
   ])
     .then(() => {
       // Now that text is loaded, load key.json and process the data
-      fetch("key_indexed.json")
+      fetch("key_and_data/key_indexed.json")
         .then((response) => response.json())
         .then((jsonData) => {
           keyData = jsonData; // This updates the outer `keyData`
@@ -33,7 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
               lsCorpusContainer,
               lsCorpusCitation,
               "highlight-ls",
-              uid
+              uid,
+              row["Start Index"],
+              row["End Index"]
             );
 
             // Store the mapping of LS Corpus citation to UID
@@ -44,7 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
               tTextContainer,
               tTextCitation,
               "highlight-t",
-              uid
+              uid,
+              row["Start Index"],
+              row["End Index"]
             );
           });
         })
@@ -56,18 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error("Error loading or processing JSON:", error)
     );
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    // SET UP LISTENERS
+  // SET UP LISTENERS
 
   // Right click behavior (appear context menu)
   document.addEventListener("contextmenu", function (event) {
@@ -189,20 +182,29 @@ function fetchAndLoadData(filePath, container) {
     });
 }
 
-// Function to highlight citations in a container
-function highlightCitation(container, citation, highlightClass, uid) {
-  if (!container || !citation) return;
+// // Function to highlight citations in a container 
+// // We're making this its OWN PYTHON SCRIPT NOW to do all highlighting.
+// function highlightCitation(
+//   container,
+//   citation,
+//   highlightClass,
+//   uid,
+//   start,
+//   end
+// ) {
+//   if (!container || !citation) return;
 
-  // Properly escape the citation for regex use
-  const escapedCitation = citation.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
-  const regex = new RegExp(`(${escapedCitation})`, "g");
+//   const escapedCitation = citation.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
+//   const startIndex = parseInt(start);
+//   const endIndex = parseInt(end);
 
-  // Replace the matched citation text with highlighted version
-  container.innerHTML = container.innerHTML.replace(
-    regex,
-    `<span class="${highlightClass}" data-uid="${uid}">$1</span>`
-  );
-}
+//   // Insert the <span> tag at the specified indexes
+//   const before = container.innerHTML.substring(0, startIndex);
+//   const after = container.innerHTML.substring(endIndex);
+//   const highlightedText = `<span class="${highlightClass}" data-uid="${uid}">${citation}</span>`;
+//   container.innerHTML = before + highlightedText + after;
+// }
+
 
 // Function to append LS Corpus info to each T Text citation
 function appendLSCorpusInfo(tTextContainer, citationUidMap, keyData) {
