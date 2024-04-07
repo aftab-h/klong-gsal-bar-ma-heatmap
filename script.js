@@ -2,14 +2,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const lsCorpusContainer = document.getElementById("ls-text");
   const tTextContainer = document.getElementById("t-text");
   const contextMenu = document.getElementById("customContextMenu");
+  console.log("test");
 
   // Load HTML's
   fetchAndLoadData("key_and_data/highlighted_ls_text.html", lsCorpusContainer);
   fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer);
 
-
-
-  let tip; 
+  let tip;
 
   // Tooltip functionality
   const spans = document.querySelectorAll(".highlight");
@@ -46,8 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-
-  
   // Right click behavior (appear context menu)
   document.addEventListener("contextmenu", function (event) {
     event.preventDefault(); // Prevent the default context menu from showing
@@ -93,43 +90,56 @@ document.addEventListener("DOMContentLoaded", function () {
     contextMenu.style.display = "none";
   });
 
-  // Click-Scroll functionality
-  lsCorpusContainer.addEventListener("click", function (event) {
-    const clickedElement = event.target;
-    if (clickedElement.classList.contains("highlight-ls")) {
-      console.log("Clicked something that's highlighted-ls...");
 
-      // Retrieve the associated UID
-      const lsCorpusCitation = clickedElement.textContent;
+  // Click-Scroll functionality for LS Corpus
+lsCorpusContainer.addEventListener("click", function (event) {
+  const clickedElement = event.target;
+  if (clickedElement.classList.contains("highlight")) {
+    const uid = clickedElement.getAttribute("data-uid");
+    if (uid) {
+      console.log("Clicked something that's highlighted in ls pane...");
+      console.log("uid = " + uid); // Check if UID is correctly extracted
 
-      console.log("lsCorpusCitation = " + lsCorpusCitation);
-
-      const uid = citationUidMap[lsCorpusCitation];
-
-      console.log("uid = " + uid);
-
-      // Find the corresponding T Text citation in key csv
-      const tTextCitation = tTextContainer.querySelector(`[data-uid="${uid}"]`);
-      // Scroll to the T Text citation
-      if (tTextCitation) {
-        tTextCitation.scrollIntoView({ behavior: "smooth", block: "start" });
+      // Check if there's a matching T Text citation based on data-match-type
+      const matchType = clickedElement.getAttribute("data-match-type");
+      if (matchType === "1") {
+        console.log("data-match-type = 1");
+        // Find the corresponding T Text citation using data-uid attribute
+        const tTextCitation = tTextContainer.querySelector(`[data-uid="${uid}"]`);
+        // Scroll to the T Text citation if found
+        if (tTextCitation) {
+          tTextCitation.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else {
+          console.log("No corresponding T Text citation found for UID: " + uid);
+        }
+      } else if (matchType === "0") {
+        console.log("data-match-type = 0");
+        console.log("No corresponding T Text citation found for UID: " + uid);
+      } else if (matchType === "2") {
+        console.log("data-match-type = 2");
+        // Do something
+      } else {
+        console.log("Invalid data-match-type value for UID: " + uid);
       }
     }
-  });
+  }
+});
 
-  tTextContainer.addEventListener("click", function (event) {
-    const clickedElement = event.target;
-    if (clickedElement.classList.contains("highlight-t")) {
-      // Retrieve the text content of the clicked T Text citation
-      const tTextCitationText = clickedElement.textContent;
 
-      // Debug print highlighted text
-      console.log("You clicked on t text line: " + tTextCitationText);
+  // // Click-Scroll functionality for T Text
+  // tTextContainer.addEventListener("click", function (event) {
+  //   const clickedElement = event.target;
+  //   if (clickedElement.classList.contains("highlight-t")) {
+  //     // Retrieve the text content of the clicked T Text citation
+  //     const tTextCitationText = clickedElement.textContent;
 
-      // Log all corresponding LS citations for this T Text citation
-      findAllCorrespondingLSCitations(tTextCitationText, keyData);
-    }
-  });
+  //     // Debug print highlighted text
+  //     console.log("You clicked on t text line: " + tTextCitationText);
+
+  //     // Log all corresponding LS citations for this T Text citation
+  //     findAllCorrespondingLSCitations(tTextCitationText, keyData);
+  //   }
+  // });
 });
 
 // FUNCTION DEFINITIONS
@@ -160,7 +170,7 @@ function findAllCorrespondingLSCitations(tTextCitationText, keyData) {
   return citationDetails;
 }
 
-// Function to fetch and load txt data into a container
+// Function to fetch and load text data into a container
 function fetchAndLoadData(filePath, container) {
   return fetch(filePath)
     .then((response) => response.text())
@@ -185,15 +195,15 @@ function appendLSCorpusInfo(tTextContainer, citationUidMap, keyData) {
   });
 }
 
-// Simple CSV parser function
-function parseCSV(text) {
-  const lines = text.split(/\r?\n/);
-  const headers = lines.shift().split(",");
-  return lines.map((line) => {
-    const data = line.split(",");
-    return headers.reduce((obj, nextKey, index) => {
-      obj[nextKey] = data[index];
-      return obj;
-    }, {});
-  });
-}
+// // Simple CSV parser function
+// function parseCSV(text) {
+//   const lines = text.split(/\r?\n/);
+//   const headers = lines.shift().split(",");
+//   return lines.map((line) => {
+//     const data = line.split(",");
+//     return headers.reduce((obj, nextKey, index) => {
+//       obj[nextKey] = data[index];
+//       return obj;
+//     }, {});
+//   });
+// }
