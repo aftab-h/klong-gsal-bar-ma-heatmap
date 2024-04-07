@@ -1,14 +1,41 @@
+// let tip;
+// document.addEventListener("DOMContentLoaded", function() {
+//     const spans = document.querySelectorAll(".highlight");
+//     spans.forEach((span) => {
+//         span.addEventListener("mouseover", (event) => {
+//             const el = event.target;
+//             const uids = el.dataset.uid.split(',');
+//             tip = document.createElement('div');
+//             tip.classList.add('tooltip');
+//             tip.textContent = el.dataset.uid.split(',').map(uid => `UID: ${uid}`).join('\n');
+//             el.appendChild(tip);
+//             el.onpointermove = e => {
+//                 if (e.target !== e.currentTarget)
+//                     return;
+//                 tip.style.left = `${e.clientX}px`
+//                 tip.style.top = `${e.clientY}px`
+//             }
+//             document.querySelector("main").classList.add("fade");
+//             uids.forEach(uid =>
+//             document.querySelectorAll(`.highlight[data-uid*="${uid}"]`).forEach(span => span.classList.add("mark")));
+//         });
+//         span.addEventListener("mouseout", (event) => {
+//             tip.remove();
+//             tip = null;
+//             document.querySelector("main").classList.remove("fade");
+//             document.querySelectorAll(`.highlight.mark`).forEach(span => span.classList.remove("mark"));
+//         });
+//     })
+// })
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const lsCorpusContainer = document.getElementById("ls-text");
   const tTextContainer = document.getElementById("t-text");
   const contextMenu = document.getElementById("customContextMenu");
 
-  // LOAD HTML's
-
-  // Load LS Corpus HTML
+  // Load HTML's
   fetchAndLoadData("key_and_data/highlighted_ls_text.html", lsCorpusContainer);
-
-  // Load T Text HTML
   fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer);
 
   // Right click behavior (appear context menu)
