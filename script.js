@@ -80,8 +80,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   };
 
-
-
   // Click-Scroll functionality for LS Corpus
   lsCorpusContainer.addEventListener("click", function (event) {
     clearQuotationList();
@@ -120,34 +118,32 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("ls-corpus")
     .addEventListener("scroll", clearQuotationList);
-
-
-
+  document
+    .getElementById("t-text")
+    .addEventListener("scroll", clearQuotationList);
 
   // Click-Scroll functionality for T Text
   tTextContainer.addEventListener("click", function (event) {
+    clearQuotationList();
     const clickedElement = event.target;
     if (clickedElement.classList.contains("highlight")) {
-      // Retrieve the text content of the clicked T Text citation
-      const tTextCitationText = clickedElement.textContent;
+      const uids = clickedElement.dataset.uid.split(",");
+      const tooltip = document.createElement("div");
+      tooltip.classList.add("tooltip");
+      tooltip.textContent = uids.map((uid) => `UID: ${uid}`).join("\n");
+      clickedElement.appendChild(tooltip);
 
-      // Debug print highlighted text
-      console.log("You clicked on t text line: " + tTextCitationText);
+      // Optional: Position the tooltip relative to the clicked element
+      tooltip.style.left = `${event.clientX}px`;
+      tooltip.style.top = `${event.clientY}px`;
 
-      // Log all corresponding LS citations for this T Text citation
-      findAllCorrespondingLSCitations(tTextCitationText, keyData);
+      // Remove the tooltip after a certain duration or when clicking outside of it
+      setTimeout(() => {
+        tooltip.remove();
+      }, 3000); // Remove after 3 seconds (adjust as needed)
     }
   });
-
 });
-
-
-
-
-
-
-
-
 
 // FUNCTION DEFINITIONS
 
