@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const lsCorpusContainer = document.getElementById("ls-text");
   const tTextContainer = document.getElementById("t-text");
-  const contextMenu = document.getElementById("customContextMenu");
   console.log("test");
 
   // Load HTML's
@@ -43,51 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
         .querySelectorAll(`.highlight.mark`)
         .forEach((span) => span.classList.remove("mark"));
     });
-  });
-
-  // Right click behavior (appear context menu)
-  document.addEventListener("contextmenu", function (event) {
-    event.preventDefault(); // Prevent the default context menu from showing
-
-    contextMenu.style.top = `${event.pageY}px`;
-    contextMenu.style.left = `${event.pageX}px`;
-    contextMenu.style.display = "block";
-
-    const clickedElement = event.target; // Define clickedElement here
-
-    // Check if clicked quote is highlighted
-    if (clickedElement.classList.contains("highlight-t")) {
-      const tTextCitationText = clickedElement.textContent;
-      const citationDetails = findAllCorrespondingLSCitations(
-        tTextCitationText,
-        keyData
-      );
-
-      // Clear the context menu before adding new content
-      contextMenu.innerHTML = "";
-
-      // Check if there are matching entries and append their details to the context menu
-      if (citationDetails.length > 0) {
-        citationDetails.forEach((detail) => {
-          const { volume, textNo, quoteInLS } = detail;
-          // Create a new div element for each citation detail
-          const detailElement = document.createElement("div");
-          detailElement.textContent = `Volume: ${volume}, Text No.: ${textNo}, Quote in LS: ${quoteInLS}`;
-          // Append the detail element to the context menu
-          contextMenu.appendChild(detailElement);
-        });
-
-        contextMenu.style.top = `${event.pageY}px`;
-        contextMenu.style.left = `${event.pageX}px`;
-        contextMenu.style.display = "block";
-      }
-    }
-  });
-
-  // Left click behavior (hide menu)
-  document.addEventListener("click", function () {
-    // Hide the custom context menu when clicking elsewhere
-    contextMenu.style.display = "none";
   });
 
 
