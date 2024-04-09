@@ -105,7 +105,7 @@ lsCorpusContainer.addEventListener("click", function (event) {
       if (matchType === "1") {
         console.log("data-match-type = 1");
         // Find the corresponding T Text citation using data-uid attribute
-        const tTextCitation = tTextContainer.querySelector(`[data-uid="${uid}"]`);
+        const tTextCitation = tTextContainer.querySelector(`[data-uid*="${uid}"]`);
         // Scroll to the T Text citation if found
         if (tTextCitation) {
           tTextCitation.scrollIntoView({ behavior: "smooth", block: "start" });
