@@ -45,95 +45,109 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  const scrollToUidInT = (uid) => {
+    // Find the corresponding T Text citation using data-uid attribute
+    const tTextCitation = tTextContainer.querySelector(`[data-uid*="${uid}"]`);
+    // Scroll to the T Text citation if found
+    if (tTextCitation) {
+      tTextCitation.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else {
+      console.log("No corresponding T Text citation found for UID: " + uid);
+    }
+  };
 
-const scrollToUidInT = (uid) => {
-  // Find the corresponding T Text citation using data-uid attribute
-  const tTextCitation = tTextContainer.querySelector(`[data-uid*="${uid}"]`);
-  // Scroll to the T Text citation if found
-  if (tTextCitation) {
-    tTextCitation.scrollIntoView({ behavior: "smooth", block: "start" });
-  } else {
-    console.log("No corresponding T Text citation found for UID: " + uid);
-  }
-}
+  const createQuotationList = (event) => {
+    event.stopPropagation(); // prevents the event from "bubbling" up to the document.click handler defined below
+    const el = event.target;
+    const uids = el.dataset.uid.split(",");
+    list = document.createElement("ul");
+    list.classList.add("quotation-list");
+    list.style.left = `${event.clientX}px`;
+    list.style.top = `${event.clientY}px`;
+    uids.forEach((uid) => {
+      const listItem = document.createElement("li");
+      listItem.textContent = `-> ${uid}`;
+      listItem.addEventListener("click", () => scrollToUidInT(uid));
+      list.appendChild(listItem);
+    });
+    el.appendChild(list);
+  };
 
-const createQuotationList = (event) => {
-  event.stopPropagation();  // prevents the event from "bubbling" up to the document.click handler defined below
-  const el = event.target;
-  const uids = el.dataset.uid.split(",");
-  list = document.createElement("ul");
-  list.classList.add("quotation-list");
-  list.style.left = `${event.clientX}px`;
-  list.style.top = `${event.clientY}px`;
-  uids.forEach((uid) => {
-    const listItem = document.createElement("li");
-    listItem.textContent = `-> ${uid}`;
-    listItem.addEventListener("click", () => scrollToUidInT(uid));
-    list.appendChild(listItem);
-  })
-  el.appendChild(list);
-}
+  const clearQuotationList = () => {
+    if (list) {
+      list.remove();
+      list = null;
+    }
+  };
 
-const clearQuotationList = () => {
-  if (list) {
-    list.remove();
-    list = null;
-  }
-}
+
 
   // Click-Scroll functionality for LS Corpus
-lsCorpusContainer.addEventListener("click", function (event) {
-  clearQuotationList();  
-  const clickedElement = event.target;
-  if (clickedElement.classList.contains("highlight")) {
-    const uid = clickedElement.getAttribute("data-uid");
-    if (uid) {
-      console.log("Clicked something that's highlighted in ls pane...");
-      console.log("uid = " + uid); // Check if UID is correctly extracted
+  lsCorpusContainer.addEventListener("click", function (event) {
+    clearQuotationList();
+    const clickedElement = event.target;
+    if (clickedElement.classList.contains("highlight")) {
+      const uid = clickedElement.getAttribute("data-uid");
+      if (uid) {
+        console.log("Clicked something that's highlighted in ls pane...");
+        console.log("uid = " + uid); // Check if UID is correctly extracted
 
-      // Check if there's a matching T Text citation based on data-match-type
-      const matchType = clickedElement.getAttribute("data-match-type");
-      if (matchType === "1") {
-        console.log("data-match-type = 1");
-        if (uid.includes(",")) {
-          // Multiple UIDs -- show a menu
-          createQuotationList(event);
+        // Check if there's a matching T Text citation based on data-match-type
+        const matchType = clickedElement.getAttribute("data-match-type");
+        if (matchType === "1") {
+          console.log("data-match-type = 1");
+          if (uid.includes(",")) {
+            // Multiple UIDs -- show a menu
+            createQuotationList(event);
+          } else {
+            // Single UID -- scroll directly to corresponding element in T
+            scrollToUidInT(uid);
+          }
+        } else if (matchType === "0") {
+          console.log("data-match-type = 0");
+          console.log("No corresponding T Text citation found for UID: " + uid);
+        } else if (matchType === "2") {
+          console.log("data-match-type = 2");
+          // Do something
         } else {
-          // Single UID -- scroll directly to corresponding element in T
-          scrollToUidInT(uid);
+          console.log("Invalid data-match-type value for UID: " + uid);
         }
-      } else if (matchType === "0") { 
-        console.log("data-match-type = 0");
-        console.log("No corresponding T Text citation found for UID: " + uid);
-      } else if (matchType === "2") {
-        console.log("data-match-type = 2");
-        // Do something
-      } else {
-        console.log("Invalid data-match-type value for UID: " + uid);
       }
     }
-  }
+  });
+
+  document.addEventListener("click", clearQuotationList);
+  document
+    .getElementById("ls-corpus")
+    .addEventListener("scroll", clearQuotationList);
+
+
+
+
+  // Click-Scroll functionality for T Text
+  tTextContainer.addEventListener("click", function (event) {
+    const clickedElement = event.target;
+    if (clickedElement.classList.contains("highlight")) {
+      // Retrieve the text content of the clicked T Text citation
+      const tTextCitationText = clickedElement.textContent;
+
+      // Debug print highlighted text
+      console.log("You clicked on t text line: " + tTextCitationText);
+
+      // Log all corresponding LS citations for this T Text citation
+      findAllCorrespondingLSCitations(tTextCitationText, keyData);
+    }
+  });
+
 });
 
-document.addEventListener("click", clearQuotationList);
-document.getElementById("ls-corpus").addEventListener("scroll", clearQuotationList);
 
 
-  // // Click-Scroll functionality for T Text
-  // tTextContainer.addEventListener("click", function (event) {
-  //   const clickedElement = event.target;
-  //   if (clickedElement.classList.contains("highlight-t")) {
-  //     // Retrieve the text content of the clicked T Text citation
-  //     const tTextCitationText = clickedElement.textContent;
 
-  //     // Debug print highlighted text
-  //     console.log("You clicked on t text line: " + tTextCitationText);
 
-  //     // Log all corresponding LS citations for this T Text citation
-  //     findAllCorrespondingLSCitations(tTextCitationText, keyData);
-  //   }
-  // });
-});
+
+
+
 
 // FUNCTION DEFINITIONS
 
@@ -187,16 +201,3 @@ function appendLSCorpusInfo(tTextContainer, citationUidMap, keyData) {
     }
   });
 }
-
-// // Simple CSV parser function
-// function parseCSV(text) {
-//   const lines = text.split(/\r?\n/);
-//   const headers = lines.shift().split(",");
-//   return lines.map((line) => {
-//     const data = line.split(",");
-//     return headers.reduce((obj, nextKey, index) => {
-//       obj[nextKey] = data[index];
-//       return obj;
-//     }, {});
-//   });
-// }
