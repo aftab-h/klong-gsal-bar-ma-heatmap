@@ -130,5 +130,34 @@
     </div>
 
     <script src="script.js"></script>
+
+    <script type="module">
+      import { EwtsConverter } from '/node_modules/tibetan-ewts-converter/src/EwtsConverter.mjs';
+      const ewts = window.ewts = new EwtsConverter({
+          leave_dubious: false,
+          pass_through: false
+      });
+      
+      const transliterate = (node, toUnicode=true) => {
+          const childNodes = node.childNodes;
+          for (let i = 0; i < childNodes.length; i++) {
+              if (childNodes[i].nodeType == 1) {
+                  transliterate(childNodes[i], toUnicode);
+              } else if (childNodes[i].nodeType == 3) {
+                  childNodes[i].textContent = toUnicode ? ewts.to_unicode(childNodes[i].textContent) : ewts.to_ewts(childNodes[i].textContent);
+              }
+          }
+      }
+      
+      document.querySelector("#toggle-unicode").addEventListener(
+      "change",
+      (event) => transliterate(document.querySelector("main"), event.target.checked)
+      );
+      </script>
+
+    <label for="toggle-unicode">
+      <input type="checkbox" id="toggle-unicode" />
+      Toggle Unicode
+    </label>
   </body>
 </html>

@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-
+``
 
   function scrollToUIDInLS(uid) {
     const lsCorpusLines = lsCorpusContainer.querySelectorAll(`[data-uid*="${uid}"]`);
@@ -163,35 +163,13 @@ document.addEventListener("DOMContentLoaded", function () {
       if (lineUids.includes(uid)) {
         line.scrollIntoView({ behavior: "smooth", block: "start" });
         return;
+      } else {
+        console.log("No corresponding LS citation found for UID: " + uid);
       }
     });
-    console.log("No corresponding LS citation found for UID: " + uid);
+    
   }
   
-
-  // function scrollToUIDInLS(uid) {
-  //   const lsCorpusLines = lsCorpusContainer.querySelectorAll(
-  //     `[data-uid*="${uid}"]`
-  //   );
-  //   lsCorpusLines.forEach((line) => {
-  //     if (line.dataset.uid === uid) {
-  //       line.scrollIntoView({ behavior: "smooth", block: "start" });
-  //     } else {
-  //       console.log("No corresponding LS citation found for UID: " + uid);
-  //     }
-  //   });
-  // }
-
-  // const scrollToUidInT = (uid) => {
-  //   // Find the corresponding T Text citation using data-uid attribute
-  //   const tTextCitation = tTextContainer.querySelector(`[data-uid*="${uid}"]`);
-  //   // Scroll to the T Text citation if found
-  //   if (tTextCitation) {
-  //     tTextCitation.scrollIntoView({ behavior: "smooth", block: "start" });
-  //   } else {
-  //     console.log("No corresponding T Text citation found for UID: " + uid);
-  //   }
-  // };
 });
 
 // FUNCTION DEFINITIONS
