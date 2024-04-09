@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   };
 
-  // Click-Scroll functionality for LS Corpus
+  // LS Corpus Click-Scroll functionality
   lsCorpusContainer.addEventListener("click", function (event) {
     clearQuotationList();
     const clickedElement = event.target;
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .getElementById("t-text")
     .addEventListener("scroll", clearQuotationList);
 
-  // Click-Scroll functionality for T Text
+  // T Text Click-Scroll functionality
   tTextContainer.addEventListener("click", function (event) {
     clearQuotationList();
     const clickedElement = event.target;
@@ -130,19 +130,68 @@ document.addEventListener("DOMContentLoaded", function () {
       const uids = clickedElement.dataset.uid.split(",");
       const tooltip = document.createElement("div");
       tooltip.classList.add("tooltip");
-      tooltip.textContent = uids.map((uid) => `UID: ${uid}`).join("\n");
+      tooltip.innerHTML = uids
+        .map((uid) => `UID: <span class="uid-link">${uid}</span><br>`)
+        .join("");
       clickedElement.appendChild(tooltip);
 
-      // Optional: Position the tooltip relative to the clicked element
+      // Position the tooltip relative to the clicked element
       tooltip.style.left = `${event.clientX}px`;
       tooltip.style.top = `${event.clientY}px`;
+
+      // Handle click on UID link within the tooltip
+      tooltip.addEventListener("click", (e) => {
+        if (e.target.classList.contains("uid-link")) {
+          const clickedUID = e.target.textContent;
+          scrollToUIDInLS(clickedUID);
+        }
+      });
 
       // Remove the tooltip after a certain duration or when clicking outside of it
       setTimeout(() => {
         tooltip.remove();
-      }, 3000); // Remove after 3 seconds (adjust as needed)
+      }, 6000); // Remove after 6 seconds (adjust as needed)
     }
   });
+
+
+
+  function scrollToUIDInLS(uid) {
+    const lsCorpusLines = lsCorpusContainer.querySelectorAll(`[data-uid*="${uid}"]`);
+    lsCorpusLines.forEach((line) => {
+      const lineUids = line.dataset.uid.split(",");
+      if (lineUids.includes(uid)) {
+        line.scrollIntoView({ behavior: "smooth", block: "start" });
+        return;
+      }
+    });
+    console.log("No corresponding LS citation found for UID: " + uid);
+  }
+  
+
+  // function scrollToUIDInLS(uid) {
+  //   const lsCorpusLines = lsCorpusContainer.querySelectorAll(
+  //     `[data-uid*="${uid}"]`
+  //   );
+  //   lsCorpusLines.forEach((line) => {
+  //     if (line.dataset.uid === uid) {
+  //       line.scrollIntoView({ behavior: "smooth", block: "start" });
+  //     } else {
+  //       console.log("No corresponding LS citation found for UID: " + uid);
+  //     }
+  //   });
+  // }
+
+  // const scrollToUidInT = (uid) => {
+  //   // Find the corresponding T Text citation using data-uid attribute
+  //   const tTextCitation = tTextContainer.querySelector(`[data-uid*="${uid}"]`);
+  //   // Scroll to the T Text citation if found
+  //   if (tTextCitation) {
+  //     tTextCitation.scrollIntoView({ behavior: "smooth", block: "start" });
+  //   } else {
+  //     console.log("No corresponding T Text citation found for UID: " + uid);
+  //   }
+  // };
 });
 
 // FUNCTION DEFINITIONS
