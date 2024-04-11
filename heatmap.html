@@ -11,21 +11,63 @@
       }
 
       body {
-        font-family: Arial, sans-serif;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
         margin: 0;
         padding: 0;
+      }
+
+      .title-box {
+        background-color: #ffffff; /* Background color of the title box */
+        color: #000000; /* Text color */
+        padding: 20px; /* Padding around the title */
+        text-align: center;
+        max-width: 50%;
+        margin: 0 auto; /* Center the title box horizontally */
+      }
+
+      .title {
+        margin: 0; /* Remove default margin */
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif; /* Gill Sans font */
+        font-size: 24px; /* Adjust font size */
+      }
+
+      .subtitle {
+        margin: 0; /* Remove default margin */
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif; /* Gill Sans font */
+        font-size: 16px; /* Adjust font size */
+      }
+
+
+      .small-text-container h3 {
+        margin: 5px 0;
+      }
+
+      .small-text-container {
+        width: 5%; /* Adjust the width as needed */
+        max-height: 250vh;
+        /* Maximum height of container, adjust as needed */
+
+        border: 1px solid #ccc;
+        padding: 5px;
+        font-size: 1px; 
+        transform: scale(0.287); /* Adjust the scale value as needed *`/
+        transform-origin: 0 0;
       }
 
       .container {
         display: flex;
         justify-content: space-around;
         margin: 20px;
+        height: 780px;
       }
 
       .text-container {
         position: relative;
         width: 45%;
-        max-height: 90vh;
+        max-height: 70vh;
         /* Maximum height of container, adjust as needed */
         overflow-y: auto;
         /* Add scrollbar for vertical overflow */
@@ -34,7 +76,7 @@
       }
 
       .highlight {
-        background-color: hsl(30 100% 90% / 1);
+        background-color: hsl(31, 100%, 90%);
         color: black;
         cursor: pointer;
         outline: 1px solid rgba(0 0 0 / 0.5);
@@ -116,14 +158,33 @@
   </head>
 
   <body>
+    <header class="title-box">
+      <h1 class="title">
+        Secret Tantra of the Sun: <br />
+        Blazing Lumionous Matrix of Samantabhadri
+      </h1>
+      <h2 class="subtitle">An Intertextual Heatmap</h2>
+    </header>
+
+    <label for="toggle-unicode">
+      <input type="checkbox" id="toggle-unicode" />
+      Toggle Unicode
+    </label>
+
+
     <div class="container">
       <div class="text-container" id="tantra-of-the-sun">
-        <h2>Tantra of the Sun (T)</h2>
+        <h2>Tantra of the Sun</h2>
         <div id="t-text">Paste the text of T here</div>
         <div class="highlight-marker" id="t-highlight-marker"></div>
       </div>
+
+      <div class="small-text-container" id="small-tantra-of-the-sun">
+        <div id="small-t-text">Paste the text of T here (small version)</div>
+      </div>
+      
       <div class="text-container" id="ls-corpus">
-        <h2>LS Corpus</h2>
+        <h2>Longchenpa's Collected Works (LS), Volumes 5-8</h2>
         <div id="ls-text">Paste the text of LS Corpus here</div>
         <div class="highlight-marker" id="ls-highlight-marker"></div>
       </div>
@@ -132,32 +193,32 @@
     <script src="script.js"></script>
 
     <script type="module">
-      import { EwtsConverter } from '/node_modules/tibetan-ewts-converter/src/EwtsConverter.mjs';
-      const ewts = window.ewts = new EwtsConverter({
-          leave_dubious: false,
-          pass_through: false
-      });
-      
-      const transliterate = (node, toUnicode=true) => {
-          const childNodes = node.childNodes;
-          for (let i = 0; i < childNodes.length; i++) {
-              if (childNodes[i].nodeType == 1) {
-                  transliterate(childNodes[i], toUnicode);
-              } else if (childNodes[i].nodeType == 3) {
-                  childNodes[i].textContent = toUnicode ? ewts.to_unicode(childNodes[i].textContent) : ewts.to_ewts(childNodes[i].textContent);
-              }
-          }
-      }
-      
-      document.querySelector("#toggle-unicode").addEventListener(
-      "change",
-      (event) => transliterate(document.querySelector("main"), event.target.checked)
-      );
-      </script>
+      import { EwtsConverter } from "/node_modules/tibetan-ewts-converter/src/EwtsConverter.mjs";
+      const ewts = (window.ewts = new EwtsConverter({
+        leave_dubious: false,
+        pass_through: false,
+      }));
 
-    <label for="toggle-unicode">
-      <input type="checkbox" id="toggle-unicode" />
-      Toggle Unicode
-    </label>
+      const transliterate = (node, toUnicode = true) => {
+        const childNodes = node.childNodes;
+        for (let i = 0; i < childNodes.length; i++) {
+          if (childNodes[i].nodeType == 1) {
+            transliterate(childNodes[i], toUnicode);
+          } else if (childNodes[i].nodeType == 3) {
+            childNodes[i].textContent = toUnicode
+              ? ewts.to_unicode(childNodes[i].textContent)
+              : ewts.to_ewts(childNodes[i].textContent);
+          }
+        }
+      };
+
+      document
+        .querySelector("#toggle-unicode")
+        .addEventListener("change", (event) =>
+          transliterate(document.querySelector("main"), event.target.checked)
+        );
+    </script>
+
+
   </body>
 </html>
