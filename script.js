@@ -12,42 +12,42 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   let list;
-  let tip;
-
-  // Tooltip functionality
-  const spans = document.querySelectorAll(".highlight");
-  spans.forEach((span) => {
-    span.addEventListener("mouseover", (event) => {
-      const el = event.target;
-      const uids = el.dataset.uid.split(",");
-      tip = document.createElement("div");
-      tip.classList.add("tooltip");
-      tip.textContent = el.dataset.uid
-        .split(",")
-        .map((uid) => `UID: ${uid}`)
-        .join("\n");
-      el.appendChild(tip);
-      el.onpointermove = (e) => {
-        if (e.target !== e.currentTarget) return;
-        tip.style.left = `${e.clientX}px`;
-        tip.style.top = `${e.clientY}px`;
-      };
-      document.querySelector("main").classList.add("fade");
-      uids.forEach((uid) =>
-        document
-          .querySelectorAll(`.highlight[data-uid*="${uid}"]`)
-          .forEach((span) => span.classList.add("mark"))
-      );
-    });
-    span.addEventListener("mouseout", (event) => {
-      tip.remove();
-      tip = null;
-      document.querySelector("main").classList.remove("fade");
-      document
-        .querySelectorAll(`.highlight.mark`)
-        .forEach((span) => span.classList.remove("mark"));
-    });
-  });
+  
+  // // Tooltip functionality
+  // let tip;
+  // const spans = document.querySelectorAll(".highlight");
+  // spans.forEach((span) => {
+  //   span.addEventListener("mouseover", (event) => {
+  //     const el = event.target;
+  //     const uids = el.dataset.uid.split(",");
+  //     tip = document.createElement("div");
+  //     tip.classList.add("tooltip");
+  //     tip.textContent = el.dataset.uid
+  //       .split(",")
+  //       .map((uid) => `UID: ${uid}`)
+  //       .join("\n");
+  //     el.appendChild(tip);
+  //     el.onpointermove = (e) => {
+  //       if (e.target !== e.currentTarget) return;
+  //       tip.style.left = `${e.clientX}px`;
+  //       tip.style.top = `${e.clientY}px`;
+  //     };
+  //     document.querySelector("main").classList.add("fade");
+  //     uids.forEach((uid) =>
+  //       document
+  //         .querySelectorAll(`.highlight[data-uid*="${uid}"]`)
+  //         .forEach((span) => span.classList.add("mark"))
+  //     );
+  //   });
+  //   span.addEventListener("mouseout", (event) => {
+  //     tip.remove();
+  //     tip = null;
+  //     document.querySelector("main").classList.remove("fade");
+  //     document
+  //       .querySelectorAll(`.highlight.mark`)
+  //       .forEach((span) => span.classList.remove("mark"));
+  //   });
+  // });
 
   const scrollToUidInT = (uid) => {
     // Find the corresponding T Text citation using data-uid attribute
