@@ -180,21 +180,21 @@
     <div class="container">
       <div class="text-container" id="tantra-of-the-sun">
           <h2>Tantra of the Sun</h2>
-          <div id="t-text">Paste the text of T here</div>
+          <div id="t-text" class="text">Paste the text of T here</div>
         <div class="scroll-marker"></div>
       </div>
 
 
       <div class="text-container" id="ls-corpus">
         <h2>Longchenpa's Collected Works (LS), Volumes 5-8</h2>
-        <div id="ls-text">Paste the text of LS Corpus here</div>
+        <div id="ls-text" class="text">Paste the text of LS Corpus here</div>
       </div>
     </div>
 
     <script src="script.js"></script>
 
     <script type="module">
-      import { EwtsConverter } from "/node_modules/tibetan-ewts-converter/src/EwtsConverter.mjs";
+      import { EwtsConverter } from "./lib/EwtsConverter.mjs";
       const ewts = (window.ewts = new EwtsConverter({
         leave_dubious: false,
         pass_through: false,
@@ -216,7 +216,11 @@
       document
         .querySelector("#toggle-unicode")
         .addEventListener("change", (event) =>
-          transliterate(document.querySelector("main"), event.target.checked)
+          document
+            .querySelectorAll(".text")
+            .forEach((container) =>
+              transliterate(container, event.target.checked),
+            ),
         );
     </script>
 
