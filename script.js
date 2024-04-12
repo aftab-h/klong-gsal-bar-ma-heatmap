@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
   const lsCorpusContainer = document.getElementById("ls-text");
   const tTextContainer = document.getElementById("t-text");
   //const smallTextContainer = document.getElementById('small-t-text');
@@ -9,6 +9,17 @@ document.addEventListener("DOMContentLoaded", function () {
   fetchAndLoadData("key_and_data/highlighted_ls_text.html", lsCorpusContainer);
   fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer);
   //fetchAndLoadData("key_and_data/highlighted_t_text.html", smallTextContainer);
+
+  const keyData = await fetch("key_and_data/key_with_indexes.json")
+    .then((response) => response.json())
+    .then((keyData) => {
+      // convert array of objects to object keyed by UID
+      const uidKeyedData = keyData.reduce((obj, item) => {
+        obj[item["UID"]] = item;
+        return obj;
+      }, {});
+      return uidKeyedData;
+    });
 
   let list;
 
@@ -134,7 +145,14 @@ document.addEventListener("DOMContentLoaded", function () {
       const tooltip = document.createElement("div");
       tooltip.classList.add("tooltip");
       tooltip.innerHTML = uids
-        .map((uid) => `UID: <span class="uid-link">${uid}</span><br>`)
+        .map((uid) => {
+          const data = keyData[uid];
+          return `
+          <span class="uid-link" data-uid="${uid}">
+            ➡️ Vol. ${data["Volume"]}, No. ${data["Text No."]}: ${data["Text Title"]}
+          </span><br>
+          `;
+        })
         .join("");
       clickedElement.appendChild(tooltip);
 
@@ -145,7 +163,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Handle click on UID link within the tooltip
       tooltip.addEventListener("click", (e) => {
         if (e.target.classList.contains("uid-link")) {
-          const clickedUID = e.target.textContent;
+          const clickedUID = e.target.dataset.uid;
           scrollToUIDInLS(clickedUID);
         }
       });
