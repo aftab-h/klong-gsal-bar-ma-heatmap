@@ -10,9 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
   fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer);
   //fetchAndLoadData("key_and_data/highlighted_t_text.html", smallTextContainer);
 
-
   let list;
-  
+
   // // Tooltip functionality
   // let tip;
   // const spans = document.querySelectorAll(".highlight");
@@ -158,10 +157,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-``
+  ``;
 
   function scrollToUIDInLS(uid) {
-    const lsCorpusLines = lsCorpusContainer.querySelectorAll(`[data-uid*="${uid}"]`);
+    const lsCorpusLines = lsCorpusContainer.querySelectorAll(
+      `[data-uid*="${uid}"]`
+    );
     lsCorpusLines.forEach((line) => {
       const lineUids = line.dataset.uid.split(",");
       if (lineUids.includes(uid)) {
@@ -171,9 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("No corresponding LS citation found for UID: " + uid);
       }
     });
-    
   }
-  
 });
 
 // FUNCTION DEFINITIONS
@@ -197,7 +196,7 @@ function findAllCorrespondingLSCitations(tTextCitationText, keyData) {
     return {
       volume: entry["Volume"],
       textNo: entry["Text No."],
-      quoteInLS: entry["Quote in LS"],
+      quoteInLS: entry["Quote in LS"]
     };
   });
 
