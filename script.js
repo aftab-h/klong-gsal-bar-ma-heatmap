@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
   const lsCorpusContainer = document.getElementById("ls-text");
   const tTextContainer = document.getElementById("t-text");
-  const smallTextContainer = document.getElementById('small-t-text');
+  //const smallTextContainer = document.getElementById('small-t-text');
 
   console.log("test");
 
   // Load HTML's
   fetchAndLoadData("key_and_data/highlighted_ls_text.html", lsCorpusContainer);
   fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer);
-  fetchAndLoadData("key_and_data/highlighted_t_text.html", smallTextContainer);
+  //fetchAndLoadData("key_and_data/highlighted_t_text.html", smallTextContainer);
 
 
   let list;
