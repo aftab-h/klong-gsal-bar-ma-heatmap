@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       return uidKeyedData;
     });
 
-  let list;
+  let popupEl;
 
   // // Tooltip functionality
   // let tip;
@@ -70,33 +70,33 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   };
 
-  const createQuotationList = (event) => {
+  const createMatchPopup = (event) => {
     event.stopPropagation(); // prevents the event from "bubbling" up to the document.click handler defined below
     const el = event.target;
     const uids = el.dataset.uid.split(",");
-    list = document.createElement("ul");
-    list.classList.add("quotation-list");
-    list.style.left = `${event.clientX}px`;
-    list.style.top = `${event.clientY}px`;
+    popupEl = document.createElement("ul");
+    popupEl.classList.add("quotation-list");
+    popupEl.style.left = `${event.clientX}px`;
+    popupEl.style.top = `${event.clientY}px`;
     uids.forEach((uid) => {
       const listItem = document.createElement("li");
       listItem.textContent = `-> ${uid}`;
       listItem.addEventListener("click", () => scrollToUidInT(uid));
-      list.appendChild(listItem);
+      popupEl.appendChild(listItem);
     });
-    el.appendChild(list);
+    el.appendChild(popupEl);
   };
 
-  const clearQuotationList = () => {
-    if (list) {
-      list.remove();
-      list = null;
+  const clearMatchPopup = () => {
+    if (popupEl) {
+      popupEl.remove();
+      popupEl = null;
     }
   };
 
   // LS Corpus Click-Scroll functionality
   lsCorpusContainer.addEventListener("click", function (event) {
-    clearQuotationList();
+    clearMatchPopup();
     const clickedElement = event.target;
     if (clickedElement.classList.contains("highlight")) {
       const uid = clickedElement.getAttribute("data-uid");
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", async function () {
           console.log("data-match-type = 1");
           if (uid.includes(",")) {
             // Multiple UIDs -- show a menu
-            createQuotationList(event);
+            createMatchPopup(event);
           } else {
             // Single UID -- scroll directly to corresponding element in T
             scrollToUidInT(uid);
@@ -128,23 +128,25 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   });
 
-  document.addEventListener("click", clearQuotationList);
+  document.addEventListener("click", clearMatchPopup);
   document
     .getElementById("ls-corpus")
-    .addEventListener("scroll", clearQuotationList);
+    .addEventListener("scroll", clearMatchPopup);
   document
-    .getElementById("t-text")
-    .addEventListener("scroll", clearQuotationList);
+    .getElementById("tantra-of-the-sun")
+    .addEventListener("scroll", clearMatchPopup);
 
   // T Text Click-Scroll functionality
   tTextContainer.addEventListener("click", function (event) {
-    clearQuotationList();
+    clearMatchPopup();
     const clickedElement = event.target;
     if (clickedElement.classList.contains("highlight")) {
+      event.stopPropagation(); // prevents the event from "bubbling" up to the document.click handler defined below
+
       const uids = clickedElement.dataset.uid.split(",");
-      const tooltip = document.createElement("div");
-      tooltip.classList.add("tooltip");
-      tooltip.innerHTML = uids
+      popupEl = document.createElement("div");
+      popupEl.classList.add("tooltip");
+      popupEl.innerHTML = uids
         .map((uid) => {
           const data = keyData[uid];
           return `
@@ -154,24 +156,19 @@ document.addEventListener("DOMContentLoaded", async function () {
           `;
         })
         .join("");
-      clickedElement.appendChild(tooltip);
+      clickedElement.appendChild(popupEl);
 
-      // Position the tooltip relative to the clicked element
-      tooltip.style.left = `${event.clientX}px`;
-      tooltip.style.top = `${event.clientY}px`;
+      // Position the popupEl relative to the clicked element
+      popupEl.style.left = `${event.clientX}px`;
+      popupEl.style.top = `${event.clientY}px`;
 
-      // Handle click on UID link within the tooltip
-      tooltip.addEventListener("click", (e) => {
+      // Handle click on UID link within the popupEl
+      popupEl.addEventListener("click", (e) => {
         if (e.target.classList.contains("uid-link")) {
           const clickedUID = e.target.dataset.uid;
           scrollToUIDInLS(clickedUID);
         }
       });
-
-      // Remove the tooltip after a certain duration or when clicking outside of it
-      setTimeout(() => {
-        tooltip.remove();
-      }, 6000); // Remove after 6 seconds (adjust as needed)
     }
   });
 
