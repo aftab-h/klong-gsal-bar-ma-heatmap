@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Heatmap</title>
-
+    `
     <style>
       :root {
         --fade: 0.4;
@@ -139,10 +139,9 @@
         width: 100%;
       }
 
-
       .text-container::-webkit-scrollbar-track {
-         -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-          background-color: #2d3744;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #2d3744;
       }
 
       .uid-link {
@@ -151,6 +150,16 @@
 
       .uid-link:hover {
         text-decoration: underline;
+      }
+
+      span.highlight[data-match-type="0"] {
+        background-color: rgba(153, 153, 153, 0.477);
+        /* Add any other styles you want for the grey highlight */
+      }
+
+      span.highlight[data-match-type="2"] {
+        background-color: rgba(26, 179, 255, 0.477);
+        /* Add any other styles you want for the grey highlight */
       }
     </style>
   </head>
@@ -171,11 +180,10 @@
 
     <div class="container">
       <div class="text-container" id="tantra-of-the-sun">
-          <h2>Tantra of the Sun</h2>
-          <div id="t-text" class="text">Paste the text of T here</div>
+        <h2>Tantra of the Sun</h2>
+        <div id="t-text" class="text">Paste the text of T here</div>
         <div class="scroll-marker"></div>
       </div>
-
 
       <div class="text-container" id="ls-corpus">
         <h2>Longchenpa's Collected Works (LS), Volumes 5-8</h2>
@@ -189,7 +197,7 @@
       import { EwtsConverter } from "./lib/EwtsConverter.mjs";
       const ewts = (window.ewts = new EwtsConverter({
         leave_dubious: false,
-        pass_through: false,
+        pass_through: false
       }));
 
       const transliterate = (node, toUnicode = true) => {
@@ -211,12 +219,11 @@
           document
             .querySelectorAll(".text")
             .forEach((container) =>
-              transliterate(container, event.target.checked),
-            ),
+              transliterate(container, event.target.checked)
+            )
         );
     </script>
 
     <script src="scrollbar-markers.js"></script>
-
   </body>
 </html>
