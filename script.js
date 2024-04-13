@@ -75,12 +75,13 @@ document.addEventListener("DOMContentLoaded", async function () {
     const el = event.target;
     const uids = el.dataset.uid.split(",");
     popupEl = document.createElement("ul");
-    popupEl.classList.add("quotation-list");
+    popupEl.classList.add("tooltip");
     popupEl.style.left = `${event.clientX}px`;
     popupEl.style.top = `${event.clientY}px`;
     uids.forEach((uid) => {
       const listItem = document.createElement("li");
-      listItem.textContent = `-> ${uid}`;
+      listItem.classList.add("uid-link");
+      listItem.textContent = `➡️ ${uid}`;
       listItem.addEventListener("click", () => scrollToUidInT(uid));
       popupEl.appendChild(listItem);
     });
