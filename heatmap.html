@@ -27,33 +27,17 @@
       }
 
       .title {
-        margin: 0; /* Remove default margin */
+        margin: 0; 
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif; /* Gill Sans font */
         font-size: 24px; /* Adjust font size */
       }
 
       .subtitle {
-        margin: 0; /* Remove default margin */
+        margin: 0;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif; /* Gill Sans font */
         font-size: 16px; /* Adjust font size */
-      }
-
-      .small-text-container h3 {
-        margin: 5px 0;
-      }
-
-      .small-text-container {
-        width: 5%; /* Adjust the width as needed */
-        max-height: 250vh;
-        /* Maximum height of container, adjust as needed */
-
-        border: 1px solid #ccc;
-        padding: 5px;
-        font-size: 1px;
-        transform: scale(0.287);
-        transform-origin: 0 0;
       }
 
       .container {
@@ -66,7 +50,7 @@
       .text-container {
         position: relative;
         width: 45%;
-        max-height: 70vh;
+        max-height: 100vh;
         /* Maximum height of container, adjust as needed */
         overflow-y: auto;
         /* Add scrollbar for vertical overflow */
@@ -117,14 +101,6 @@
         z-index: 2;
       }
 
-      main.fade {
-        color: rgba(0 0 0 / var(--fade));
-      }
-
-      main.fade .highlight:not(.mark) {
-        opacity: var(--fade);
-      }
-
       .scroll-marker {
         position: absolute;
         height: 100%;
@@ -161,10 +137,36 @@
         background-color: rgba(26, 179, 255, 0.477);
         /* Add any other styles you want for the grey highlight */
       }
+
+      .title-container {
+        display: flex;
+        justify-content: space-evenly; /* Adjust as needed */
+        margin-bottom: 1px; /* Add margin if desired */
+
+      }
+
+      .column-titles {
+        position: relative;
+        width: 45%;
+        max-height: 20px;
+        padding: 1px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif; 
+        font-size: 26px; 
+        text-align: center;
+      }
+
+
+
+
+
+
+
     </style>
   </head>
 
   <body>
+    
     <header class="title-box">
       <h1 class="title">
         Secret Tantra of the Sun: <br />
@@ -178,15 +180,26 @@
       Toggle Unicode
     </label>
 
+    <div class="title-container">
+      <div class="column-titles">
+        <h2 class="subtitle">
+          Tantra of the Sun
+        </h2>
+      </div>
+      <div class="column-titles">
+        <h2 class="subtitle">
+          Longchenpa's Collected Works (LS), Volumes 5-8
+        </h2>
+      </div>
+    </div>
+
     <div class="container">
       <div class="text-container" id="tantra-of-the-sun">
-        <h2>Tantra of the Sun</h2>
         <div id="t-text" class="text">Paste the text of T here</div>
         <div class="scroll-marker"></div>
       </div>
 
       <div class="text-container" id="ls-corpus">
-        <h2>Longchenpa's Collected Works (LS), Volumes 5-8</h2>
         <div id="ls-text" class="text">Paste the text of LS Corpus here</div>
       </div>
     </div>
