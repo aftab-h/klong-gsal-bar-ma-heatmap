@@ -27,7 +27,7 @@
       }
 
       .title {
-        margin: 0; 
+        margin: 0;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif; /* Gill Sans font */
         font-size: 24px; /* Adjust font size */
@@ -142,7 +142,6 @@
         display: flex;
         justify-content: space-evenly; /* Adjust as needed */
         margin-bottom: 1px; /* Add margin if desired */
-
       }
 
       .column-titles {
@@ -151,22 +150,28 @@
         max-height: 20px;
         padding: 1px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif; 
-        font-size: 26px; 
+          sans-serif;
+        font-size: 26px;
         text-align: center;
       }
 
+      @keyframes swellAnimation {
+        0% {
+        }
+        50% {
+          background-color: rgba(228, 255, 26, 0.5);
+        }
+        100% {
+        }
+      }
 
-
-
-
-
-
+      .highlighted-swell-animation {
+        animation: swellAnimation 2s ease-in-out; 
+      }
     </style>
   </head>
 
   <body>
-    
     <header class="title-box">
       <h1 class="title">
         Secret Tantra of the Sun: <br />
@@ -182,14 +187,10 @@
 
     <div class="title-container">
       <div class="column-titles">
-        <h2 class="subtitle">
-          Tantra of the Sun
-        </h2>
+        <h2 class="subtitle">Tantra of the Sun</h2>
       </div>
       <div class="column-titles">
-        <h2 class="subtitle">
-          Longchenpa's Collected Works (LS), Volumes 5-8
-        </h2>
+        <h2 class="subtitle">Longchenpa's Collected Works (LS), Volumes 5-8</h2>
       </div>
     </div>
 

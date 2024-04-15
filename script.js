@@ -29,6 +29,14 @@ document.addEventListener("DOMContentLoaded", async function () {
     // Scroll to the T Text citation if found
     if (tTextCitation) {
       tTextCitation.scrollIntoView({ behavior: "smooth", block: "start" });
+
+      // Add animation to the corresponding line
+      tTextCitation.classList.add("highlighted-swell-animation");
+
+      // Remove animation after x seconds
+      setTimeout(() => {
+        tTextCitation.classList.remove("highlighted-swell-animation");
+      }, 4000);
     } else {
       console.log("No corresponding T Text citation found for UID: " + uid);
     }
@@ -145,6 +153,15 @@ document.addEventListener("DOMContentLoaded", async function () {
       const lineUids = line.dataset.uid.split(",");
       if (lineUids.includes(uid)) {
         line.scrollIntoView({ behavior: "smooth", block: "start" });
+
+        // Add animation to the corresponding line
+        line.classList.add("highlighted-swell-animation");
+
+        // Remove animation after x seconds
+        setTimeout(() => {
+          line.classList.remove("highlighted-swell-animation");
+        }, 4000);
+
         return;
       } else {
         console.log("No corresponding LS citation found for UID: " + uid);
