@@ -6,8 +6,13 @@ document.addEventListener("DOMContentLoaded", async function () {
   console.log("test");
 
   // Load HTML's
-  fetchAndLoadData("key_and_data/highlighted_ls_text.html", lsCorpusContainer);
-  fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer);
+  fetchAndLoadData(
+    "key_and_data/highlighted_ls_text.html",
+    lsCorpusContainer
+  ).then(() => createMinimap("ls-corpus", "ls-text"));
+  fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer).then(
+    () => createMinimap("tantra-of-the-sun", "t-text")
+  );
   //fetchAndLoadData("key_and_data/highlighted_t_text.html", smallTextContainer);
 
   const keyData = await fetch("key_and_data/key_with_indexes.json")
