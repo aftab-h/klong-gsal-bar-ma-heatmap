@@ -52,14 +52,28 @@
         width: 45%;
         max-height: 100vh;
         /* Maximum height of container, adjust as needed */
-        overflow-y: auto;
+        overflow: hidden;
         /* Add scrollbar for vertical overflow */
         border: 1px solid #ccc;
+
+        display: flex;
+        gap: 10px;
+      }
+
+      .minimap {
+        min-width: 40px;
+        background: rgba(0 0 0 / 0.035);
+        position: relative;
+      }
+
+      .text {
+        flex-grow: 1;
+        overflow-y: scroll;
         padding: 10px;
       }
 
       .highlight {
-        background-color: hsl(31, 100%, 90%);
+        background-color: hsl(30, 100%, 90%);
         color: black;
         cursor: pointer;
         outline: 1px solid rgba(0 0 0 / 0.5);
@@ -177,10 +191,12 @@
 
     <div class="container">
       <div class="text-container" id="tantra-of-the-sun">
+        <div class="minimap"></div>
         <div id="t-text" class="text">Paste the text of T here</div>
       </div>
 
       <div class="text-container" id="ls-corpus">
+        <div class="minimap"></div>
         <div id="ls-text" class="text">Paste the text of LS Corpus here</div>
       </div>
     </div>
@@ -217,5 +233,8 @@
             )
         );
     </script>
+
+    <script src="lib/rasterizeHTML.allinone.js"></script>
+    <script src="minimap.js"></script>
   </body>
 </html>
