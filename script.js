@@ -28,6 +28,13 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   let popupEl;
 
+  const flashEl = (el) => {
+    el.classList.add("highlighted-swell-animation");
+    setTimeout(() => {
+      el.classList.remove("highlighted-swell-animation");
+    }, 4000);
+  };
+
   const scrollToUidInT = (uid) => {
     // Find the corresponding T Text citation using data-uid attribute
     const tTextCitation = tTextContainer.querySelector(`[data-uid*="${uid}"]`);
@@ -36,12 +43,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       tTextCitation.scrollIntoView({ behavior: "smooth", block: "start" });
 
       // Add animation to the corresponding line
-      tTextCitation.classList.add("highlighted-swell-animation");
-
-      // Remove animation after x seconds
-      setTimeout(() => {
-        tTextCitation.classList.remove("highlighted-swell-animation");
-      }, 4000);
+      flashEl(tTextCitation);
     } else {
       console.log("No corresponding T Text citation found for UID: " + uid);
     }
@@ -160,12 +162,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         line.scrollIntoView({ behavior: "smooth", block: "start" });
 
         // Add animation to the corresponding line
-        line.classList.add("highlighted-swell-animation");
-
-        // Remove animation after x seconds
-        setTimeout(() => {
-          line.classList.remove("highlighted-swell-animation");
-        }, 4000);
+        flashEl(line);
 
         return;
       } else {
