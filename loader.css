@@ -1,0 +1,43 @@
+.loader {
+  display: none;
+}
+
+.loader > span {
+  animation-duration: 0.69s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: rotate;
+  animation-timing-function: linear;
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+}
+
+.loader svg {
+  fill: #0000;
+}
+
+.loader circle {
+  stroke-width: 16;
+  stroke-dasharray: 276.4608 276.4608;
+  stroke-linecap: butt;
+}
+
+.loader circle.bg {
+  stroke: #e0e0e0;
+  stroke-dashoffset: -22;
+}
+
+.loader circle.stroke {
+  stroke-dashoffset: 143.759616;
+  stroke: #0f62fe;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

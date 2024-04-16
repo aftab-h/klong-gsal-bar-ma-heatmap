@@ -6,15 +6,16 @@
     <title>Heatmap</title>
     `
     <style>
-      :root {
-        --fade: 0.4;
-      }
-
       body {
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
         margin: 0;
         padding: 0;
+      }
+
+      label[for="toggle-unicode"] {
+        display: flex;
+        gap: 0.5rem;
       }
 
       .title-box {
@@ -167,6 +168,7 @@
         animation: swellAnimation 2s ease-in-out;
       }
     </style>
+    <link rel="stylesheet" href="loader.css" />
   </head>
 
   <body>
@@ -181,6 +183,15 @@
     <label for="toggle-unicode">
       <input type="checkbox" id="toggle-unicode" />
       Toggle Unicode
+      <span class="loader">
+        <span>
+          <svg viewBox="0 0 100 100">
+            <title>loading</title>
+            <circle cx="50%" cy="50%" r="42" class="bg"></circle>
+            <circle cx="50%" cy="50%" r="42" class="stroke"></circle>
+          </svg>
+        </span>
+      </span>
     </label>
 
     <div class="title-container">
@@ -215,34 +226,49 @@
     <script src="script.js"></script>
 
     <script type="module">
-      import { EwtsConverter } from "./lib/EwtsConverter.mjs";
-      const ewts = (window.ewts = new EwtsConverter({
-        leave_dubious: false,
-        pass_through: false
-      }));
+      const transliterateWorker = new Worker("./transliterate-worker.js", {
+        type: "module"
+      });
 
       const transliterate = (node, toUnicode = true) => {
+        const promises = [];
         const childNodes = node.childNodes;
         for (let i = 0; i < childNodes.length; i++) {
           if (childNodes[i].nodeType == 1) {
             transliterate(childNodes[i], toUnicode);
           } else if (childNodes[i].nodeType == 3) {
-            childNodes[i].textContent = toUnicode
-              ? ewts.to_unicode(childNodes[i].textContent)
-              : ewts.to_ewts(childNodes[i].textContent);
+            promises.push(
+              new Promise((resolve) => {
+                const channel = new MessageChannel();
+                channel.port2.onmessage = ({ data }) => {
+                  childNodes[i].textContent = data;
+                  resolve();
+                };
+                transliterateWorker.postMessage(
+                  { content: childNodes[i].textContent, toUnicode },
+                  [channel.port1]
+                );
+              })
+            );
           }
         }
+        return Promise.all(promises);
       };
 
       document
         .querySelector("#toggle-unicode")
-        .addEventListener("change", (event) =>
-          document
-            .querySelectorAll(".text")
-            .forEach((container) =>
+        .addEventListener("change", (event) => {
+          document.querySelector(".loader").style.display = "block";
+          Promise.all(
+            [...document.querySelectorAll(".text")].map((container) =>
               transliterate(container, event.target.checked)
             )
-        );
+          ).then(() => {
+            document.querySelector(".loader").style.display = "none";
+            createMinimap("tantra-of-the-sun", "t-text");
+            createMinimap("ls-corpus", "ls-text");
+          });
+        });
     </script>
 
     <script src="minimap.js"></script>

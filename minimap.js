@@ -4,6 +4,7 @@ const createMinimap = (containerId, contentId) => {
 
   // Set up the canvas and add to the minimap container
   const minimapEl = containerEl.querySelector(".minimap");
+  minimapEl.innerHTML = "";
   const canvas = document.createElement("canvas");
   canvas.style.position = "fixed";
   canvas.style.width = "40px";
