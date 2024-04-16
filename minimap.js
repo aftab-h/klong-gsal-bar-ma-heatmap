@@ -43,13 +43,26 @@ const createMinimap = (containerId, contentId) => {
     () => (indicator.style.marginTop = contentEl.scrollTop * ratio + "px")
   );
 
-  // Add click-to-scroll
-  minimapEl.addEventListener("click", (event) => {
+  // Add the drag-to-scroll functionality
+  let dragging = false;
+  minimapEl.addEventListener("mousedown", (event) => {
     event.stopPropagation();
+    dragging = true;
     const rect = minimapEl.getBoundingClientRect();
     contentEl.scrollTo({
       top: ((event.clientY - rect.top) / rect.height) * contentHeight,
-      behavior: "smooth"
+      behavior: "instant"
     });
+  });
+  minimapEl.addEventListener("mouseup", () => (dragging = false));
+  minimapEl.addEventListener("mouseleave", () => (dragging = false));
+  minimapEl.addEventListener("mousemove", (event) => {
+    if (dragging) {
+      const rect = minimapEl.getBoundingClientRect();
+      contentEl.scrollTo({
+        top: ((event.clientY - rect.top) / rect.height) * contentHeight,
+        behavior: "instant"
+      });
+    }
   });
 };
