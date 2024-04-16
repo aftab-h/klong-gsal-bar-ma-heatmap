@@ -101,25 +101,6 @@
         z-index: 2;
       }
 
-      .scroll-marker {
-        position: absolute;
-        height: 100%;
-        width: 12px;
-        pointer-events: none;
-        top: 0;
-        right: 0;
-      }
-      .scroll-marker span {
-        /* markers */
-        position: absolute;
-        width: 100%;
-      }
-
-      .text-container::-webkit-scrollbar-track {
-        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-        background-color: #2d3744;
-      }
-
       .uid-link {
         list-style: none;
       }
@@ -197,7 +178,6 @@
     <div class="container">
       <div class="text-container" id="tantra-of-the-sun">
         <div id="t-text" class="text">Paste the text of T here</div>
-        <div class="scroll-marker"></div>
       </div>
 
       <div class="text-container" id="ls-corpus">
@@ -237,7 +217,5 @@
             )
         );
     </script>
-
-    <script src="scrollbar-markers.js"></script>
   </body>
 </html>
