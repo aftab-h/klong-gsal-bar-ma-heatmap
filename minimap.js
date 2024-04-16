@@ -14,17 +14,15 @@ const createMinimap = (containerId, contentId) => {
 
   // Draw the content to the canvas
   const context = canvas.getContext("2d");
-  const content =
-    `<style> :root { color: transparent; } span { background: hsl(30 100% 40%); } </style>` +
-    "<div>" +
-    contentEl.innerHTML +
-    "</div>";
+  const minimapHeight = minimapEl.offsetHeight;
+  const contentHeight = contentEl.scrollHeight;
 
-  rasterizeHTML
-    .drawHTML(content)
-    .then((renderResult) =>
-      context.drawImage(renderResult.image, 0, 0, 40, minimapEl.offsetHeight)
-    );
+  contentEl.querySelectorAll(".highlight").forEach((highlight) => {
+    const y = (highlight.offsetTop / contentHeight) * minimapHeight;
+    context.fillStyle =
+      getComputedStyle(highlight).getPropertyValue("background-color");
+    context.fillRect(0, y, 40, 1);
+  });
 
   // Set up the indicator element
   const indicator = document.createElement("div");
