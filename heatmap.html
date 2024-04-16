@@ -39,12 +39,18 @@
           sans-serif; /* Gill Sans font */
         font-size: 16px; /* Adjust font size */
       }
+      .main-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh; /* Take up full viewport height */
+        overflow: hidden; /* Hide any overflow content */
+      }
 
       .container {
         display: flex;
         justify-content: space-around;
-        margin: 20px;
-        height: 780px;
+        margin: 10px;
+        height: 80vh;
       }
 
       .text-container {
@@ -55,8 +61,8 @@
         overflow: hidden;
         /* Add scrollbar for vertical overflow */
         border: 1px solid #ccc;
-
         display: flex;
+        height: 90%;
         gap: 10px;
       }
 
@@ -167,40 +173,43 @@
   </head>
 
   <body>
-    <header class="title-box">
-      <h1 class="title">
-        Secret Tantra of the Sun: <br />
-        Blazing Lumionous Matrix of Samantabhadri
-      </h1>
-      <h2 class="subtitle">An Intertextual Heatmap</h2>
-    </header>
+    <div class="main-container">
+      <header class="title-box">
+        <h1 class="title">
+          Secret Tantra of the Sun: <br />
+          Blazing Lumionous Matrix of Samantabhadri
+        </h1>
+        <h2 class="subtitle">An Intertextual Heatmap</h2>
+      </header>
 
-    <label for="toggle-unicode">
-      <input type="checkbox" id="toggle-unicode" />
-      Toggle Unicode
-    </label>
+      <label for="toggle-unicode">
+        <input type="checkbox" id="toggle-unicode" />
+        Toggle Unicode
+      </label>
 
-    <div class="title-container">
-      <div class="column-titles">
-        <h2 class="subtitle">Tantra of the Sun</h2>
+      <div class="title-container">
+        <div class="column-titles">
+          <h2 class="subtitle">Tantra of the Sun</h2>
+        </div>
+        <div class="column-titles">
+          <h2 class="subtitle">
+            Longchenpa's Collected Works (LS), Volumes 5-8
+          </h2>
+        </div>
       </div>
-      <div class="column-titles">
-        <h2 class="subtitle">Longchenpa's Collected Works (LS), Volumes 5-8</h2>
+
+      <div class="container">
+        <div class="text-container" id="tantra-of-the-sun">
+          <div class="minimap"></div>
+          <div id="t-text" class="text">Paste the text of T here</div>
+        </div>
+
+        <div class="text-container" id="ls-corpus">
+          <div class="minimap"></div>
+          <div id="ls-text" class="text">Paste the text of LS Corpus here</div>
+        </div>
       </div>
     </div>
-
-    <div class="container">
-      <div class="text-container" id="tantra-of-the-sun">
-        <div class="minimap"></div>
-        <div id="t-text" class="text">Paste the text of T here</div>
-      </div>
-
-      <div class="text-container" id="ls-corpus">
-        <div class="minimap"></div>
-        <div id="ls-text" class="text">Paste the text of LS Corpus here</div>
-      </div>
-    </div>
-
     <script src="script.js"></script>
 
     <script type="module">
