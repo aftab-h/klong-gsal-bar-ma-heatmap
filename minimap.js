@@ -42,4 +42,14 @@ const createMinimap = (containerId, contentId) => {
     "scroll",
     () => (indicator.style.marginTop = contentEl.scrollTop * ratio + "px")
   );
+
+  // Add click-to-scroll
+  minimapEl.addEventListener("click", (event) => {
+    event.stopPropagation();
+    const rect = minimapEl.getBoundingClientRect();
+    contentEl.scrollTo({
+      top: ((event.clientY - rect.top) / rect.height) * contentHeight,
+      behavior: "smooth"
+    });
+  });
 };
