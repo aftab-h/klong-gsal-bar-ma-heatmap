@@ -135,8 +135,8 @@
 
       .title-container {
         display: flex;
-        justify-content: space-evenly; /* Adjust as needed */
-        margin-bottom: 1px; /* Add margin if desired */
+        justify-content: space-around; /* Adjust as needed */
+        margin: 20px;
       }
 
       .column-titles {
@@ -148,6 +148,9 @@
           sans-serif;
         font-size: 26px;
         text-align: center;
+
+        display: flex;
+        justify-content: space-between;
       }
 
       @keyframes swellAnimation {
@@ -183,9 +186,17 @@
     <div class="title-container">
       <div class="column-titles">
         <h2 class="subtitle">Tantra of the Sun</h2>
+        <div>
+          <button id="t-prev">prev</button>
+          <button id="t-next">next</button>
+        </div>
       </div>
       <div class="column-titles">
         <h2 class="subtitle">Longchenpa's Collected Works (LS), Volumes 5-8</h2>
+        <div>
+          <button id="ls-prev">prev</button>
+          <button id="ls-next">next</button>
+        </div>
       </div>
     </div>
 
@@ -235,5 +246,6 @@
     </script>
 
     <script src="minimap.js"></script>
+    <script src="jump-buttons.js"></script>
   </body>
 </html>

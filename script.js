@@ -1,3 +1,10 @@
+const flashEl = (el) => {
+  el.classList.add("highlighted-swell-animation");
+  setTimeout(() => {
+    el.classList.remove("highlighted-swell-animation");
+  }, 4000);
+};
+
 document.addEventListener("DOMContentLoaded", async function () {
   const lsCorpusContainer = document.getElementById("ls-text");
   const tTextContainer = document.getElementById("t-text");
