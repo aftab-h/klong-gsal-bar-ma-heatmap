@@ -66,8 +66,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     popupEl.style.top = `${event.clientY}px`;
     uids.forEach((uid) => {
       const listItem = document.createElement("li");
+      const data = keyData[uid];
+
       listItem.classList.add("uid-link");
-      listItem.textContent = `➡️ ${uid}`;
+      listItem.textContent = `➡️ Ch. ${data["Ch. in T Text"]} ${uid}`;
       listItem.addEventListener("click", () => scrollToUidInT(uid));
       popupEl.appendChild(listItem);
     });
