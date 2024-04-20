@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const el = event.target;
     const popupEl = document.createElement("div");
     popupEl.classList.add("tooltip");
-    popupEl.textContent = "No corresponding T Text citation found.";
+    popupEl.textContent = "No corresponding citation found in the Tantra of the Sun";
   
     // Position the tooltip relative to the clicked element
     popupEl.style.left = `${event.clientX}px`;
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   
     // Append the tooltip to the clicked element's parent node (the html document)
     console.log("appending tooltip to html doc...")
-    el.parentNode.appendChild(popupEl);
+    el.appendChild(popupEl);
   
     // Remove the tooltip after a certain duration
     setTimeout(() => {
