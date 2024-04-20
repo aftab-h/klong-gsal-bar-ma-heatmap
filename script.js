@@ -8,9 +8,6 @@ const flashEl = (el) => {
 document.addEventListener("DOMContentLoaded", async function () {
   const lsCorpusContainer = document.getElementById("ls-text");
   const tTextContainer = document.getElementById("t-text");
-  //const smallTextContainer = document.getElementById('small-t-text');
-
-  console.log("test");
 
   // Load HTML's
   fetchAndLoadData(
@@ -20,7 +17,6 @@ document.addEventListener("DOMContentLoaded", async function () {
   fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer).then(
     () => createMinimap("tantra-of-the-sun", "t-text")
   );
-  //fetchAndLoadData("key_and_data/highlighted_t_text.html", smallTextContainer);
 
   const keyData = await fetch("key_and_data/key_with_indexes.json")
     .then((response) => response.json())
@@ -56,7 +52,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   };
 
+  
+  // Creating tooltip in LS corpus for lines that have >1 match in T text
   const createMatchPopup = (event) => {
+    console.log("running createMatchPopup...");
     event.stopPropagation(); // prevents the event from "bubbling" up to the document.click handler defined below
     const el = event.target;
     const uids = el.dataset.uid.split(",");
@@ -83,6 +82,37 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   };
 
+  // Creating tooltip in LS corpus when clicking on grey line
+  const createPopupForDataMatchTypeZero = (event) => {
+    console.log("running createPopupForDataMatchTypeZero...")
+    
+    const el = event.target;
+    const popupEl = document.createElement("div");
+    popupEl.classList.add("tooltip");
+    popupEl.textContent = "No corresponding T Text citation found.";
+  
+    // Position the tooltip relative to the clicked element
+    popupEl.style.left = `${event.clientX}px`;
+    popupEl.style.top = `${event.clientY}px`;
+  
+    // Append the tooltip to the clicked element's parent node (the html document)
+    console.log("appending tooltip to html doc...")
+    el.parentNode.appendChild(popupEl);
+  
+    // Remove the tooltip after a certain duration
+    setTimeout(() => {
+      popupEl.remove();
+    }, 3000); // Adjust the duration as needed
+  }
+
+
+
+
+
+
+
+
+
   // LS Corpus Click-Scroll functionality
   lsCorpusContainer.addEventListener("click", function (event) {
     clearMatchPopup();
@@ -107,6 +137,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         } else if (matchType === "0") {
           console.log("data-match-type = 0");
           console.log("No corresponding T Text citation found for UID: " + uid);
+          createPopupForDataMatchTypeZero(event);
         } else if (matchType === "2") {
           console.log("data-match-type = 2");
           // Do something
@@ -179,6 +210,13 @@ document.addEventListener("DOMContentLoaded", async function () {
       }
     });
   }
+
+
+
+
+
+
+  
 });
 
 // FUNCTION DEFINITIONS
@@ -248,3 +286,8 @@ function appendLSCorpusInfo(tTextContainer, citationUidMap, keyData) {
     }
   });
 }
+
+
+
+
+
