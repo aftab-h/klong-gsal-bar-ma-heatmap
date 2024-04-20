@@ -52,7 +52,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   };
 
-  
   // Creating tooltip in LS corpus for lines that have >1 match in T text
   const createMatchPopup = (event) => {
     console.log("running createMatchPopup...");
@@ -82,36 +81,32 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   };
 
-  // Creating tooltip in LS corpus when clicking on grey line
-  const createPopupForDataMatchTypeZero = (event) => {
-    console.log("running createPopupForDataMatchTypeZero...")
-    
+  // For creating tooltip in LS corpus when clicking on grey or blue line
+  const createPopupForBlueGrey = (event, matchType) => {
     const el = event.target;
     const popupEl = document.createElement("div");
     popupEl.classList.add("tooltip");
-    popupEl.textContent = "No corresponding citation found in the Tantra of the Sun";
-  
+
+    if (matchType === 0) {
+      popupEl.textContent =
+        "No corresponding citation found in the Tantra of the Sun";
+    } else if (matchType === 1) {
+      popupEl.textContent =
+        "References the Tantra of the Sun, not a direct citation";
+    }
+
     // Position the tooltip relative to the clicked element
     popupEl.style.left = `${event.clientX}px`;
     popupEl.style.top = `${event.clientY}px`;
-  
+
     // Append the tooltip to the clicked element's parent node (the html document)
-    console.log("appending tooltip to html doc...")
     el.appendChild(popupEl);
-  
-    // Remove the tooltip after a certain duration
+
+    // Remove the tooltip
     setTimeout(() => {
       popupEl.remove();
-    }, 3000); // Adjust the duration as needed
-  }
-
-
-
-
-
-
-
-
+    }, 2000);
+  };
 
   // LS Corpus Click-Scroll functionality
   lsCorpusContainer.addEventListener("click", function (event) {
@@ -137,10 +132,10 @@ document.addEventListener("DOMContentLoaded", async function () {
         } else if (matchType === "0") {
           console.log("data-match-type = 0");
           console.log("No corresponding T Text citation found for UID: " + uid);
-          createPopupForDataMatchTypeZero(event);
+          createPopupForBlueGrey(event, 0);
         } else if (matchType === "2") {
           console.log("data-match-type = 2");
-          // Do something
+          createPopupForBlueGrey(event, 1);
         } else {
           console.log("Invalid data-match-type value for UID: " + uid);
         }
@@ -148,13 +143,18 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   });
 
+  // Click anywhere? Remove tooltips
   document.addEventListener("click", clearMatchPopup);
+  // Scroll ls corpus? Remove tooltips
   document
     .getElementById("ls-corpus")
     .addEventListener("scroll", clearMatchPopup);
+
+  // Scroll t text? Remove tooltips
   document
     .getElementById("tantra-of-the-sun")
     .addEventListener("scroll", clearMatchPopup);
+
 
   // T Text Click-Scroll functionality
   tTextContainer.addEventListener("click", function (event) {
@@ -210,13 +210,6 @@ document.addEventListener("DOMContentLoaded", async function () {
       }
     });
   }
-
-
-
-
-
-
-  
 });
 
 // FUNCTION DEFINITIONS
@@ -286,8 +279,3 @@ function appendLSCorpusInfo(tTextContainer, citationUidMap, keyData) {
     }
   });
 }
-
-
-
-
-
