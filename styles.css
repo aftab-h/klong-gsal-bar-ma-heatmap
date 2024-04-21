@@ -43,6 +43,7 @@ body {
 label[for="toggle-unicode"] {
   display: flex;
   gap: 0.5rem;
+  margin: 0 calc(2.5vw + 20px);
   width: max-content;
 }
 
