@@ -1,5 +1,6 @@
 .loader {
   display: none;
+  height: 16px;
 }
 
 .loader > span {
@@ -30,7 +31,7 @@
 
 .loader circle.stroke {
   stroke-dashoffset: 143.759616;
-  stroke: #0f62fe;
+  stroke: var(--sl-color-primary-600);
 }
 
 @keyframes rotate {

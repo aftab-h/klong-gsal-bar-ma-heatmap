@@ -1,6 +1,21 @@
 :root {
   --sl-input-border-width: 2px;
   --sl-color-neutral-300: rgb(82, 82, 91);
+  --sl-color-primary-50: var(--sl-color-orange-50);
+  --sl-color-primary-100: var(--sl-color-orange-100);
+  --sl-color-primary-200: var(--sl-color-orange-200);
+  --sl-color-primary-300: var(--sl-color-orange-300);
+  --sl-color-primary-400: var(--sl-color-orange-400);
+  --sl-color-primary-500: var(--sl-color-orange-500);
+  --sl-color-primary-600: var(--sl-color-orange-600);
+  --sl-color-primary-700: var(--sl-color-orange-700);
+  --sl-color-primary-800: var(--sl-color-orange-800);
+  --sl-color-primary-900: var(--sl-color-orange-900);
+  --sl-color-primary-950: var(--sl-color-orange-950);
+}
+
+:not(:defined) {
+  display: none;
 }
 
 body {
@@ -47,8 +62,9 @@ body {
 
 label[for="toggle-unicode"] {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
-  margin: 0 calc(2.5vw + 20px);
+  margin: 0 4rem;
   width: max-content;
 }
 
