@@ -13,8 +13,8 @@ body {
   left: 0;
   padding: 10px 20px;
   width: 100%;
-  background-color: #00000000;  
-  z-index: 1000;  
+  background-color: #00000000;
+  z-index: 1000;
 }
 
 .navbar-ul {
@@ -106,8 +106,8 @@ label[for="toggle-unicode"] {
 .main-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;  
-  overflow: hidden; 
+  height: 100vh;
+  overflow: hidden;
 }
 
 .about-title {
@@ -122,19 +122,19 @@ label[for="toggle-unicode"] {
 
 .container {
   display: flex;
-  justify-content: space-around;
-  margin: 10px;
+  margin: 10px 4rem;
+  gap: 4rem;
   height: 80vh;
 }
 
 .text-container {
   position: relative;
-  width: 45%;
   max-height: 100vh;
   border: 1px solid #ccc;
   display: flex;
   height: 90%;
   gap: 10px;
+  flex: 1 1 50%;
 }
 
 .text-container hr {
@@ -219,20 +219,23 @@ span.highlight[data-match-type="2"] {
 
 .title-container {
   display: flex;
-  justify-content: space-around;
-  margin: 20px;
+  margin: 20px 4rem;
+  gap: 4rem;
+  flex-grow: 1;
 }
 
 .column-titles {
   position: relative;
-  width: 45%;
   max-height: 20px;
   padding: 1px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 26px;
   text-align: center;
+  flex: 1 1 50%;
+
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 @keyframes swellAnimation {
