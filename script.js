@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     lsCorpusContainer
   ).then(() => {
     createMinimap("ls-corpus", "ls-text");
-    createChapterMenu("ls-corpus", "ls-chapters-dropdown");
+    createChapterMenuLS("ls-corpus", "ls-chapters-dropdown");
   });
   fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer).then(
     () => {
