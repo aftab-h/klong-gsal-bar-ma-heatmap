@@ -13,9 +13,15 @@ document.addEventListener("DOMContentLoaded", async function () {
   fetchAndLoadData(
     "key_and_data/highlighted_ls_text.html",
     lsCorpusContainer
-  ).then(() => createMinimap("ls-corpus", "ls-text"));
+  ).then(() => {
+    createMinimap("ls-corpus", "ls-text");
+    createChapterMenu("ls-corpus", "ls-chapters-dropdown");
+  });
   fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer).then(
-    () => createMinimap("tantra-of-the-sun", "t-text")
+    () => {
+      createMinimap("tantra-of-the-sun", "t-text");
+      createChapterMenu("tantra-of-the-sun", "t-chapters-dropdown");
+    }
   );
 
   const keyData = await fetch("key_and_data/key_with_indexes.json")
@@ -154,7 +160,6 @@ document.addEventListener("DOMContentLoaded", async function () {
   document
     .getElementById("tantra-of-the-sun")
     .addEventListener("scroll", clearMatchPopup);
-
 
   // T Text Click-Scroll functionality
   tTextContainer.addEventListener("click", function (event) {
