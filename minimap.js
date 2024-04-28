@@ -23,6 +23,12 @@ const createMinimap = (containerEl, contentEl) => {
       context.fillRect(0, y, 40, 1);
     });
 
+    contentEl.querySelectorAll("mark").forEach((highlight) => {
+      const y = (highlight.offsetTop / contentHeight) * minimapHeight;
+      context.fillStyle = "darkseagreen";
+      context.fillRect(20, y, 25, 2);
+    });
+
     // Set up the indicator element
     const indicator = document.createElement("div");
     indicator.style.position = "relative";

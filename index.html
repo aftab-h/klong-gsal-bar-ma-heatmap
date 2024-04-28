@@ -59,19 +59,27 @@
                   Chapters
                 </sl-button>
               </sl-dropdown>
+              <sl-input
+                id="t-search"
+                placeholder="Search"
+                clearable
+                size="small"
+              >
+                <sl-icon name="search" slot="prefix"></sl-icon>
+              </sl-input>
               <sl-button-group>
-                <sl-tooltip content="Previous Match">
+                <sl-tooltip content="Previous Correspondences">
                   <sl-icon-button
                     id="t-prev"
                     name="caret-up-square"
-                    label="Previous Match"
+                    label="Previous Correspondences"
                   ></sl-icon-button>
                 </sl-tooltip>
-                <sl-tooltip content="Next Match">
+                <sl-tooltip content="Next Correspondences">
                   <sl-icon-button
                     id="t-next"
                     name="caret-down-square"
-                    label="Next Match"
+                    label="Next Correspondences"
                   ></sl-icon-button>
                 </sl-tooltip>
               </sl-button-group>
@@ -94,19 +102,27 @@
                   Chapters
                 </sl-button>
               </sl-dropdown>
+              <sl-input
+                id="ls-search"
+                placeholder="Search"
+                clearable
+                size="small"
+              >
+                <sl-icon name="search" slot="prefix"></sl-icon>
+              </sl-input>
               <sl-button-group>
-                <sl-tooltip content="Previous Match">
+                <sl-tooltip content="Previous Correspondences">
                   <sl-icon-button
                     id="ls-prev"
                     name="caret-up-square"
-                    label="Previous Match"
+                    label="Previous Correspondences"
                   ></sl-icon-button>
                 </sl-tooltip>
-                <sl-tooltip content="Next Match">
+                <sl-tooltip content="Next Correspondences">
                   <sl-icon-button
                     id="ls-next"
                     name="caret-down-square"
-                    label="Next Match"
+                    label="Next Correspondences"
                   ></sl-icon-button>
                 </sl-tooltip>
               </sl-button-group>
@@ -125,5 +141,6 @@
     <script src="minimap.js"></script>
     <script src="chapter_menu.js"></script>
     <script src="jump-buttons.js"></script>
+    <script src="fts.js"></script>
   </body>
 </html>
