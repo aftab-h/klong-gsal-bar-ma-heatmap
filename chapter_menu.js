@@ -42,7 +42,7 @@ const createChapterMenuLS = (containerId, dropdownId) => {
     }
 
     const subMenuItem = document.createElement("sl-menu-item");
-    subMenuItem.innerText = text;
+    subMenuItem.innerText = `${vol}.${text}`;
     subMenuItem.addEventListener("click", () => {
       span.scrollIntoView({ behavior: "smooth" });
     });
