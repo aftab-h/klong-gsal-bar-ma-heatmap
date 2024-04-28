@@ -68,13 +68,14 @@ document.addEventListener("DOMContentLoaded", async function () {
     popupEl.classList.add("tooltip");
     popupEl.style.left = `${event.clientX}px`;
     popupEl.style.top = `${event.clientY}px`;
-    uids.forEach((uid) => {
-      const listItem = document.createElement("li");
-      const data = keyData[uid];
 
+    const data = uids.map((uid) => keyData[uid]);
+    data.sort((a, b) => a["Start Index T"] - b["Start Index T"]);
+    data.forEach((datum) => {
+      const listItem = document.createElement("li");
       listItem.classList.add("uid-link");
-      listItem.textContent = `➡️ Ch. ${data["Ch. in T Text"]} ${uid}`;
-      listItem.addEventListener("click", () => scrollToUidInT(uid));
+      listItem.textContent = `➡️ Ch. ${datum["Ch. in T Text"]} ${datum["UID"]}`;
+      listItem.addEventListener("click", () => scrollToUidInT(datum["UID"]));
       popupEl.appendChild(listItem);
     });
     el.appendChild(popupEl);
@@ -171,12 +172,20 @@ document.addEventListener("DOMContentLoaded", async function () {
       const uids = clickedElement.dataset.uid.split(",");
       popupEl = document.createElement("div");
       popupEl.classList.add("tooltip");
-      popupEl.innerHTML = uids
-        .map((uid) => {
-          const data = keyData[uid];
+
+      const data = uids.map((uid) => keyData[uid]);
+      data.sort((a, b) => a["Start Index LS"] - b["Start Index LS"]);
+      const seen = {};
+      popupEl.innerHTML = data
+        .map((datum) => {
+          const key = `${datum["Volume"]}.${datum["Text No."]}`;
+          const affix = Object.keys(seen).includes(key)
+            ? ` (${seen[key] + 1})`
+            : "";
+          seen[key] = seen[key] ? seen[key]++ : 1;
           return `
-          <span class="uid-link" data-uid="${uid}">
-            ➡️ Vol. ${data["Volume"]}, No. ${data["Text No."]}: ${data["Text Title"]}
+          <span class="uid-link" data-uid="${datum["UID"]}">
+            ➡️ Vol. ${datum["Volume"]}, No. ${datum["Text No."]}: ${datum["Text Title"]} ${affix}
           </span><br>
           `;
         })
