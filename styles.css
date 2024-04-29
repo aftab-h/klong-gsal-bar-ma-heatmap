@@ -6,7 +6,8 @@ body {
   }
 
 .navbar {
-    position: fixed;
+  display: inline;  
+  position: fixed;
     top: 0;
     left: 0;
     padding: 10px;
@@ -54,6 +55,19 @@ body {
       sans-serif;  
     font-size: 16px;  
   }
+
+  .about-title {
+    padding: 20px;  
+    text-align: center;
+
+  }
+
+  .about-body {
+    padding: 20px;  
+    text-align: center;
+
+  }
+
   .main-container {
     display: flex;
     flex-direction: column;
