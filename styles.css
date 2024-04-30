@@ -27,6 +27,16 @@ body {
     margin-right: 20px;
 }
 
+.navbar-li a {
+  color: black;  
+  text-decoration: none; 
+  font-size: 18px;
+}
+
+.navbar-li a:hover {
+  color: rgb(255, 145, 0); 
+}
+
   label[for="toggle-unicode"] {
     display: flex;
     gap: 0.5rem;
