@@ -80,14 +80,13 @@ label[for="toggle-unicode"] {
   padding: 20px;
   text-align: center;
 }
-.about-body {
-  padding: 20px;  
-  text-align: center;
-}
 
 .photo-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .photo-card {
@@ -99,21 +98,7 @@ label[for="toggle-unicode"] {
 .photo-card img {
   width: 100%;
   height: auto;
-}
-.photo-section {
-  display: flex;
-  justify-content: space-around;
-}
-
-.photo-card {
-  flex: 1;
-  margin: 0 10px;
-  text-align: center;
-}
-
-.photo-card img {
-  width: 100%;
-  height: auto;
+  border-radius: 50%;
 }
 
 /* HEATMAP CONTAINERS */
