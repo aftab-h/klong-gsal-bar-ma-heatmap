@@ -9,12 +9,12 @@ body {
 .navbar {
   display: inline;  
   position: fixed;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    width: 100%;
-    background-color: #00000000;  
-    z-index: 1000;  
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #00000000;  
+  z-index: 1000;  
 }
 
 .navbar-ul {
@@ -41,13 +41,13 @@ body {
   
 /* UNICODE TOGGLE */
 label[for="toggle-unicode"] {
-    display: flex;
-    gap: 0.5rem;
-    width: max-content;
-  }
+  display: flex;
+  gap: 0.5rem;
+  width: max-content;
+}
 
 
-  /* WEBSITE TITLE  */
+  /* WEBSITE TITLE */
 .title-box {
   background-color: #ffffff;
   color: #000000;
@@ -63,51 +63,51 @@ label[for="toggle-unicode"] {
   font-size: 24px;
 }
 
-  .subtitle {
-    margin: 0;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;  
-    font-size: 16px;  
-  }
+.subtitle {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;  
+  font-size: 16px;  
+}
 
 
-  /* ABOUT PAGE */
-  .about-title {
-    padding: 20px;  
-    text-align: center;
+/* ABOUT PAGE */
+.about-title {
+  padding: 20px;  
+  text-align: center;
 
-  }
+}
 
-  .about-body {
-    padding: 20px;  
-    text-align: center;
+.about-body {
+  padding: 20px;  
+  text-align: center;
 
-  }
+}
 
-  .photo-section {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .photo-card {
-    flex: 1;
-    margin: 0 10px;
-    text-align: center;
-  }
-  
-  .photo-card img {
-    width: 100%;
-    height: auto;
-  }
-  
+.photo-section {
+  display: flex;
+  justify-content: space-around;
+}
 
-  /* HEATMAP CONTAINERS */
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;  
-    overflow: hidden; 
-  }
+.photo-card {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* HEATMAP CONTAINERS */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;  
+  overflow: hidden; 
+}
 
 
 .about-title {
@@ -118,13 +118,6 @@ label[for="toggle-unicode"] {
 .about-body {
   padding: 20px;
   text-align: center;
-}
-
-.main-container {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
 }
 
 .container {
