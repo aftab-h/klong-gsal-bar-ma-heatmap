@@ -5,6 +5,7 @@ body {
 }
 
 /* NAVBAR */
+
 .navbar {
   display: inline;
   position: fixed;
@@ -38,18 +39,15 @@ body {
 }
 
 /* UNICODE TOGGLE */
+
 label[for="toggle-unicode"] {
   display: flex;
   gap: 0.5rem;
   width: max-content;
 }
-  display: flex;
-  gap: 0.5rem;
-  width: max-content;
-}
-
 
 /* WEBSITE TITLE  */
+
 .title-box {
   background-color: #ffffff;
   color: #000000;
@@ -70,24 +68,12 @@ label[for="toggle-unicode"] {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 16px;
 }
-.subtitle {
-  margin: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;  
-  font-size: 16px;  
-}
-
 
 /* ABOUT PAGE */
+
 .about-title {
   padding: 20px;
   text-align: center;
-}
-/* ABOUT PAGE */
-.about-title {
-  padding: 20px;  
-  text-align: center;
-
 }
 
 .about-body {
@@ -97,7 +83,6 @@ label[for="toggle-unicode"] {
 .about-body {
   padding: 20px;  
   text-align: center;
-
 }
 
 .photo-section {
@@ -131,15 +116,8 @@ label[for="toggle-unicode"] {
   height: auto;
 }
 
+/* HEATMAP CONTAINERS */
 
-/* HEATMAP CONTAINERS */
-.main-container {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
-}
-/* HEATMAP CONTAINERS */
 .main-container {
   display: flex;
   flex-direction: column;
@@ -268,7 +246,6 @@ span.highlight[data-match-type="2"] {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 26px;
   text-align: center;
-
   display: flex;
   justify-content: space-between;
 }
