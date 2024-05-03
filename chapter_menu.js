@@ -12,18 +12,40 @@ const scrollIntoViewAndWait = (element, container) => {
     }
   });
 };
+const stripTitle = (title) =>
+  title ? title[1] + title.slice(2, -1).toLowerCase() : "Chapters";
 
-const updateButtonTextFromPosition = (textContainer, callback) => {
-  const observer = new IntersectionObserver(callback, {
-    root: textContainer,
-    rootMargin: "-30% 0px -50% 0px"
-  });
-  textContainer.querySelectorAll("span.heading").forEach((span) => {
-    observer.observe(span);
-  });
+const sizeInViewport = (element, cTop, cBottom) => {
+  const { top: elTop, bottom: elBottom } = element.getBoundingClientRect();
+  return Math.min(elBottom, cBottom) - Math.max(elTop, cTop);
 };
 
-const stripTitle = (title) => title[1] + title.slice(2, -1).toLowerCase();
+const updateButtonTextFromPosition = (textContainer, button) => {
+  let debounceTimeout;
+  textContainer.addEventListener("scroll", () => {
+    clearTimeout(debounceTimeout);
+    debounceTimeout = setTimeout(() => {
+      const { top: cTop, bottom: cBottom } =
+        textContainer.getBoundingClientRect();
+      let visible = [...textContainer.querySelectorAll("section")].filter(
+        (section) => {
+          const { top: elTop, bottom: elBottom } =
+            section.getBoundingClientRect();
+          if (elTop >= cTop && elTop <= cBottom) return true;
+          if (elBottom >= cTop && elBottom <= cBottom) return true;
+          if (elTop <= cTop && elBottom >= cBottom) return true;
+        }
+      );
+
+      visible = visible.toSorted(
+        (a, b) =>
+          sizeInViewport(b, cTop, cBottom) - sizeInViewport(a, cTop, cBottom)
+      );
+      buttonText = (visible[0].querySelector("span.heading") || {}).textContent;
+      button.innerText = stripTitle(buttonText);
+    }, 100);
+  });
+};
 
 const createChapterMenu = (containerId, dropdownId) => {
   const textContainer = document
@@ -46,11 +68,7 @@ const createChapterMenu = (containerId, dropdownId) => {
   });
   dropdown.appendChild(menu);
 
-  updateButtonTextFromPosition(textContainer, ([entry]) => {
-    if (entry.isIntersecting) {
-      button.innerText = stripTitle(entry.target.textContent);
-    }
-  });
+  updateButtonTextFromPosition(textContainer, button);
 };
 
 const createChapterMenuLS = (containerId, dropdownId) => {
@@ -88,9 +106,5 @@ const createChapterMenuLS = (containerId, dropdownId) => {
   });
 
   dropdown.appendChild(menu);
-  updateButtonTextFromPosition(textContainer, ([entry]) => {
-    if (entry.isIntersecting) {
-      button.innerText = stripTitle(entry.target.textContent);
-    }
-  });
+  updateButtonTextFromPosition(textContainer, button);
 };
