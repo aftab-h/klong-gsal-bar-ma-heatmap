@@ -208,6 +208,22 @@ label[for="toggle-unicode"] {
   background-color: hsl(30 100% 40%);
 }
 
+.highlight[data-depth="7"] {
+  background-color: hsl(30 100% 35%);
+}
+
+.highlight[data-depth="8"] {
+  background-color: hsl(30 100% 35%);
+}
+
+.highlight[data-depth="9"] {
+  background-color: hsl(30 100% 35%);
+}
+
+.highlight[data-depth="10"] {
+  background-color: hsl(30 100% 35%);
+}
+
 .highlight:hover {
   outline: 2px solid green;
   outline-offset: 0;
