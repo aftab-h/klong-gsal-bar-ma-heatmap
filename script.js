@@ -259,9 +259,20 @@ function fetchAndLoadData(filePath, container) {
   return fetch(filePath)
     .then((response) => response.text())
     .then((textData) => {
+      container.innerHTML = "";
+      const cont = document.createElement("div");
       textData = textData.replace(/\n/g, "<br>"); // Converts newline characters to <br> for HTML display
-      // Set the inner HTML of the container with the txt data
-      container.innerHTML = textData;
+      cont.innerHTML = textData;
+      let section = document.createElement("section");
+      const childNodes = cont.childNodes;
+      for (let i = 0; i < childNodes.length; i++) {
+        if (childNodes[i].nodeType === 1 && childNodes[i].nodeName === "H2") {
+          container.append(section);
+          section = document.createElement("section");
+        }
+        section.append(childNodes[i].cloneNode(true));
+      }
+      container.append(section);
     });
 }
 
