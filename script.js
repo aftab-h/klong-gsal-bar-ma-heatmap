@@ -259,23 +259,9 @@ function fetchAndLoadData(filePath, container) {
   return fetch(filePath)
     .then((response) => response.text())
     .then((textData) => {
-      textData = textData.replace(/\n\s*\[/g, "<hr>[");
       textData = textData.replace(/\n/g, "<br>"); // Converts newline characters to <br> for HTML display
       // Set the inner HTML of the container with the txt data
       container.innerHTML = textData;
-
-      const hrs = [...container.querySelectorAll("hr")];
-      hrs.forEach((hr) => {
-        hr.addEventListener("click", (event) => {
-          const i = hrs.indexOf(hr);
-          if (i < hrs.length - 1) {
-            container.scrollTo({
-              top: hrs[i + 1].offsetTop - 40,
-              behavior: "smooth"
-            });
-          }
-        });
-      });
     });
 }
 
