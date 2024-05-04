@@ -1,7 +1,4 @@
-const createMinimap = (containerId, contentId) => {
-  const containerEl = document.getElementById(containerId);
-  const contentEl = document.getElementById(contentId);
-
+const createMinimap = (containerEl, contentEl) => {
   const resizeObserver = new ResizeObserver(() => {
     // Set up the canvas and add to the minimap container
     const minimapEl = containerEl.querySelector(".minimap");

@@ -28,13 +28,10 @@ body {
 
 .navbar {
   display: inline;
-  position: fixed;
   top: 0;
   left: 0;
   padding: 10px 20px;
   width: 100%;
-  background-color: #00000000;
-  z-index: 1000;
 }
 
 .navbar-ul {
@@ -73,7 +70,6 @@ label[for="toggle-unicode"] {
 .title-box {
   background-color: #ffffff;
   color: #000000;
-  padding: 20px;
   text-align: center;
   max-width: 50%;
   margin: 0 auto; /* Center the title box horizontally */
@@ -144,28 +140,27 @@ label[for="toggle-unicode"] {
 
 .container {
   display: flex;
-  margin: 10px 4rem;
-  gap: 4rem;
-  height: 80vh;
+  margin: 10px 2vw;
+  gap: 2vw;
+  flex-grow: 1;
+  min-height: 0;
+}
+
+.container > div {
+  flex: 0 0 47vw;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
 .text-container {
   position: relative;
-  max-height: 100vh;
   border: 1px solid #ccc;
   display: flex;
-  height: 90%;
+  height: 100%;
   gap: 10px;
-  flex: 1 1 50%;
-}
-
-.text-container hr {
-  cursor: pointer;
-  margin: 1rem;
-}
-
-.text-container hr:hover {
-  transform: scaleY(3);
+  flex-grow: 1;
+  min-height: 0;
 }
 
 .minimap {
@@ -176,6 +171,7 @@ label[for="toggle-unicode"] {
 
 .text {
   flex-grow: 1;
+  overflow-x: hidden;
   overflow-y: scroll;
   padding: 10px;
 }
@@ -254,15 +250,15 @@ span.highlight[data-match-type="0"] {
 span.highlight[data-match-type="2"] {
   background-color: rgba(26, 179, 255, 0.477);
 }
-
+/* 
 .title-container {
   display: flex;
   margin: 10px 4rem 0;
   gap: 4rem;
   flex-grow: 1;
-}
+} */
 
-.column-titles {
+/* .column-titles {
   position: relative;
   padding: 1px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -272,7 +268,7 @@ span.highlight[data-match-type="2"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .controls {
   display: flex;
