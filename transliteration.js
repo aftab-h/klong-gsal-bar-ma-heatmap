@@ -47,6 +47,8 @@ document
         document.querySelector(".container").style.opacity = "1";
         createMinimap(tTextContainer, tTextContent);
         createMinimap(lsCorpusContainer, lsCorpusContent);
+        createChapterMenu(tText);
+        createChapterMenuLS(lsCorpus);
       });
     }, 0);
   });
