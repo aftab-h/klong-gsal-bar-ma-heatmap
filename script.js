@@ -259,23 +259,20 @@ function fetchAndLoadData(filePath, container) {
   return fetch(filePath)
     .then((response) => response.text())
     .then((textData) => {
-      textData = textData.replace(/\n\s*\[/g, "<hr>[");
+      container.innerHTML = "";
+      const cont = document.createElement("div");
       textData = textData.replace(/\n/g, "<br>"); // Converts newline characters to <br> for HTML display
-      // Set the inner HTML of the container with the txt data
-      container.innerHTML = textData;
-
-      const hrs = [...container.querySelectorAll("hr")];
-      hrs.forEach((hr) => {
-        hr.addEventListener("click", (event) => {
-          const i = hrs.indexOf(hr);
-          if (i < hrs.length - 1) {
-            container.scrollTo({
-              top: hrs[i + 1].offsetTop - 40,
-              behavior: "smooth"
-            });
-          }
-        });
-      });
+      cont.innerHTML = textData;
+      let section = document.createElement("section");
+      const childNodes = cont.childNodes;
+      for (let i = 0; i < childNodes.length; i++) {
+        if (childNodes[i].nodeType === 1 && childNodes[i].nodeName === "H2") {
+          container.append(section);
+          section = document.createElement("section");
+        }
+        section.append(childNodes[i].cloneNode(true));
+      }
+      container.append(section);
     });
 }
 

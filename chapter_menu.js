@@ -1,21 +1,85 @@
+const scrollIntoViewAndWait = (element, container) => {
+  return new Promise((resolve) => {
+    if ("onscrollend" in window) {
+      container.addEventListener("scrollend", resolve, { once: true });
+      element.scrollIntoView({
+        behavior: "smooth"
+      });
+    } else {
+      /* onscrollend is not supported in Safari, so scroll immediately (without animation) */
+      element.scrollIntoView();
+      resolve();
+    }
+  });
+};
+
+const throttle = (callback, delay) => {
+  let wait = false;
+  return (...args) => {
+    if (wait) return;
+    callback(...args);
+    wait = true;
+    setTimeout(() => (wait = false), delay);
+  };
+};
+
+const stripTitle = (title) =>
+  title ? title[1] + title.slice(2, -1).toLowerCase() : "Chapters";
+
+const sizeInViewport = (element, cTop, cBottom) => {
+  const { top: elTop, bottom: elBottom } = element.getBoundingClientRect();
+  return Math.min(elBottom, cBottom) - Math.max(elTop, cTop);
+};
+
+const updateButtonTextFromPosition = (textContainer, button) => {
+  let debounceTimeout;
+  textContainer.addEventListener("scroll", () => {
+    clearTimeout(debounceTimeout);
+    debounceTimeout = setTimeout(() => {
+      const { top: cTop, bottom: cBottom } =
+        textContainer.getBoundingClientRect();
+      let visible = [...textContainer.querySelectorAll("section")].filter(
+        (section) => {
+          const { top: elTop, bottom: elBottom } =
+            section.getBoundingClientRect();
+          if (elTop >= cTop && elTop <= cBottom) return true;
+          if (elBottom >= cTop && elBottom <= cBottom) return true;
+          if (elTop <= cTop && elBottom >= cBottom) return true;
+        }
+      );
+
+      visible = visible.toSorted(
+        (a, b) =>
+          sizeInViewport(b, cTop, cBottom) - sizeInViewport(a, cTop, cBottom)
+      );
+      buttonText = (visible[0].querySelector("span.heading") || {}).textContent;
+      button.innerText = stripTitle(buttonText);
+    }, 100);
+  });
+};
+
 const createChapterMenu = (containerId, dropdownId) => {
   const textContainer = document
     .getElementById(containerId)
     .querySelector(".text");
   const dropdown = document.getElementById(dropdownId);
+  const button = dropdown.querySelector("sl-button");
   const menu = document.createElement("sl-menu");
   const headingSpans = textContainer.querySelectorAll("span.heading");
 
   headingSpans.forEach((span) => {
     const dropdownOption = document.createElement("sl-menu-item");
-    dropdownOption.textContent =
-      span.textContent[1] + span.textContent.slice(2, -1).toLowerCase();
+    dropdownOption.textContent = stripTitle(span.textContent);
     dropdownOption.addEventListener("click", () => {
-      span.scrollIntoView({ behavior: "smooth" });
+      scrollIntoViewAndWait(span, textContainer).then(
+        () => (button.innerText = stripTitle(span.textContent))
+      );
     });
     menu.appendChild(dropdownOption);
   });
   dropdown.appendChild(menu);
+
+  updateButtonTextFromPosition(textContainer, button);
 };
 
 const createChapterMenuLS = (containerId, dropdownId) => {
@@ -23,14 +87,16 @@ const createChapterMenuLS = (containerId, dropdownId) => {
     .getElementById(containerId)
     .querySelector(".text");
   const dropdown = document.getElementById(dropdownId);
+  const button = dropdown.querySelector("sl-button");
   const menu = document.createElement("sl-menu");
   const headingSpans = textContainer.querySelectorAll("span.heading");
 
   let menuItem;
   let subMenu;
   let currentVol;
+
   headingSpans.forEach((span) => {
-    const [vol, text] = span.textContent.slice(1, -1).split(".");
+    const [vol, text] = stripTitle(span.textContent).split(".");
     if (!currentVol || currentVol !== vol) {
       menuItem = document.createElement("sl-menu-item");
       menu.appendChild(menuItem);
@@ -44,10 +110,31 @@ const createChapterMenuLS = (containerId, dropdownId) => {
     const subMenuItem = document.createElement("sl-menu-item");
     subMenuItem.innerText = `${vol}.${text}`;
     subMenuItem.addEventListener("click", () => {
-      span.scrollIntoView({ behavior: "smooth" });
+      scrollIntoViewAndWait(span, textContainer).then(
+        () => (button.innerText = stripTitle(span.textContent))
+      );
     });
     subMenu.appendChild(subMenuItem);
   });
 
   dropdown.appendChild(menu);
+  const observer = new MutationObserver(
+    throttle((mutationList) => {
+      const menuItem = mutationList[0].target;
+      const subMenu = menuItem.querySelector("sl-menu");
+      if (!subMenu) return;
+      subMenu.style.maxHeight =
+        window.innerHeight - menuItem.getBoundingClientRect().top - 20 + "px";
+    }, 100)
+  );
+
+  dropdown.addEventListener("sl-show", () => {
+    observer.observe(menu, {
+      attributes: true,
+      subtree: true
+    });
+  });
+  dropdown.addEventListener("sl-hide", () => observer.disconnect());
+
+  updateButtonTextFromPosition(textContainer, button);
 };
