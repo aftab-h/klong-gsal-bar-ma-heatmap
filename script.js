@@ -1,3 +1,13 @@
+const tTextContainer = document
+  .getElementById("tantra-of-the-sun")
+  .querySelector(".text-container");
+const tTextContent = document.getElementById("t-text");
+
+const lsCorpusContainer = document
+  .getElementById("ls-corpus")
+  .querySelector(".text-container");
+const lsCorpusContent = document.getElementById("ls-text");
+
 const flashEl = (el) => {
   el.classList.add("highlighted-swell-animation");
   setTimeout(() => {
@@ -6,16 +16,6 @@ const flashEl = (el) => {
 };
 
 document.addEventListener("DOMContentLoaded", async function () {
-  const tTextContainer = document
-    .getElementById("tantra-of-the-sun")
-    .querySelector(".text-container");
-  const tTextContent = document.getElementById("t-text");
-
-  const lsCorpusContainer = document
-    .getElementById("ls-corpus")
-    .querySelector(".text-container");
-  const lsCorpusContent = document.getElementById("ls-text");
-
   // Load HTML's
   fetchAndLoadData(
     "key_and_data/highlighted_ls_text.html",
