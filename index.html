@@ -38,7 +38,6 @@
 
       <label for="toggle-unicode">
         <sl-switch id="toggle-unicode">Use Tibetan Script</sl-switch>
-
         <span class="loader">
           <span>
             <svg viewBox="0 0 100 100">
@@ -50,72 +49,73 @@
         </span>
       </label>
 
-      <div class="title-container">
-        <div class="column-titles">
-          <h2 class="subtitle">Tantra of the Sun</h2>
-          <div class="controls">
-            <sl-dropdown id="t-chapters-dropdown">
-              <sl-button slot="trigger" size="small" caret>
-                Chapters
-              </sl-button>
-            </sl-dropdown>
-            <sl-button-group>
-              <sl-tooltip content="Previous Match">
-                <sl-icon-button
-                  id="t-prev"
-                  name="caret-up-square"
-                  label="Previous Match"
-                ></sl-icon-button>
-              </sl-tooltip>
-              <sl-tooltip content="Next Match">
-                <sl-icon-button
-                  id="t-next"
-                  name="caret-down-square"
-                  label="Next Match"
-                ></sl-icon-button>
-              </sl-tooltip>
-            </sl-button-group>
-          </div>
-        </div>
-        <div class="column-titles">
-          <h2 class="subtitle">
-            Longchenpa's Collected Works (LS), Volumes 5-8
-          </h2>
-          <div class="controls">
-            <sl-dropdown id="ls-chapters-dropdown">
-              <sl-button slot="trigger" size="small" caret>
-                Chapters
-              </sl-button>
-            </sl-dropdown>
-            <sl-button-group>
-              <sl-tooltip content="Previous Match">
-                <sl-icon-button
-                  id="ls-prev"
-                  name="caret-up-square"
-                  label="Previous Match"
-                ></sl-icon-button>
-              </sl-tooltip>
-              <sl-tooltip content="Next Match">
-                <sl-icon-button
-                  id="ls-next"
-                  name="caret-down-square"
-                  label="Next Match"
-                ></sl-icon-button>
-              </sl-tooltip>
-            </sl-button-group>
-          </div>
-        </div>
-      </div>
-
       <div class="container">
-        <div class="text-container" id="tantra-of-the-sun">
-          <div class="minimap"></div>
-          <div id="t-text" class="text">Paste the text of T here</div>
+        <div id="tantra-of-the-sun">
+          <div class="text-header">
+            <h2 class="subtitle">Tantra of the Sun</h2>
+            <div class="controls">
+              <sl-dropdown id="t-chapters-dropdown">
+                <sl-button slot="trigger" size="small" caret>
+                  Chapters
+                </sl-button>
+              </sl-dropdown>
+              <sl-button-group>
+                <sl-tooltip content="Previous Match">
+                  <sl-icon-button
+                    id="t-prev"
+                    name="caret-up-square"
+                    label="Previous Match"
+                  ></sl-icon-button>
+                </sl-tooltip>
+                <sl-tooltip content="Next Match">
+                  <sl-icon-button
+                    id="t-next"
+                    name="caret-down-square"
+                    label="Next Match"
+                  ></sl-icon-button>
+                </sl-tooltip>
+              </sl-button-group>
+            </div>
+          </div>
+          <div class="text-container">
+            <div class="minimap"></div>
+            <div id="t-text" class="text"></div>
+          </div>
         </div>
 
-        <div class="text-container" id="ls-corpus">
-          <div class="minimap"></div>
-          <div id="ls-text" class="text">Paste the text of LS Corpus here</div>
+        <div id="ls-corpus">
+          <div class="text-header">
+            <h2 class="subtitle">
+              Longchenpa's Collected Works (LS), Volumes 5-8
+            </h2>
+            <div class="controls">
+              <sl-dropdown id="ls-chapters-dropdown">
+                <sl-button slot="trigger" size="small" caret>
+                  Chapters
+                </sl-button>
+              </sl-dropdown>
+              <sl-button-group>
+                <sl-tooltip content="Previous Match">
+                  <sl-icon-button
+                    id="ls-prev"
+                    name="caret-up-square"
+                    label="Previous Match"
+                  ></sl-icon-button>
+                </sl-tooltip>
+                <sl-tooltip content="Next Match">
+                  <sl-icon-button
+                    id="ls-next"
+                    name="caret-down-square"
+                    label="Next Match"
+                  ></sl-icon-button>
+                </sl-tooltip>
+              </sl-button-group>
+            </div>
+          </div>
+          <div class="text-container">
+            <div class="minimap"></div>
+            <div id="ls-text" class="text"></div>
+          </div>
         </div>
       </div>
     </div>
