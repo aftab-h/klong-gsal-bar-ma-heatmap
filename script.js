@@ -6,20 +6,27 @@ const flashEl = (el) => {
 };
 
 document.addEventListener("DOMContentLoaded", async function () {
-  const lsCorpusContainer = document.getElementById("ls-text");
-  const tTextContainer = document.getElementById("t-text");
+  const tTextContainer = document
+    .getElementById("tantra-of-the-sun")
+    .querySelector(".text-container");
+  const tTextContent = document.getElementById("t-text");
+
+  const lsCorpusContainer = document
+    .getElementById("ls-corpus")
+    .querySelector(".text-container");
+  const lsCorpusContent = document.getElementById("ls-text");
 
   // Load HTML's
   fetchAndLoadData(
     "key_and_data/highlighted_ls_text.html",
-    lsCorpusContainer
+    lsCorpusContent
   ).then(() => {
-    createMinimap("ls-corpus", "ls-text");
+    createMinimap(lsCorpusContainer, lsCorpusContent);
     createChapterMenuLS("ls-corpus", "ls-chapters-dropdown");
   });
-  fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContainer).then(
+  fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContent).then(
     () => {
-      createMinimap("tantra-of-the-sun", "t-text");
+      createMinimap(tTextContainer, tTextContent);
       createChapterMenu("tantra-of-the-sun", "t-chapters-dropdown");
     }
   );
@@ -46,7 +53,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   const scrollToUidInT = (uid) => {
     // Find the corresponding T Text citation using data-uid attribute
-    const tTextCitation = tTextContainer.querySelector(`[data-uid*="${uid}"]`);
+    const tTextCitation = tTextContent.querySelector(`[data-uid*="${uid}"]`);
     // Scroll to the T Text citation if found
     if (tTextCitation) {
       tTextCitation.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -116,7 +123,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   };
 
   // LS Corpus Click-Scroll functionality
-  lsCorpusContainer.addEventListener("click", function (event) {
+  lsCorpusContent.addEventListener("click", function (event) {
     clearMatchPopup();
     const clickedElement = event.target;
     if (clickedElement.classList.contains("highlight")) {
@@ -163,7 +170,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     .addEventListener("scroll", clearMatchPopup);
 
   // T Text Click-Scroll functionality
-  tTextContainer.addEventListener("click", function (event) {
+  tTextContent.addEventListener("click", function (event) {
     clearMatchPopup();
     const clickedElement = event.target;
     if (clickedElement.classList.contains("highlight")) {
@@ -207,7 +214,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   });
 
   function scrollToUIDInLS(uid) {
-    const lsCorpusLines = lsCorpusContainer.querySelectorAll(
+    const lsCorpusLines = lsCorpusContent.querySelectorAll(
       `[data-uid*="${uid}"]`
     );
     lsCorpusLines.forEach((line) => {
@@ -277,8 +284,8 @@ function fetchAndLoadData(filePath, container) {
 }
 
 // Function to append LS Corpus info to each T Text citation
-function appendLSCorpusInfo(tTextContainer, citationUidMap, keyData) {
-  const tTextCitations = tTextContainer.querySelectorAll(".highlight-t");
+function appendLSCorpusInfo(tTextContent, citationUidMap, keyData) {
+  const tTextCitations = tTextContent.querySelectorAll(".highlight-t");
   tTextCitations.forEach((tTextCitation) => {
     const citationText = tTextCitation.textContent;
     const uid = tTextCitation.getAttribute("data-uid");
