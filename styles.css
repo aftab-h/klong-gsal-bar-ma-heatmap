@@ -28,21 +28,13 @@ body {
 
 .navbar {
   display: inline;
+  position: fixed; /* disabling this causes issues in the About page */
   top: 0;
   left: 0;
   padding: 10px 20px;
   width: 100%;
+  background-color: #ffffff;
 }
-
-/* .navbar {
-  display: inline;
-  top: 0;
-  left: 0;
-  padding: 10px 20px;
-  width: 100%;
-  background-color: #00000000;
-  z-index: 1000;
-} */
 
 .navbar-ul {
   margin: 0;
