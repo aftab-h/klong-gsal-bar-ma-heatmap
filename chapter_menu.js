@@ -24,7 +24,7 @@ const throttle = (callback, delay) => {
 };
 
 const stripTitle = (title) =>
-  title ? title.replace(/^\[|\]$/g, "") : "Chapters";
+  title ? title.replace(/[\[\]]/g, "") : "Chapters";
 
 const sizeInViewport = (element, cTop, cBottom) => {
   const { top: elTop, bottom: elBottom } = element.getBoundingClientRect();
