@@ -33,7 +33,7 @@ body {
   left: 0;
   padding: 10px 20px;
   width: 100%;
-  background-color: #00000000;
+  background-color: #ffffff;
   z-index: 1000;
 }
 
@@ -75,7 +75,7 @@ label[for="toggle-unicode"] {
   color: #000000;
   padding: 20px;
   text-align: center;
-  max-width: 50%;
+  max-width: 70%;
   margin: 0 auto; /* Center the title box horizontally */
 }
 
@@ -88,11 +88,14 @@ label[for="toggle-unicode"] {
 .subtitle {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 /* ABOUT PAGE */
 
+.about-main-container {
+  display: flex;
+}
 .about-title {
   padding: 20px;
   text-align: center;
@@ -100,7 +103,30 @@ label[for="toggle-unicode"] {
 
 .about-body {
   padding: 20px;
-  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-body p {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-body ul {
+  padding: 20px;
+  text-align: left;
+}
+
+.about-body li {
+  padding: 20px;
+  text-align: left;
+}
+
+.about-text-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .photo-section {
