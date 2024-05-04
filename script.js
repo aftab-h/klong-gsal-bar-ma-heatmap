@@ -1,11 +1,9 @@
-const tTextContainer = document
-  .getElementById("tantra-of-the-sun")
-  .querySelector(".text-container");
+const tText = document.getElementById("tantra-of-the-sun");
+const tTextContainer = tText.querySelector(".text-container");
 const tTextContent = document.getElementById("t-text");
 
-const lsCorpusContainer = document
-  .getElementById("ls-corpus")
-  .querySelector(".text-container");
+const lsCorpus = document.getElementById("ls-corpus");
+const lsCorpusContainer = lsCorpus.querySelector(".text-container");
 const lsCorpusContent = document.getElementById("ls-text");
 
 const flashEl = (el) => {
@@ -22,12 +20,12 @@ document.addEventListener("DOMContentLoaded", async function () {
     lsCorpusContent
   ).then(() => {
     createMinimap(lsCorpusContainer, lsCorpusContent);
-    createChapterMenuLS("ls-corpus", "ls-chapters-dropdown");
+    createChapterMenuLS(lsCorpus);
   });
   fetchAndLoadData("key_and_data/highlighted_t_text.html", tTextContent).then(
     () => {
       createMinimap(tTextContainer, tTextContent);
-      createChapterMenu("tantra-of-the-sun", "t-chapters-dropdown");
+      createChapterMenu(tText);
     }
   );
 
