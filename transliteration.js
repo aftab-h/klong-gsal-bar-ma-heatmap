@@ -8,6 +8,13 @@ const transliterate = (node, toUnicode = true, promises = []) => {
     if (childNodes[i].nodeType == 1) {
       transliterate(childNodes[i], toUnicode, promises);
     } else if (childNodes[i].nodeType == 3) {
+      let content = childNodes[i].textContent;
+      if (
+        childNodes[i].parentNode.classList.contains("heading") &&
+        content.startsWith("[")
+      ) {
+        content = content.replace(/^\[(CHAPTER \d+:|\d\.\d+)(.*)\]/, "[$1]$2");
+      }
       promises.push(
         new Promise((resolve) => {
           const channel = new MessageChannel();
@@ -15,10 +22,9 @@ const transliterate = (node, toUnicode = true, promises = []) => {
             childNodes[i].textContent = data;
             resolve();
           };
-          transliterateWorker.postMessage(
-            { content: childNodes[i].textContent, toUnicode },
-            [channel.port1]
-          );
+          transliterateWorker.postMessage({ content, toUnicode }, [
+            channel.port1
+          ]);
         })
       );
     }
