@@ -12,6 +12,17 @@ const scrollIntoViewAndWait = (element, container) => {
     }
   });
 };
+
+const throttle = (callback, delay) => {
+  let wait = false;
+  return (...args) => {
+    if (wait) return;
+    callback(...args);
+    wait = true;
+    setTimeout(() => (wait = false), delay);
+  };
+};
+
 const stripTitle = (title) =>
   title ? title[1] + title.slice(2, -1).toLowerCase() : "Chapters";
 
@@ -83,6 +94,7 @@ const createChapterMenuLS = (containerId, dropdownId) => {
   let menuItem;
   let subMenu;
   let currentVol;
+
   headingSpans.forEach((span) => {
     const [vol, text] = stripTitle(span.textContent).split(".");
     if (!currentVol || currentVol !== vol) {
@@ -106,5 +118,23 @@ const createChapterMenuLS = (containerId, dropdownId) => {
   });
 
   dropdown.appendChild(menu);
+  const observer = new MutationObserver(
+    throttle((mutationList) => {
+      const menuItem = mutationList[0].target;
+      const subMenu = menuItem.querySelector("sl-menu");
+      if (!subMenu) return;
+      subMenu.style.maxHeight =
+        window.innerHeight - menuItem.getBoundingClientRect().top - 20 + "px";
+    }, 100)
+  );
+
+  dropdown.addEventListener("sl-show", () => {
+    observer.observe(menu, {
+      attributes: true,
+      subtree: true
+    });
+  });
+  dropdown.addEventListener("sl-hide", () => observer.disconnect());
+
   updateButtonTextFromPosition(textContainer, button);
 };
