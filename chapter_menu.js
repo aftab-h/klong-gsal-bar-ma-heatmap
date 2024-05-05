@@ -24,7 +24,7 @@ const throttle = (callback, delay) => {
 };
 
 const stripTitle = (title) =>
-  title ? title[1] + title.slice(2, -1).toLowerCase() : "Chapters";
+  title ? title.replace(/[\[\]]/g, "") : "Chapters";
 
 const sizeInViewport = (element, cTop, cBottom) => {
   const { top: elTop, bottom: elBottom } = element.getBoundingClientRect();
@@ -58,11 +58,13 @@ const updateButtonTextFromPosition = (textContainer, button) => {
   });
 };
 
-const createChapterMenu = (containerId, dropdownId) => {
-  const textContainer = document
-    .getElementById(containerId)
-    .querySelector(".text");
-  const dropdown = document.getElementById(dropdownId);
+const createChapterMenu = (wrapperEl) => {
+  const textContainer = wrapperEl.querySelector(".text");
+  const dropdown = wrapperEl.querySelector("sl-dropdown");
+
+  if (dropdown.querySelector("sl-menu"))
+    dropdown.querySelector("sl-menu").remove();
+
   const button = dropdown.querySelector("sl-button");
   const menu = document.createElement("sl-menu");
   const headingSpans = textContainer.querySelectorAll("span.heading");
@@ -82,11 +84,13 @@ const createChapterMenu = (containerId, dropdownId) => {
   updateButtonTextFromPosition(textContainer, button);
 };
 
-const createChapterMenuLS = (containerId, dropdownId) => {
-  const textContainer = document
-    .getElementById(containerId)
-    .querySelector(".text");
-  const dropdown = document.getElementById(dropdownId);
+const createChapterMenuLS = (wrapperEl) => {
+  const textContainer = wrapperEl.querySelector(".text");
+  const dropdown = wrapperEl.querySelector("sl-dropdown");
+
+  if (dropdown.querySelector("sl-menu"))
+    dropdown.querySelector("sl-menu").remove();
+
   const button = dropdown.querySelector("sl-button");
   const menu = document.createElement("sl-menu");
   const headingSpans = textContainer.querySelectorAll("span.heading");
