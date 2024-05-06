@@ -28,7 +28,7 @@ const search = (node, term) => {
 
 const updateMatchCount = (drawer, query, count) => {
   drawer.querySelector(".query").innerText = query;
-  drawer.querySelector(".match-count").innerText = count;
+  drawer.querySelector(".match-count").innerText = count.toLocaleString();
 };
 
 const clearMarks = (node) => {
