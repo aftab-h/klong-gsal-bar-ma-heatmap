@@ -26,16 +26,25 @@ const search = (node, term) => {
   }
 };
 
+const updateMatchCount = (drawer, query, count) => {
+  drawer.querySelector(".query").innerText = query;
+  drawer.querySelector(".match-count").innerText = count;
+};
+
 const clearMarks = (node) => {
   [...node.getElementsByTagName("mark")].forEach((mark) => mark.remove());
 };
 
 const tSearch = document.getElementById("t-search");
 tSearch.addEventListener("sl-change", (event) => {
-  clearMarks(document.getElementById("t-text"));
-  if (!event.target.value) return;
-  search(document.getElementById("t-text"), event.target.value);
+  clearMarks(tTextContent);
+  if (event.target.value) search(tTextContent, event.target.value);
   createMinimap(tTextContainer, tTextContent);
+  updateMatchCount(
+    tSearchDrawer,
+    event.target.value,
+    tTextContent.querySelectorAll("mark").length
+  );
 });
 
 tSearch.addEventListener("sl-clear", () => {
@@ -51,10 +60,14 @@ tSearchButton.addEventListener(
 
 const lsSearch = document.getElementById("ls-search");
 lsSearch.addEventListener("sl-change", (event) => {
-  clearMarks(document.getElementById("ls-text"));
-  if (event.target.value)
-    search(document.getElementById("ls-text"), event.target.value);
+  clearMarks(lsCorpusContent);
+  if (event.target.value) search(lsCorpusContent, event.target.value);
   createMinimap(lsCorpusContainer, lsCorpusContent);
+  updateMatchCount(
+    lsSearchDrawer,
+    event.target.value,
+    lsCorpusContent.querySelectorAll("mark").length
+  );
 });
 
 lsSearch.addEventListener("sl-clear", () => {
