@@ -264,7 +264,7 @@ function fetchAndLoadData(filePath, container) {
   return fetch(filePath)
     .then((response) => response.text())
     .then((textData) => {
-      container.innerHTML = "";
+      // container.innerHTML = "";
       const cont = document.createElement("div");
       textData = textData.replace(/\n/g, "<br>"); // Converts newline characters to <br> for HTML display
       cont.innerHTML = textData;

@@ -59,15 +59,13 @@
                   Chapters
                 </sl-button>
               </sl-dropdown>
-              <sl-input
-                id="t-search"
-                placeholder="Search"
-                clearable
-                size="small"
-              >
-                <sl-icon name="search" slot="prefix"></sl-icon>
-              </sl-input>
               <sl-button-group>
+                <sl-icon-button
+                  id="t-search-button"
+                  name="search"
+                  label="Search"
+                  class="search-button"
+                ></sl-icon-button>
                 <sl-tooltip content="Previous Correspondences">
                   <sl-icon-button
                     id="t-prev"
@@ -86,6 +84,16 @@
             </div>
           </div>
           <div class="text-container">
+            <sl-drawer contained placement="top" class="search-drawer">
+              <sl-input
+                id="t-search"
+                placeholder="Search"
+                clearable
+                size="small"
+              >
+                <sl-icon name="search" slot="prefix"></sl-icon>
+              </sl-input>
+            </sl-drawer>
             <div class="minimap"></div>
             <div id="t-text" class="text"></div>
           </div>
@@ -102,15 +110,14 @@
                   Chapters
                 </sl-button>
               </sl-dropdown>
-              <sl-input
-                id="ls-search"
-                placeholder="Search"
-                clearable
-                size="small"
-              >
-                <sl-icon name="search" slot="prefix"></sl-icon>
-              </sl-input>
+
               <sl-button-group>
+                <sl-icon-button
+                  id="ls-search-button"
+                  name="search"
+                  label="Search"
+                  class="search-button"
+                ></sl-icon-button>
                 <sl-tooltip content="Previous Correspondences">
                   <sl-icon-button
                     id="ls-prev"
@@ -129,6 +136,16 @@
             </div>
           </div>
           <div class="text-container">
+            <sl-drawer contained placement="top" class="search-drawer">
+              <sl-input
+                id="ls-search"
+                placeholder="Search"
+                clearable
+                size="small"
+              >
+                <sl-icon name="search" slot="prefix"></sl-icon>
+              </sl-input>
+            </sl-drawer>
             <div class="minimap"></div>
             <div id="ls-text" class="text"></div>
           </div>

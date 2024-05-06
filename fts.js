@@ -42,14 +42,28 @@ tSearch.addEventListener("sl-clear", () => {
   tSearch.value = "";
 });
 
+const tSearchButton = document.querySelector("#t-search-button");
+const tSearchDrawer = tTextContainer.querySelector(".search-drawer");
+tSearchButton.addEventListener(
+  "click",
+  () => (tSearchDrawer.open = !tSearchDrawer.open)
+);
+
 const lsSearch = document.getElementById("ls-search");
 lsSearch.addEventListener("sl-change", (event) => {
   clearMarks(document.getElementById("ls-text"));
-  if (!event.target.value) return;
-  search(document.getElementById("ls-text"), event.target.value);
+  if (event.target.value)
+    search(document.getElementById("ls-text"), event.target.value);
   createMinimap(lsCorpusContainer, lsCorpusContent);
 });
 
 lsSearch.addEventListener("sl-clear", () => {
   lsSearch.value = "";
 });
+
+const lsSearchButton = document.querySelector("#ls-search-button");
+const lsSearchDrawer = lsCorpusContainer.querySelector(".search-drawer");
+lsSearchButton.addEventListener(
+  "click",
+  () => (lsSearchDrawer.open = !lsSearchDrawer.open)
+);

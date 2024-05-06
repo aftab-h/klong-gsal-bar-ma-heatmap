@@ -314,6 +314,35 @@ mark {
   box-shadow: 0 0 3px 0 seagreen;
 }
 
+.search-button::part(base) {
+  padding: calc(var(--sl-spacing-x-small) - 4px);
+  border: 1px solid gray;
+  margin: 3px;
+}
+
+.search-button::part(base):hover {
+  border-color: var(--sl-color-primary-600);
+}
+
+.search-drawer {
+  --size: min(max-content, 100%);
+}
+
+.search-drawer::part(panel) {
+  margin-left: 50px;
+  width: calc(100% - 50px);
+  background-color: #faebd7ee;
+}
+
+.search-drawer::part(header) {
+  height: 0;
+}
+
+.search-drawer::part(body) {
+  margin-right: calc(72px - 1rem);
+  padding: 1rem;
+}
+
 @keyframes swellAnimation {
   0% {
   }
