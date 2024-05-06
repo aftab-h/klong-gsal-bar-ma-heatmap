@@ -19,7 +19,10 @@ const search = (node, term) => {
       if (childNodes[i].textContent.indexOf(term) >= 0) {
         textNodeInnerHTML(
           childNodes[i],
-          childNodes[i].textContent.replace(term, "<mark>" + term + "</mark>")
+          childNodes[i].textContent.replaceAll(
+            term,
+            "<mark>" + term + "</mark>"
+          )
         );
       }
     }
