@@ -346,6 +346,12 @@ mark {
   gap: 1rem;
 }
 
+.search-drawer .results {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .search-drawer .results:has(.query:empty) {
   display: none;
 }

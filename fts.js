@@ -1,28 +1,22 @@
-function textNodeInnerHTML(textNode, innerHTML) {
+const textNodeInnerHTML = (textNode, innerHTML) => {
   var div = document.createElement("div");
   textNode.parentNode.insertBefore(div, textNode);
   div.insertAdjacentHTML("afterend", innerHTML);
   div.remove();
   textNode.remove();
-}
+};
 
 const search = (node, term) => {
   const childNodes = node.childNodes;
   for (let i = childNodes.length - 1; i >= 0; i--) {
-    if (childNodes[i].nodeType == 1 && childNodes[i].tagName == "H2") {
-      continue;
-    }
-
+    if (childNodes[i].nodeType == 1 && childNodes[i].tagName == "H2") continue;
     if (childNodes[i].nodeType == 1) {
       search(childNodes[i], term);
     } else if (childNodes[i].nodeType == 3) {
       if (childNodes[i].textContent.indexOf(term) >= 0) {
         textNodeInnerHTML(
           childNodes[i],
-          childNodes[i].textContent.replaceAll(
-            term,
-            "<mark>" + term + "</mark>"
-          )
+          childNodes[i].textContent.replaceAll(term, `<mark>${term}</mark>`)
         );
       }
     }
@@ -61,6 +55,14 @@ tSearchButton.addEventListener(
   () => (tSearchDrawer.open = !tSearchDrawer.open)
 );
 
+tSearchDrawer.querySelector(".search-next").addEventListener("click", () => {
+  scrollToNext(tTextContent, "mark", 130);
+});
+
+tSearchDrawer.querySelector(".search-prev").addEventListener("click", () => {
+  scrollToPrev(tTextContent, "mark", 130);
+});
+
 const lsSearch = document.getElementById("ls-search");
 lsSearch.addEventListener("sl-change", (event) => {
   clearMarks(lsCorpusContent);
@@ -83,3 +85,11 @@ lsSearchButton.addEventListener(
   "click",
   () => (lsSearchDrawer.open = !lsSearchDrawer.open)
 );
+
+lsSearchDrawer.querySelector(".search-next").addEventListener("click", () => {
+  scrollToNext(lsCorpusContent, "mark", 130);
+});
+
+lsSearchDrawer.querySelector(".search-prev").addEventListener("click", () => {
+  scrollToPrev(lsCorpusContent, "mark", 130);
+});

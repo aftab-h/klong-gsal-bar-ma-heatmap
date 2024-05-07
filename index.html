@@ -94,10 +94,28 @@
                 <sl-icon name="search" slot="prefix"></sl-icon>
               </sl-input>
               <div class="results">
-                Found <span class="match-count"></span> matches for "<span
-                  class="query"
-                ></span
-                >".
+                <sl-button-group>
+                  <sl-tooltip content="Previous Match">
+                    <sl-icon-button
+                      class="search-prev"
+                      name="caret-up-square"
+                      label="Previous Match"
+                    ></sl-icon-button>
+                  </sl-tooltip>
+                  <sl-tooltip content="Next Match">
+                    <sl-icon-button
+                      class="search-next"
+                      name="caret-down-square"
+                      label="Next Match"
+                    ></sl-icon-button>
+                  </sl-tooltip>
+                </sl-button-group>
+                <span>
+                  Found <span class="match-count"></span> matches for "<span
+                    class="query"
+                  ></span
+                  >".
+                </span>
               </div>
             </sl-drawer>
             <div class="minimap"></div>
@@ -152,10 +170,28 @@
                 <sl-icon name="search" slot="prefix"></sl-icon>
               </sl-input>
               <div class="results">
-                Found <span class="match-count"></span> matches for "<span
-                  class="query"
-                ></span
-                >".
+                <sl-button-group>
+                  <sl-tooltip content="Previous Match">
+                    <sl-icon-button
+                      class="search-prev"
+                      name="caret-up-square"
+                      label="Previous Match"
+                    ></sl-icon-button>
+                  </sl-tooltip>
+                  <sl-tooltip content="Next Match">
+                    <sl-icon-button
+                      class="search-next"
+                      name="caret-down-square"
+                      label="Next Match"
+                    ></sl-icon-button>
+                  </sl-tooltip>
+                </sl-button-group>
+                <span
+                  >Found <span class="match-count"></span> matches for "<span
+                    class="query"
+                  ></span
+                  >".</span
+                >
               </div>
             </sl-drawer>
             <div class="minimap"></div>
