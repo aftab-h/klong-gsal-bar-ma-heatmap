@@ -56,11 +56,19 @@ tSearchButton.addEventListener(
 );
 
 tSearchDrawer.querySelector(".search-next").addEventListener("click", () => {
-  scrollToNext(tTextContent, "mark", 130);
+  scrollToNext(
+    tTextContent,
+    "mark",
+    tSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight + 20
+  );
 });
 
 tSearchDrawer.querySelector(".search-prev").addEventListener("click", () => {
-  scrollToPrev(tTextContent, "mark", 130);
+  scrollToPrev(
+    tTextContent,
+    "mark",
+    tSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight + 20
+  );
 });
 
 const lsSearch = document.getElementById("ls-search");
@@ -87,9 +95,17 @@ lsSearchButton.addEventListener(
 );
 
 lsSearchDrawer.querySelector(".search-next").addEventListener("click", () => {
-  scrollToNext(lsCorpusContent, "mark", 130);
+  scrollToNext(
+    lsCorpusContent,
+    "mark",
+    lsSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight + 20
+  );
 });
 
 lsSearchDrawer.querySelector(".search-prev").addEventListener("click", () => {
-  scrollToPrev(lsCorpusContent, "mark", 130);
+  scrollToPrev(
+    lsCorpusContent,
+    "mark",
+    lsSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight + 20
+  );
 });
