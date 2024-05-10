@@ -100,7 +100,7 @@ const createChapterMenuLS = (wrapperEl) => {
   let currentVol;
 
   headingSpans.forEach((span) => {
-    const [vol, text] = stripTitle(span.textContent).split(".");
+    let [vol, text] = stripTitle(span.textContent).split(".");
     if (!currentVol || currentVol !== vol) {
       menuItem = document.createElement("sl-menu-item");
       menu.appendChild(menuItem);
@@ -112,6 +112,11 @@ const createChapterMenuLS = (wrapperEl) => {
     }
 
     const subMenuItem = document.createElement("sl-menu-item");
+    subMenuItem.innerText = `${vol}.${text}`;
+
+    if (text.length > 60) {
+      text = text.slice(0, 60) + "...";
+    }
     subMenuItem.innerText = `${vol}.${text}`;
     subMenuItem.addEventListener("click", () => {
       scrollIntoViewAndWait(span, textContainer).then(
