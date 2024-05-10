@@ -122,6 +122,9 @@ const createChapterMenuLS = (wrapperEl) => {
   });
 
   dropdown.appendChild(menu);
+
+  // This is a workaround for https://github.com/shoelace-style/shoelace/issues/2001
+  //  (which has now been fixed, but is not yet released)
   const observer = new MutationObserver(
     throttle((mutationList) => {
       const menuItem = mutationList[0].target;
@@ -132,12 +135,9 @@ const createChapterMenuLS = (wrapperEl) => {
     }, 100)
   );
 
-  dropdown.addEventListener("sl-show", () => {
-    observer.observe(menu, {
-      attributes: true,
-      subtree: true
-    });
-  });
+  dropdown.addEventListener("sl-show", () =>
+    observer.observe(menu, { attributes: true, subtree: true })
+  );
   dropdown.addEventListener("sl-hide", () => observer.disconnect());
 
   updateButtonTextFromPosition(textContainer, button);
