@@ -29,7 +29,9 @@ const updateMatchCount = (drawer, query, count) => {
 };
 
 const clearMarks = (node) => {
-  [...node.getElementsByTagName("mark")].forEach((mark) => mark.remove());
+  [...node.getElementsByTagName("mark")].forEach((mark) =>
+    mark.replaceWith(...mark.childNodes)
+  );
 };
 
 const tSearch = document.getElementById("t-search");
