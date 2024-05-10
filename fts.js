@@ -14,6 +14,12 @@ const search = (node, term, options = {}) => {
       search(childNodes[i], term, options);
     } else if (childNodes[i].nodeType == 3) {
       switch (options?.where) {
+        case "references":
+          if (childNodes[i].parentNode.dataset.matchType !== "2") continue;
+          break;
+        case "untraced":
+          if (childNodes[i].parentNode.dataset.matchType !== "0") continue;
+          break;
         case "deep-correspondences":
           if (parseInt(childNodes[i].parentNode.dataset.depth, 10) < 2)
             continue;
@@ -94,23 +100,33 @@ tSearchDrawer.querySelector(".search-prev").addEventListener("click", () => {
 
 /* LS Search */
 const lsSearch = document.getElementById("ls-search");
-lsSearch.addEventListener("sl-change", (event) => {
+const lsSearchButton = document.querySelector("#ls-search-button");
+const lsSearchDrawer = lsCorpusContainer.querySelector(".search-drawer");
+const lsSearchWhere = lsSearchDrawer.querySelector("[name=where]");
+
+const doLSsearch = () => {
   clearMarks(lsCorpusContent);
-  if (event.target.value) search(lsCorpusContent, event.target.value);
+  if (lsSearch.value) {
+    const options = {
+      where: lsSearchWhere.value
+    };
+    search(lsCorpusContent, lsSearch.value, options);
+  }
   createMinimap(lsCorpusContainer, lsCorpusContent);
   updateMatchCount(
     lsSearchDrawer,
-    event.target.value,
+    lsSearch.value,
     lsCorpusContent.querySelectorAll("mark").length
   );
-});
+};
+
+lsSearch.addEventListener("sl-change", doLSsearch);
+lsSearchWhere.addEventListener("sl-change", doLSsearch);
 
 lsSearch.addEventListener("sl-clear", () => {
   lsSearch.value = "";
 });
 
-const lsSearchButton = document.querySelector("#ls-search-button");
-const lsSearchDrawer = lsCorpusContainer.querySelector(".search-drawer");
 lsSearchButton.addEventListener(
   "click",
   () => (lsSearchDrawer.open = !lsSearchDrawer.open)

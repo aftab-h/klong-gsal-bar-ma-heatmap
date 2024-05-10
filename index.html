@@ -182,6 +182,20 @@
               >
                 <sl-icon name="search" slot="prefix"></sl-icon>
               </sl-input>
+
+              <div class="search-options">
+                <sl-radio-group name="where" value="anywhere">
+                  <sl-radio value="anywhere">Anywhere</sl-radio>
+                  <sl-radio value="correspondences"
+                    >Only in Correspondences</sl-radio
+                  >
+                  <sl-radio value="references">Only in References</sl-radio>
+                  <sl-radio value="untraced"
+                    >Only in Untraced Correspondences</sl-radio
+                  >
+                </sl-radio-group>
+              </div>
+
               <div class="results">
                 <sl-button-group>
                   <sl-tooltip content="Previous Match">
