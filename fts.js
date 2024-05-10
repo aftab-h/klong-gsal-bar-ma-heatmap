@@ -6,13 +6,21 @@ const textNodeInnerHTML = (textNode, innerHTML) => {
   textNode.remove();
 };
 
-const search = (node, term) => {
+const search = (node, term, options = {}) => {
   const childNodes = node.childNodes;
   for (let i = childNodes.length - 1; i >= 0; i--) {
     if (childNodes[i].nodeType == 1 && childNodes[i].tagName == "H2") continue;
     if (childNodes[i].nodeType == 1) {
-      search(childNodes[i], term);
+      search(childNodes[i], term, options);
     } else if (childNodes[i].nodeType == 3) {
+      switch (options?.where) {
+        case "deep-correspondences":
+          if (parseInt(childNodes[i].parentNode.dataset.depth, 10) < 2)
+            continue;
+        case "correspondences":
+          if (!childNodes[i].parentNode.classList.contains("highlight"))
+            continue;
+      }
       if (childNodes[i].textContent.indexOf(term) >= 0) {
         textNodeInnerHTML(
           childNodes[i],
@@ -34,24 +42,35 @@ const clearMarks = (node) => {
   );
 };
 
+/* T Search */
 const tSearch = document.getElementById("t-search");
-tSearch.addEventListener("sl-change", (event) => {
+const tSearchButton = document.querySelector("#t-search-button");
+const tSearchDrawer = tTextContainer.querySelector(".search-drawer");
+const tSearchWhere = tSearchDrawer.querySelector("[name=where]");
+
+const doTsearch = () => {
   clearMarks(tTextContent);
-  if (event.target.value) search(tTextContent, event.target.value);
+  if (tSearch.value) {
+    const options = {
+      where: tSearchWhere.value
+    };
+    search(tTextContent, tSearch.value, options);
+  }
   createMinimap(tTextContainer, tTextContent);
   updateMatchCount(
     tSearchDrawer,
-    event.target.value,
+    tSearch.value,
     tTextContent.querySelectorAll("mark").length
   );
-});
+};
+
+tSearch.addEventListener("sl-change", doTsearch);
+tSearchWhere.addEventListener("sl-change", doTsearch);
 
 tSearch.addEventListener("sl-clear", () => {
   tSearch.value = "";
 });
 
-const tSearchButton = document.querySelector("#t-search-button");
-const tSearchDrawer = tTextContainer.querySelector(".search-drawer");
 tSearchButton.addEventListener(
   "click",
   () => (tSearchDrawer.open = !tSearchDrawer.open)
@@ -73,6 +92,7 @@ tSearchDrawer.querySelector(".search-prev").addEventListener("click", () => {
   );
 });
 
+/* LS Search */
 const lsSearch = document.getElementById("ls-search");
 lsSearch.addEventListener("sl-change", (event) => {
   clearMarks(lsCorpusContent);

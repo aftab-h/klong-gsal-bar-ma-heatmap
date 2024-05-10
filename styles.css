@@ -362,6 +362,11 @@ mark {
   font-style: italic;
 }
 
+.search-drawer sl-radio-group::part(form-control-input) {
+  display: flex;
+  gap: 1rem;
+}
+
 @keyframes swellAnimation {
   0% {
   }
