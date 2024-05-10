@@ -79,7 +79,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     data.forEach((datum) => {
       const listItem = document.createElement("li");
       listItem.classList.add("uid-link");
-      listItem.textContent = `➡️ Ch. ${datum["Ch. in T Text"]} ${datum["UID"]}`;
+      //listItem.textContent = `➡️ Ch. ${datum["Ch. in T Text"]} ${datum["UID"]}`;  
+      listItem.textContent = `➡️ Ch. ${datum["Ch. in T Text"]}`; // Removed UID
       listItem.addEventListener("click", () => scrollToUidInT(datum["UID"]));
       popupEl.appendChild(listItem);
     });
