@@ -82,21 +82,25 @@ tSearchButton.addEventListener(
   () => (tSearchDrawer.open = !tSearchDrawer.open)
 );
 
-tSearchDrawer.querySelector(".search-next").addEventListener("click", () => {
-  scrollToNext(
-    tTextContent,
-    "mark",
-    tSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight + 20
-  );
-});
+tSearchDrawer
+  .querySelector(".search-next")
+  .addEventListener("click", (event) => {
+    scrollToNext(
+      tTextContent,
+      "mark",
+      tSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight + 20
+    ) || notAllowed(event.target);
+  });
 
-tSearchDrawer.querySelector(".search-prev").addEventListener("click", () => {
-  scrollToPrev(
-    tTextContent,
-    "mark",
-    tSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight + 20
-  );
-});
+tSearchDrawer
+  .querySelector(".search-prev")
+  .addEventListener("click", (event) => {
+    scrollToPrev(
+      tTextContent,
+      "mark",
+      tSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight + 20
+    ) || notAllowed(event.target);
+  });
 
 /* LS Search */
 const lsSearch = document.getElementById("ls-search");
@@ -132,18 +136,24 @@ lsSearchButton.addEventListener(
   () => (lsSearchDrawer.open = !lsSearchDrawer.open)
 );
 
-lsSearchDrawer.querySelector(".search-next").addEventListener("click", () => {
-  scrollToNext(
-    lsCorpusContent,
-    "mark",
-    lsSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight + 20
-  );
-});
+lsSearchDrawer
+  .querySelector(".search-next")
+  .addEventListener("click", (event) => {
+    scrollToNext(
+      lsCorpusContent,
+      "mark",
+      lsSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight +
+        20
+    ) || notAllowed(event.target);
+  });
 
-lsSearchDrawer.querySelector(".search-prev").addEventListener("click", () => {
-  scrollToPrev(
-    lsCorpusContent,
-    "mark",
-    lsSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight + 20
-  );
-});
+lsSearchDrawer
+  .querySelector(".search-prev")
+  .addEventListener("click", (event) => {
+    scrollToPrev(
+      lsCorpusContent,
+      "mark",
+      lsSearchDrawer.shadowRoot.querySelector(".drawer__panel").offsetHeight +
+        20
+    ) || notAllowed(event.target);
+  });
