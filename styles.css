@@ -312,6 +312,7 @@ span.heading {
 mark {
   background-color: #8fbc8f73;
   box-shadow: 0 0 3px 0 seagreen;
+  pointer-events: none;
 }
 
 .search-button::part(base) {
