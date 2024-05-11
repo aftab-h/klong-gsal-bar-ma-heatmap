@@ -379,7 +379,13 @@ mark {
 .search-drawer sl-radio-group::part(form-control-input) {
   display: flex;
   flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.search-options {
+  display: flex;
   gap: 1rem;
+  align-items: flex-start;
 }
 
 @keyframes swellAnimation {
