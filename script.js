@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     data.forEach((datum) => {
       const listItem = document.createElement("li");
       listItem.classList.add("uid-link");
-      //listItem.textContent = `➡️ Ch. ${datum["Ch. in T Text"]} ${datum["UID"]}`;  
+      //listItem.textContent = `➡️ Ch. ${datum["Ch. in T Text"]} ${datum["UID"]}`;
       listItem.textContent = `➡️ Ch. ${datum["Ch. in T Text"]}`; // Removed UID
       listItem.addEventListener("click", () => scrollToUidInT(datum["UID"]));
       popupEl.appendChild(listItem);
@@ -265,7 +265,7 @@ function fetchAndLoadData(filePath, container) {
   return fetch(filePath)
     .then((response) => response.text())
     .then((textData) => {
-      // container.innerHTML = "";
+      container.innerHTML = "";
       const cont = document.createElement("div");
       textData = textData.replace(/\n/g, "<br>"); // Converts newline characters to <br> for HTML display
       cont.innerHTML = textData;
