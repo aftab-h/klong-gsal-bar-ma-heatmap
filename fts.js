@@ -40,7 +40,8 @@ const search = (node, term, options = {}) => {
 const updateMatchCount = (drawer, query, count) => {
   drawer.querySelector(".query").innerText = query;
   drawer.querySelector(".match-count").innerText = count.toLocaleString();
-};
+  drawer.querySelector(".results").classList.toggle("show", !!count);
+}
 
 const clearMarks = (node) => {
   [...node.getElementsByTagName("mark")].forEach((mark) =>
