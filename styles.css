@@ -146,14 +146,21 @@ label[for="toggle-unicode"] {
 
 .photo-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   width: 60%;
   margin: 0 auto;
 }
 
 .photo-card {
   flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.name-card {
+  flex: 1;
+  font-size: .7em;
   margin: 0 10px;
   text-align: center;
 }
