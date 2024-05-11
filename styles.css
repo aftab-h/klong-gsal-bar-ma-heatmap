@@ -160,7 +160,7 @@ label[for="toggle-unicode"] {
 
 .name-card {
   flex: 1;
-  font-size: .7em;
+  font-size: 0.7em;
   margin: 0 10px;
   text-align: center;
 }
@@ -344,6 +344,10 @@ mark {
 
 .search-drawer::part(header) {
   height: 0;
+}
+
+.search-drawer::part(header-actions) {
+  z-index: 9;
 }
 
 .search-drawer::part(body) {
