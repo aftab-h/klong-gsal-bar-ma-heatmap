@@ -93,6 +93,17 @@
               >
                 <sl-icon name="search" slot="prefix"></sl-icon>
               </sl-input>
+
+              <div class="search-options">
+                <sl-radio-group name="where" value="anywhere">
+                  <sl-radio value="anywhere">Anywhere</sl-radio>
+                  <sl-radio value="correspondences">Correspondences</sl-radio>
+                  <sl-radio value="deep-correspondences"
+                    >Correspondences &gt; 1</sl-radio
+                  >
+                </sl-radio-group>
+              </div>
+
               <div class="results">
                 <sl-button-group>
                   <sl-tooltip content="Previous Match">
@@ -130,9 +141,7 @@
             </h2>
             <div class="controls">
               <sl-dropdown id="ls-chapters-dropdown">
-                <sl-button slot="trigger" size="small" caret>
-                  Chapters
-                </sl-button>
+                <sl-button slot="trigger" size="small" caret>Texts</sl-button>
               </sl-dropdown>
 
               <sl-button-group>
@@ -169,6 +178,16 @@
               >
                 <sl-icon name="search" slot="prefix"></sl-icon>
               </sl-input>
+
+              <div class="search-options">
+                <sl-radio-group name="where" value="anywhere">
+                  <sl-radio value="anywhere">Anywhere</sl-radio>
+                  <sl-radio value="correspondences">Correspondences</sl-radio>
+                  <sl-radio value="references">References</sl-radio>
+                  <sl-radio value="untraced">Untraced Quotations</sl-radio>
+                </sl-radio-group>
+              </div>
+
               <div class="results">
                 <sl-button-group>
                   <sl-tooltip content="Previous Match">
