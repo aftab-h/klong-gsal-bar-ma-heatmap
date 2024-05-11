@@ -353,7 +353,7 @@ mark {
   gap: 1rem;
 }
 
-.search-drawer .results:has(.query:empty) {
+.search-drawer .results:not(.show) {
   display: none;
 }
 
