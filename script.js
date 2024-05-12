@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     data.forEach((datum) => {
       const listItem = document.createElement("li");
       listItem.classList.add("uid-link");
-      //listItem.textContent = `➡️ Ch. ${datum["Ch. in T Text"]} ${datum["UID"]}`;  
+      //listItem.textContent = `➡️ Ch. ${datum["Ch. in T Text"]} ${datum["UID"]}`;
       listItem.textContent = `➡️ Ch. ${datum["Ch. in T Text"]}`; // Removed UID
       listItem.addEventListener("click", () => scrollToUidInT(datum["UID"]));
       popupEl.appendChild(listItem);
@@ -158,15 +158,12 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // Click anywhere? Remove tooltips
   document.addEventListener("click", clearMatchPopup);
+
   // Scroll ls corpus? Remove tooltips
-  document
-    .getElementById("ls-corpus")
-    .addEventListener("scroll", clearMatchPopup);
+  lsCorpusContent.addEventListener("scroll", clearMatchPopup);
 
   // Scroll t text? Remove tooltips
-  document
-    .getElementById("tantra-of-the-sun")
-    .addEventListener("scroll", clearMatchPopup);
+  tTextContent.addEventListener("scroll", clearMatchPopup);
 
   // T Text Click-Scroll functionality
   tTextContent.addEventListener("click", function (event) {
@@ -189,9 +186,12 @@ document.addEventListener("DOMContentLoaded", async function () {
             ? ` (${seen[key] + 1})`
             : "";
           seen[key] = seen[key] ? seen[key]++ : 1;
+          const title = document.querySelector("#toggle-unicode")?.checked
+            ? datum.textTitleTibetan
+            : datum["Text Title"];
           return `
           <span class="uid-link" data-uid="${datum["UID"]}">
-            ➡️ Vol. ${datum["Volume"]}, No. ${datum["Text No."]}: ${datum["Text Title"]} ${affix}
+            ➡️ Vol. ${datum["Volume"]}, No. ${datum["Text No."]}: ${title} ${affix}
           </span><br>
           `;
         })
@@ -265,7 +265,7 @@ function fetchAndLoadData(filePath, container) {
   return fetch(filePath)
     .then((response) => response.text())
     .then((textData) => {
-      // container.innerHTML = "";
+      container.innerHTML = "";
       const cont = document.createElement("div");
       textData = textData.replace(/\n/g, "<br>"); // Converts newline characters to <br> for HTML display
       cont.innerHTML = textData;

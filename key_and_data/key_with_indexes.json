@@ -12,7 +12,8 @@
         "Start Index T": "4356",
         "End Index T": "4458",
         "Start Index LS": "21720",
-        "End Index LS": "21845"
+        "End Index LS": "21845",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -27,7 +28,8 @@
         "Start Index T": "4459",
         "End Index T": "4490",
         "Start Index LS": "23226",
-        "End Index LS": "23281"
+        "End Index LS": "23281",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -42,7 +44,8 @@
         "Start Index T": "155856",
         "End Index T": "155899",
         "Start Index LS": "24255",
-        "End Index LS": "24320"
+        "End Index LS": "24320",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -57,7 +60,8 @@
         "Start Index T": "5422",
         "End Index T": "5494",
         "Start Index LS": "24675",
-        "End Index LS": "24769"
+        "End Index LS": "24769",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -72,7 +76,8 @@
         "Start Index T": "158210",
         "End Index T": "158299",
         "Start Index LS": "24675",
-        "End Index LS": "24769"
+        "End Index LS": "24769",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -87,7 +92,8 @@
         "Start Index T": "5753",
         "End Index T": "5859",
         "Start Index LS": "27078",
-        "End Index LS": "27211"
+        "End Index LS": "27211",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -102,7 +108,8 @@
         "Start Index T": "159251",
         "End Index T": "159361",
         "Start Index LS": "27078",
-        "End Index LS": "27211"
+        "End Index LS": "27211",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -117,7 +124,8 @@
         "Start Index T": "5965",
         "End Index T": "6032",
         "Start Index LS": "28767",
-        "End Index LS": "28855"
+        "End Index LS": "28855",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -132,7 +140,8 @@
         "Start Index T": "6033",
         "End Index T": "6142",
         "Start Index LS": "30278",
-        "End Index LS": "30403"
+        "End Index LS": "30403",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -147,7 +156,8 @@
         "Start Index T": "6447",
         "End Index T": "6582",
         "Start Index LS": "31182",
-        "End Index LS": "31273"
+        "End Index LS": "31273",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -162,7 +172,8 @@
         "Start Index T": "6708",
         "End Index T": "6781",
         "Start Index LS": "31724",
-        "End Index LS": "31815"
+        "End Index LS": "31815",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -177,7 +188,8 @@
         "Start Index T": "6781",
         "End Index T": "6854",
         "Start Index LS": "32037",
-        "End Index LS": "32126"
+        "End Index LS": "32126",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
@@ -192,12 +204,13 @@
         "Start Index T": "176606",
         "End Index T": "176682",
         "Start Index LS": "39505",
-        "End Index LS": "39601"
+        "End Index LS": "39601",
+        "textTitleTibetan": "བཏགས་གྲོལ་རྒྱུད་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "5",
         "Text No.": "4",
-        "Text Title": "sras gcig sa bon rgyud kyi ti ka gsal byed nor bu\u2019i phreng ba",
+        "Text Title": "sras gcig sa bon rgyud kyi ti ka gsal byed nor bu’i phreng ba",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las:_de lta bu'i ye shes de ngo rang thog tu sprad pas:_gang shar sbrul mdud bzhin du grol:_ces so:_",
         "Ch. in T Text": "5",
@@ -207,12 +220,13 @@
         "Start Index T": "10950",
         "End Index T": "11051",
         "Start Index LS": "42319",
-        "End Index LS": "42430"
+        "End Index LS": "42430",
+        "textTitleTibetan": "སྲས་གཅིག་ས་བོན་རྒྱུད་ཀྱི་ཏི་ཀ་གསལ་བྱེད་ནོར་བུའི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
         "Text No.": "4",
-        "Text Title": "sras gcig sa bon rgyud kyi ti ka gsal byed nor bu\u2019i phreng ba",
+        "Text Title": "sras gcig sa bon rgyud kyi ti ka gsal byed nor bu’i phreng ba",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las:_kun 'byung srid rtsa rtogs pas grol:_ces so:",
         "Ch. in T Text": "5",
@@ -222,12 +236,13 @@
         "Start Index T": "11193",
         "End Index T": "11229",
         "Start Index LS": "43210",
-        "End Index LS": "43270"
+        "End Index LS": "43270",
+        "textTitleTibetan": "སྲས་གཅིག་ས་བོན་རྒྱུད་ཀྱི་ཏི་ཀ་གསལ་བྱེད་ནོར་བུའི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
         "Text No.": "4",
-        "Text Title": "sras gcig sa bon rgyud kyi ti ka gsal byed nor bu\u2019i phreng ba",
+        "Text Title": "sras gcig sa bon rgyud kyi ti ka gsal byed nor bu’i phreng ba",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las:_rig pa rtogs tshe 'dzin pa grol:_ces so:",
         "Ch. in T Text": "5",
@@ -237,12 +252,13 @@
         "Start Index T": "11501",
         "End Index T": "11533",
         "Start Index LS": "46102",
-        "End Index LS": "46158"
+        "End Index LS": "46158",
+        "textTitleTibetan": "སྲས་གཅིག་ས་བོན་རྒྱུད་ཀྱི་ཏི་ཀ་གསལ་བྱེད་ནོར་བུའི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
         "Text No.": "4",
-        "Text Title": "\u2019bras bu yongs rdzogs rgyud kyi ti ka gsal byed dri med snying po",
+        "Text Title": "’bras bu yongs rdzogs rgyud kyi ti ka gsal byed dri med snying po",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las:_snying nang yab yum zhi ba'i tshul:dung khang khro bo'i tshul du gnas:_zhes so:_",
         "Ch. in T Text": "18",
@@ -252,7 +268,8 @@
         "Start Index T": "67730",
         "End Index T": "67803",
         "Start Index LS": "53171",
-        "End Index LS": "53267"
+        "End Index LS": "53267",
+        "textTitleTibetan": "འབྲས་བུ་ཡོངས་རྫོགས་རྒྱུད་ཀྱི་ཏི་ཀ་གསལ་བྱེད་དྲི་མེད་སྙིང་པོ"
     },
     {
         "Volume": "5",
@@ -267,7 +284,8 @@
         "Start Index T": "179239",
         "End Index T": "179276",
         "Start Index LS": "72115",
-        "End Index LS": "72174"
+        "End Index LS": "72174",
+        "textTitleTibetan": "བཏགས་གྲོལ་དོན་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -282,7 +300,8 @@
         "Start Index T": "21722",
         "End Index T": "21816",
         "Start Index LS": "72671",
-        "End Index LS": "72799"
+        "End Index LS": "72799",
+        "textTitleTibetan": "བཏགས་གྲོལ་དོན་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -297,14 +316,15 @@
         "Start Index T": "22082",
         "End Index T": "22152",
         "Start Index LS": "74593",
-        "End Index LS": "74684"
+        "End Index LS": "74684",
+        "textTitleTibetan": "བཏགས་གྲོལ་དོན་ཁྲིད"
     },
     {
         "Volume": "5",
         "Text No.": "7",
         "Text Title": "btags grol don khrid",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
-        "Quote in LS": "klong gsal las:_tsak+Shu zim bus sUr+yaRa blta:[ \u00b7 ]shar gyi rgyu skar bzhin du gsal:_zhes pas:",
+        "Quote in LS": "klong gsal las:_tsak+Shu zim bus sUr+yaRa blta:[ · ]shar gyi rgyu skar bzhin du gsal:_zhes pas:",
         "Ch. in T Text": "8",
         "Quote in T Text": "tsak+Shus zim bus suR+yar lta/_/shar gyi rgya skar bzhin du gsal/_/dbang po 'dug tshul sus gtad pas/_/phyi dbyings myur du mthong bar 'gyur/_/",
         "P. No. in T Text": "23",
@@ -312,7 +332,8 @@
         "Start Index T": "23090",
         "End Index T": "23232",
         "Start Index LS": "80782",
-        "End Index LS": "80877"
+        "End Index LS": "80877",
+        "textTitleTibetan": "བཏགས་གྲོལ་དོན་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -327,7 +348,8 @@
         "Start Index T": "23476",
         "End Index T": "23512",
         "Start Index LS": "82329",
-        "End Index LS": "82394"
+        "End Index LS": "82394",
+        "textTitleTibetan": "བཏགས་གྲོལ་དོན་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -342,7 +364,8 @@
         "Start Index T": "183103",
         "End Index T": "183210",
         "Start Index LS": "83033",
-        "End Index LS": "83159"
+        "End Index LS": "83159",
+        "textTitleTibetan": "བཏགས་གྲོལ་དོན་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -357,7 +380,8 @@
         "Start Index T": "23747",
         "End Index T": "23818",
         "Start Index LS": "83444",
-        "End Index LS": "83541"
+        "End Index LS": "83541",
+        "textTitleTibetan": "བཏགས་གྲོལ་དོན་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -372,7 +396,8 @@
         "Start Index T": "263183",
         "End Index T": "263220",
         "Start Index LS": "81677",
-        "End Index LS": "81755"
+        "End Index LS": "81755",
+        "textTitleTibetan": "བཏགས་གྲོལ་དོན་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -387,7 +412,8 @@
         "Start Index T": "69502",
         "End Index T": "69540",
         "Start Index LS": "81677",
-        "End Index LS": "81755"
+        "End Index LS": "81755",
+        "textTitleTibetan": "བཏགས་གྲོལ་དོན་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -402,14 +428,15 @@
         "Start Index T": "183353",
         "End Index T": "183389",
         "Start Index LS": "85958",
-        "End Index LS": "86016"
+        "End Index LS": "86016",
+        "textTitleTibetan": "བཏགས་གྲོལ་དོན་ཁྲིད"
     },
     {
         "Volume": "5",
         "Text No.": "8",
         "Text Title": "bde gshegs rigs lnga'i phyi sgrub",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
-        "Quote in LS": "klong gsal las:_lus kyis khyab tshad thams cad la:[ \u00b7]phung po lnga ni rigs lnga dngos:_khams lnga yum lnga nyid du gnas:_zhes pas:",
+        "Quote in LS": "klong gsal las:_lus kyis khyab tshad thams cad la:[ ·]phung po lnga ni rigs lnga dngos:_khams lnga yum lnga nyid du gnas:_zhes pas:",
         "Ch. in T Text": "11",
         "Quote in T Text": "lus kyi khyab tshad thams cad la//_phung po lnga ni rigs lnga dngos/_/khams lnga yum lnga nyid du gnas/_/",
         "P. No. in T Text": "36",
@@ -417,7 +444,8 @@
         "Start Index T": "35067",
         "End Index T": "35172",
         "Start Index LS": "91696",
-        "End Index LS": "91827"
+        "End Index LS": "91827",
+        "textTitleTibetan": "བདེ་གཤེགས་རིགས་ལྔའི་ཕྱི་སྒྲུབ"
     },
     {
         "Volume": "5",
@@ -432,7 +460,8 @@
         "Start Index T": "260458",
         "End Index T": "260726",
         "Start Index LS": "97571",
-        "End Index LS": "97863"
+        "End Index LS": "97863",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -447,7 +476,8 @@
         "Start Index T": "180186",
         "End Index T": "180260",
         "Start Index LS": "98800",
-        "End Index LS": "98899"
+        "End Index LS": "98899",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -462,7 +492,8 @@
         "Start Index T": "159817",
         "End Index T": "159891",
         "Start Index LS": "98800",
-        "End Index LS": "98899"
+        "End Index LS": "98899",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -477,7 +508,8 @@
         "Start Index T": "155520",
         "End Index T": "155592",
         "Start Index LS": "99608",
-        "End Index LS": "99708"
+        "End Index LS": "99708",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -492,7 +524,8 @@
         "Start Index T": "157077",
         "End Index T": "157464",
         "Start Index LS": "100314",
-        "End Index LS": "100756"
+        "End Index LS": "100756",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -507,7 +540,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "101884",
-        "End Index LS": "101983"
+        "End Index LS": "101983",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -522,7 +556,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "102712",
-        "End Index LS": "102814"
+        "End Index LS": "102814",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -537,7 +572,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "103129",
-        "End Index LS": "103292"
+        "End Index LS": "103292",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -552,7 +588,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "103345",
-        "End Index LS": "103446"
+        "End Index LS": "103446",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -567,7 +604,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "103559",
-        "End Index LS": "103658"
+        "End Index LS": "103658",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -582,7 +620,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "104116",
-        "End Index LS": "104183"
+        "End Index LS": "104183",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -597,7 +636,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "104985",
-        "End Index LS": "105173"
+        "End Index LS": "105173",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -612,7 +652,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "105831",
-        "End Index LS": "105951"
+        "End Index LS": "105951",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -627,7 +668,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "114587",
-        "End Index LS": "114892"
+        "End Index LS": "114892",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -642,7 +684,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "116590",
-        "End Index LS": "116676"
+        "End Index LS": "116676",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -657,7 +700,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "125085",
-        "End Index LS": "125206"
+        "End Index LS": "125206",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -672,7 +716,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "126319",
-        "End Index LS": "126414"
+        "End Index LS": "126414",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -687,7 +732,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "136259",
-        "End Index LS": "136378"
+        "End Index LS": "136378",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -702,7 +748,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "138420",
-        "End Index LS": "138523"
+        "End Index LS": "138523",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -717,7 +764,8 @@
         "Start Index T": "179871",
         "End Index T": "179938",
         "Start Index LS": "144437",
-        "End Index LS": "144531"
+        "End Index LS": "144531",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -732,7 +780,8 @@
         "Start Index T": "179938",
         "End Index T": "180186",
         "Start Index LS": "145163",
-        "End Index LS": "145429"
+        "End Index LS": "145429",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -747,7 +796,8 @@
         "Start Index T": "162784",
         "End Index T": "162890",
         "Start Index LS": "145616",
-        "End Index LS": "145741"
+        "End Index LS": "145741",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -762,7 +812,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "146035",
-        "End Index LS": "146153"
+        "End Index LS": "146153",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -777,7 +828,8 @@
         "Start Index T": "35983",
         "End Index T": "36184",
         "Start Index LS": "146492",
-        "End Index LS": "146719"
+        "End Index LS": "146719",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -792,7 +844,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "152379",
-        "End Index LS": "152543"
+        "End Index LS": "152543",
+        "textTitleTibetan": "སྨིན་བྱེད་དོན་གསལ་སྒྲོན་མེ་ཞེས་བྱ་བ་སྤྲོས་བཅས་བུམ་པའི་དབང"
     },
     {
         "Volume": "5",
@@ -807,7 +860,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "152911",
-        "End Index LS": "153089"
+        "End Index LS": "153089",
+        "textTitleTibetan": "དབང་ཁྲིད་ནོར་བུ་སྒྲོན་གསལ"
     },
     {
         "Volume": "5",
@@ -822,7 +876,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "157629",
-        "End Index LS": "157842"
+        "End Index LS": "157842",
+        "textTitleTibetan": "དབང་ཁྲིད་ནོར་བུ་སྒྲོན་གསལ"
     },
     {
         "Volume": "5",
@@ -837,7 +892,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "161367",
-        "End Index LS": "161581"
+        "End Index LS": "161581",
+        "textTitleTibetan": "ཚིག་དབང་རིན་པོ་ཆེ་བཞུགས་པ་ཏྲེ་"
     },
     {
         "Volume": "5",
@@ -852,7 +908,8 @@
         "Start Index T": "58046",
         "End Index T": "58183",
         "Start Index LS": "168125",
-        "End Index LS": "168301"
+        "End Index LS": "168301",
+        "textTitleTibetan": "གསང་དབང་ལུས་དཀྱིལ་ངོ་སྤྲོད་"
     },
     {
         "Volume": "5",
@@ -867,7 +924,8 @@
         "Start Index T": "45989",
         "End Index T": "46163",
         "Start Index LS": "169055",
-        "End Index LS": "169236"
+        "End Index LS": "169236",
+        "textTitleTibetan": "གསང་དབང་ལུས་དཀྱིལ་ངོ་སྤྲོད་"
     },
     {
         "Volume": "5",
@@ -882,7 +940,8 @@
         "Start Index T": "115624",
         "End Index T": "115809",
         "Start Index LS": "169587",
-        "End Index LS": "169742"
+        "End Index LS": "169742",
+        "textTitleTibetan": "ཤེས་རབ་ཡུམ་གྱི་མཁའ་ངོ་སྤྲོད་"
     },
     {
         "Volume": "5",
@@ -897,7 +956,8 @@
         "Start Index T": "37239",
         "End Index T": "37307",
         "Start Index LS": "170383",
-        "End Index LS": "170474"
+        "End Index LS": "170474",
+        "textTitleTibetan": "ཤེས་རབ་ཡུམ་གྱི་མཁའ་ངོ་སྤྲོད་"
     },
     {
         "Volume": "5",
@@ -912,7 +972,8 @@
         "Start Index T": "49578",
         "End Index T": "49752",
         "Start Index LS": "184899",
-        "End Index LS": "185092"
+        "End Index LS": "185092",
+        "textTitleTibetan": "བདེ་གཤེགས་རིགས་ལྔའི་མཆོད་འབུམ་"
     },
     {
         "Volume": "5",
@@ -927,7 +988,8 @@
         "Start Index T": "37344",
         "End Index T": "37379",
         "Start Index LS": "196106",
-        "End Index LS": "196184"
+        "End Index LS": "196184",
+        "textTitleTibetan": "རིགས་ལྔའི་གཏོར་མའི་ལག་ལེན་བཞུགས་སོ༔"
     },
     {
         "Volume": "5",
@@ -942,7 +1004,8 @@
         "Start Index T": "11535",
         "End Index T": "11639",
         "Start Index LS": "250899",
-        "End Index LS": "251040"
+        "End Index LS": "251040",
+        "textTitleTibetan": "རྩལ་དབང་ཏི་ཀ་རིག་པའི་སྒྲོན་མ"
     },
     {
         "Volume": "5",
@@ -957,7 +1020,8 @@
         "Start Index T": "36368",
         "End Index T": "36520",
         "Start Index LS": "255461",
-        "End Index LS": "255653"
+        "End Index LS": "255653",
+        "textTitleTibetan": "ཐོད་རྒལ་ཁྱད་པར་དབང་ལྔ"
     },
     {
         "Volume": "5",
@@ -972,7 +1036,8 @@
         "Start Index T": "21352",
         "End Index T": "21500",
         "Start Index LS": "278989",
-        "End Index LS": "279202"
+        "End Index LS": "279202",
+        "textTitleTibetan": "མཁའ་འགྲོ་སྙིང་ཐིག་གསང་དབང་གི་ལྷན་ཐབས"
     },
     {
         "Volume": "5",
@@ -987,7 +1052,8 @@
         "Start Index T": "45989",
         "End Index T": "46163",
         "Start Index LS": "282940",
-        "End Index LS": "283184"
+        "End Index LS": "283184",
+        "textTitleTibetan": "མཁའ་འགྲོ་སྙིང་ཐིག་གསང་དབང་གི་ལྷན་ཐབས"
     },
     {
         "Volume": "5",
@@ -1002,7 +1068,8 @@
         "Start Index T": "156283",
         "End Index T": "156879",
         "Start Index LS": "295116",
-        "End Index LS": "295393"
+        "End Index LS": "295393",
+        "textTitleTibetan": "ཐོད་རྒལ་གྱི་དོན་ཁྲིད་ནོར་བུའི་སྙིང་པོ"
     },
     {
         "Volume": "5",
@@ -1017,7 +1084,8 @@
         "Start Index T": "28430",
         "End Index T": "28701",
         "Start Index LS": "295414",
-        "End Index LS": "295704"
+        "End Index LS": "295704",
+        "textTitleTibetan": "ཐོད་རྒལ་གྱི་དོན་ཁྲིད་ནོར་བུའི་སྙིང་པོ"
     },
     {
         "Volume": "5",
@@ -1032,7 +1100,8 @@
         "Start Index T": "28943",
         "End Index T": "29083",
         "Start Index LS": "295909",
-        "End Index LS": "296066"
+        "End Index LS": "296066",
+        "textTitleTibetan": "ཐོད་རྒལ་གྱི་དོན་ཁྲིད་ནོར་བུའི་སྙིང་པོ"
     },
     {
         "Volume": "5",
@@ -1047,7 +1116,8 @@
         "Start Index T": "60716",
         "End Index T": "60827",
         "Start Index LS": "302124",
-        "End Index LS": "302253"
+        "End Index LS": "302253",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1062,7 +1132,8 @@
         "Start Index T": "62614",
         "End Index T": "62810",
         "Start Index LS": "307374",
-        "End Index LS": "307598"
+        "End Index LS": "307598",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1077,7 +1148,8 @@
         "Start Index T": "63293",
         "End Index T": "63326",
         "Start Index LS": "311530",
-        "End Index LS": "311589"
+        "End Index LS": "311589",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1092,7 +1164,8 @@
         "Start Index T": "65551",
         "End Index T": "65859",
         "Start Index LS": "316695",
-        "End Index LS": "317020"
+        "End Index LS": "317020",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1107,7 +1180,8 @@
         "Start Index T": "66075",
         "End Index T": "66216",
         "Start Index LS": "317642",
-        "End Index LS": "317814"
+        "End Index LS": "317814",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1122,7 +1196,8 @@
         "Start Index T": "103826",
         "End Index T": "104006",
         "Start Index LS": "318046",
-        "End Index LS": "318206"
+        "End Index LS": "318206",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1137,7 +1212,8 @@
         "Start Index T": "66738",
         "End Index T": "66770",
         "Start Index LS": "319524",
-        "End Index LS": "319581"
+        "End Index LS": "319581",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1152,7 +1228,8 @@
         "Start Index T": "66772",
         "End Index T": "66911",
         "Start Index LS": "319932",
-        "End Index LS": "320091"
+        "End Index LS": "320091",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1167,7 +1244,8 @@
         "Start Index T": "66950",
         "End Index T": "67023",
         "Start Index LS": "320320",
-        "End Index LS": "320444"
+        "End Index LS": "320444",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1182,7 +1260,8 @@
         "Start Index T": "67094",
         "End Index T": "67193",
         "Start Index LS": "321212",
-        "End Index LS": "321332"
+        "End Index LS": "321332",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1197,7 +1276,8 @@
         "Start Index T": "67295",
         "End Index T": "67402",
         "Start Index LS": "322210",
-        "End Index LS": "322338"
+        "End Index LS": "322338",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1212,7 +1292,8 @@
         "Start Index T": "67402",
         "End Index T": "67497",
         "Start Index LS": "322676",
-        "End Index LS": "322795"
+        "End Index LS": "322795",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1227,7 +1308,8 @@
         "Start Index T": "67530",
         "End Index T": "67664",
         "Start Index LS": "323073",
-        "End Index LS": "323228"
+        "End Index LS": "323228",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1242,7 +1324,8 @@
         "Start Index T": "67664",
         "End Index T": "67802",
         "Start Index LS": "323423",
-        "End Index LS": "323586"
+        "End Index LS": "323586",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1257,7 +1340,8 @@
         "Start Index T": "67804",
         "End Index T": "67905",
         "Start Index LS": "324567",
-        "End Index LS": "324687"
+        "End Index LS": "324687",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1272,7 +1356,8 @@
         "Start Index T": "68060",
         "End Index T": "68149",
         "Start Index LS": "325622",
-        "End Index LS": "325734"
+        "End Index LS": "325734",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1287,7 +1372,8 @@
         "Start Index T": "68149",
         "End Index T": "68313",
         "Start Index LS": "326004",
-        "End Index LS": "326172"
+        "End Index LS": "326172",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1302,7 +1388,8 @@
         "Start Index T": "68451",
         "End Index T": "68546",
         "Start Index LS": "326687",
-        "End Index LS": "326805"
+        "End Index LS": "326805",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1317,7 +1404,8 @@
         "Start Index T": "68848",
         "End Index T": "68938",
         "Start Index LS": "327522",
-        "End Index LS": "327638"
+        "End Index LS": "327638",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1332,7 +1420,8 @@
         "Start Index T": "68941",
         "End Index T": "69202",
         "Start Index LS": "328721",
-        "End Index LS": "329003"
+        "End Index LS": "329003",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1347,7 +1436,8 @@
         "Start Index T": "69269",
         "End Index T": "69364",
         "Start Index LS": "329285",
-        "End Index LS": "329404"
+        "End Index LS": "329404",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1362,7 +1452,8 @@
         "Start Index T": "69502",
         "End Index T": "69540",
         "Start Index LS": "329527",
-        "End Index LS": "329602"
+        "End Index LS": "329602",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1377,7 +1468,8 @@
         "Start Index T": "263183",
         "End Index T": "263220",
         "Start Index LS": "329527",
-        "End Index LS": "329602"
+        "End Index LS": "329602",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1392,7 +1484,8 @@
         "Start Index T": "69643",
         "End Index T": "69954",
         "Start Index LS": "329824",
-        "End Index LS": "330348"
+        "End Index LS": "330348",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1407,7 +1500,8 @@
         "Start Index T": "69954",
         "End Index T": "70049",
         "Start Index LS": "330349",
-        "End Index LS": "330503"
+        "End Index LS": "330503",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1422,7 +1516,8 @@
         "Start Index T": "71620",
         "End Index T": "71796",
         "Start Index LS": "333184",
-        "End Index LS": "333381"
+        "End Index LS": "333381",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1437,7 +1532,8 @@
         "Start Index T": "72150",
         "End Index T": "72261",
         "Start Index LS": "334302",
-        "End Index LS": "334435"
+        "End Index LS": "334435",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1452,7 +1548,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "337071",
-        "End Index LS": "337719"
+        "End Index LS": "337719",
+        "textTitleTibetan": "སྙིང་པོ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བའི་ཁྲིད"
     },
     {
         "Volume": "5",
@@ -1467,7 +1564,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "339485",
-        "End Index LS": "339602"
+        "End Index LS": "339602",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1482,7 +1580,8 @@
         "Start Index T": "156283",
         "End Index T": "156460",
         "Start Index LS": "339854",
-        "End Index LS": "340149"
+        "End Index LS": "340149",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1497,7 +1596,8 @@
         "Start Index T": "259264",
         "End Index T": "259339",
         "Start Index LS": "340179",
-        "End Index LS": "340277"
+        "End Index LS": "340277",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1512,7 +1612,8 @@
         "Start Index T": "28943",
         "End Index T": "29083",
         "Start Index LS": "342159",
-        "End Index LS": "342315"
+        "End Index LS": "342315",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1527,7 +1628,8 @@
         "Start Index T": "260203",
         "End Index T": "260279",
         "Start Index LS": "342552",
-        "End Index LS": "342653"
+        "End Index LS": "342653",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1542,7 +1644,8 @@
         "Start Index T": "260458",
         "End Index T": "260651",
         "Start Index LS": "343244",
-        "End Index LS": "343463"
+        "End Index LS": "343463",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1557,7 +1660,8 @@
         "Start Index T": "260651",
         "End Index T": "260724",
         "Start Index LS": "343464",
-        "End Index LS": "343570"
+        "End Index LS": "343570",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1572,7 +1676,8 @@
         "Start Index T": "261099",
         "End Index T": "261202",
         "Start Index LS": "345503",
-        "End Index LS": "345631"
+        "End Index LS": "345631",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1587,7 +1692,8 @@
         "Start Index T": "261234",
         "End Index T": "261306",
         "Start Index LS": "345743",
-        "End Index LS": "345839"
+        "End Index LS": "345839",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1602,7 +1708,8 @@
         "Start Index T": "261272",
         "End Index T": "261454",
         "Start Index LS": "346087",
-        "End Index LS": "346210"
+        "End Index LS": "346210",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1617,7 +1724,8 @@
         "Start Index T": "261550",
         "End Index T": "261618",
         "Start Index LS": "346368",
-        "End Index LS": "346466"
+        "End Index LS": "346466",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1632,7 +1740,8 @@
         "Start Index T": "261620",
         "End Index T": "261733",
         "Start Index LS": "346800",
-        "End Index LS": "346926"
+        "End Index LS": "346926",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1647,7 +1756,8 @@
         "Start Index T": "261801",
         "End Index T": "261866",
         "Start Index LS": "347044",
-        "End Index LS": "347134"
+        "End Index LS": "347134",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1662,7 +1772,8 @@
         "Start Index T": "257545",
         "End Index T": "257580",
         "Start Index LS": "347592",
-        "End Index LS": "347657"
+        "End Index LS": "347657",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1677,7 +1788,8 @@
         "Start Index T": "261940",
         "End Index T": "262047",
         "Start Index LS": "347657",
-        "End Index LS": "347783"
+        "End Index LS": "347783",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1692,7 +1804,8 @@
         "Start Index T": "262077",
         "End Index T": "262304",
         "Start Index LS": "347871",
-        "End Index LS": "348119"
+        "End Index LS": "348119",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1707,7 +1820,8 @@
         "Start Index T": "262470",
         "End Index T": "262570",
         "Start Index LS": "348421",
-        "End Index LS": "348544"
+        "End Index LS": "348544",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1722,7 +1836,8 @@
         "Start Index T": "262570",
         "End Index T": "262670",
         "Start Index LS": "349212",
-        "End Index LS": "349359"
+        "End Index LS": "349359",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1737,7 +1852,8 @@
         "Start Index T": "262670",
         "End Index T": "262805",
         "Start Index LS": "349396",
-        "End Index LS": "349553"
+        "End Index LS": "349553",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1752,7 +1868,8 @@
         "Start Index T": "262805",
         "End Index T": "262907",
         "Start Index LS": "350031",
-        "End Index LS": "350158"
+        "End Index LS": "350158",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1767,7 +1884,8 @@
         "Start Index T": "262978",
         "End Index T": "263116",
         "Start Index LS": "350793",
-        "End Index LS": "350951"
+        "End Index LS": "350951",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1782,7 +1900,8 @@
         "Start Index T": "263116",
         "End Index T": "263220",
         "Start Index LS": "351481",
-        "End Index LS": "351570"
+        "End Index LS": "351570",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1797,7 +1916,8 @@
         "Start Index T": "263220",
         "End Index T": "263325",
         "Start Index LS": "352308",
-        "End Index LS": "352434"
+        "End Index LS": "352434",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1812,7 +1932,8 @@
         "Start Index T": "263325",
         "End Index T": "263397",
         "Start Index LS": "352686",
-        "End Index LS": "352779"
+        "End Index LS": "352779",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1827,7 +1948,8 @@
         "Start Index T": "263459",
         "End Index T": "263523",
         "Start Index LS": "352929",
-        "End Index LS": "353015"
+        "End Index LS": "353015",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1842,7 +1964,8 @@
         "Start Index T": "263552",
         "End Index T": "263661",
         "Start Index LS": "353078",
-        "End Index LS": "353204"
+        "End Index LS": "353204",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1857,7 +1980,8 @@
         "Start Index T": "263661",
         "End Index T": "263863",
         "Start Index LS": "353765",
-        "End Index LS": "354004"
+        "End Index LS": "354004",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1872,7 +1996,8 @@
         "Start Index T": "263865",
         "End Index T": "263929",
         "Start Index LS": "354409",
-        "End Index LS": "354500"
+        "End Index LS": "354500",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1887,7 +2012,8 @@
         "Start Index T": "264154",
         "End Index T": "264253",
         "Start Index LS": "354867",
-        "End Index LS": "354987"
+        "End Index LS": "354987",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1902,7 +2028,8 @@
         "Start Index T": "264359",
         "End Index T": "264427",
         "Start Index LS": "355216",
-        "End Index LS": "355306"
+        "End Index LS": "355306",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1917,7 +2044,8 @@
         "Start Index T": "264427",
         "End Index T": "264574",
         "Start Index LS": "355544",
-        "End Index LS": "355715"
+        "End Index LS": "355715",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1932,7 +2060,8 @@
         "Start Index T": "265297",
         "End Index T": "265368",
         "Start Index LS": "357240",
-        "End Index LS": "357332"
+        "End Index LS": "357332",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1947,7 +2076,8 @@
         "Start Index T": "263183",
         "End Index T": "263220",
         "Start Index LS": "351720",
-        "End Index LS": "351798"
+        "End Index LS": "351798",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1962,7 +2092,8 @@
         "Start Index T": "69502",
         "End Index T": "69540",
         "Start Index LS": "351720",
-        "End Index LS": "351798"
+        "End Index LS": "351798",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1977,7 +2108,8 @@
         "Start Index T": "265894",
         "End Index T": "265984",
         "Start Index LS": "358212",
-        "End Index LS": "358305"
+        "End Index LS": "358305",
+        "textTitleTibetan": "ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -1992,7 +2124,8 @@
         "Start Index T": "263183",
         "End Index T": "263218",
         "Start Index LS": "413553",
-        "End Index LS": "413625"
+        "End Index LS": "413625",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2007,7 +2140,8 @@
         "Start Index T": "69502",
         "End Index T": "69540",
         "Start Index LS": "413553",
-        "End Index LS": "413625"
+        "End Index LS": "413625",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2022,7 +2156,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "368116",
-        "End Index LS": "368563"
+        "End Index LS": "368563",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2037,7 +2172,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "369578",
-        "End Index LS": "369800"
+        "End Index LS": "369800",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2052,7 +2188,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "369994",
-        "End Index LS": "370060"
+        "End Index LS": "370060",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2067,7 +2204,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "373166",
-        "End Index LS": "373230"
+        "End Index LS": "373230",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2082,7 +2220,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "374438",
-        "End Index LS": "374533"
+        "End Index LS": "374533",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2097,7 +2236,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "375082",
-        "End Index LS": "375203"
+        "End Index LS": "375203",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2112,7 +2252,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "379882",
-        "End Index LS": "379939"
+        "End Index LS": "379939",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2127,7 +2268,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "380742",
-        "End Index LS": "380963"
+        "End Index LS": "380963",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2142,7 +2284,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "383648",
-        "End Index LS": "383702"
+        "End Index LS": "383702",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2157,7 +2300,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "386393",
-        "End Index LS": "386557"
+        "End Index LS": "386557",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2172,7 +2316,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "396518",
-        "End Index LS": "396770"
+        "End Index LS": "396770",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2187,7 +2332,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "400069",
-        "End Index LS": "400206"
+        "End Index LS": "400206",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2202,7 +2348,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "401688",
-        "End Index LS": "401913"
+        "End Index LS": "401913",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2217,7 +2364,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "402688",
-        "End Index LS": "402806"
+        "End Index LS": "402806",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2232,7 +2380,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "408988",
-        "End Index LS": "409346"
+        "End Index LS": "409346",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2247,7 +2396,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "411013",
-        "End Index LS": "411128"
+        "End Index LS": "411128",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2262,7 +2412,8 @@
         "Start Index T": "263183",
         "End Index T": "263220",
         "Start Index LS": "413553",
-        "End Index LS": "413626"
+        "End Index LS": "413626",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2277,7 +2428,8 @@
         "Start Index T": "69502",
         "End Index T": "69540",
         "Start Index LS": "413553",
-        "End Index LS": "413626"
+        "End Index LS": "413626",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2292,7 +2444,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "415054",
-        "End Index LS": "415172"
+        "End Index LS": "415172",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2307,7 +2460,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "416561",
-        "End Index LS": "416784"
+        "End Index LS": "416784",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2322,7 +2476,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "423316",
-        "End Index LS": "423506"
+        "End Index LS": "423506",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ"
     },
     {
         "Volume": "5",
@@ -2337,7 +2492,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "424192",
-        "End Index LS": "424269"
+        "End Index LS": "424269",
+        "textTitleTibetan": "སྙིང་ཐིག་ཆེན་མོའི་རྒྱབ་ཆོས་ཀྱི་རྩ་བ་བདོག་གོ\n"
     },
     {
         "Volume": "5",
@@ -2352,7 +2508,8 @@
         "Start Index T": "263183",
         "End Index T": "263220",
         "Start Index LS": "455939",
-        "End Index LS": "456030"
+        "End Index LS": "456030",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2367,7 +2524,8 @@
         "Start Index T": "69502",
         "End Index T": "69540",
         "Start Index LS": "455939",
-        "End Index LS": "456030"
+        "End Index LS": "456030",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2382,7 +2540,8 @@
         "Start Index T": "60716",
         "End Index T": "60827",
         "Start Index LS": "428817",
-        "End Index LS": "428946"
+        "End Index LS": "428946",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2397,7 +2556,8 @@
         "Start Index T": "62614",
         "End Index T": "62810",
         "Start Index LS": "433960",
-        "End Index LS": "434185"
+        "End Index LS": "434185",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2412,7 +2572,8 @@
         "Start Index T": "63293",
         "End Index T": "63326",
         "Start Index LS": "438053",
-        "End Index LS": "438111"
+        "End Index LS": "438111",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2427,7 +2588,8 @@
         "Start Index T": "65551",
         "End Index T": "65859",
         "Start Index LS": "443170",
-        "End Index LS": "443496"
+        "End Index LS": "443496",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2442,7 +2604,8 @@
         "Start Index T": "66075",
         "End Index T": "66216",
         "Start Index LS": "444105",
-        "End Index LS": "444277"
+        "End Index LS": "444277",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2457,7 +2620,8 @@
         "Start Index T": "103826",
         "End Index T": "103972",
         "Start Index LS": "444509",
-        "End Index LS": "444668"
+        "End Index LS": "444668",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2472,7 +2636,8 @@
         "Start Index T": "66491",
         "End Index T": "66628",
         "Start Index LS": "445281",
-        "End Index LS": "445440"
+        "End Index LS": "445440",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2487,7 +2652,8 @@
         "Start Index T": "66738",
         "End Index T": "66772",
         "Start Index LS": "445989",
-        "End Index LS": "446098"
+        "End Index LS": "446098",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2502,7 +2668,8 @@
         "Start Index T": "66950",
         "End Index T": "67060",
         "Start Index LS": "446764",
-        "End Index LS": "446891"
+        "End Index LS": "446891",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2517,7 +2684,8 @@
         "Start Index T": "67094",
         "End Index T": "67193",
         "Start Index LS": "447675",
-        "End Index LS": "447795"
+        "End Index LS": "447795",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2532,7 +2700,8 @@
         "Start Index T": "67295",
         "End Index T": "67402",
         "Start Index LS": "448654",
-        "End Index LS": "448784"
+        "End Index LS": "448784",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2547,7 +2716,8 @@
         "Start Index T": "67402",
         "End Index T": "67499",
         "Start Index LS": "449122",
-        "End Index LS": "449246"
+        "End Index LS": "449246",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2562,7 +2732,8 @@
         "Start Index T": "67530",
         "End Index T": "67664",
         "Start Index LS": "449529",
-        "End Index LS": "449685"
+        "End Index LS": "449685",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2577,7 +2748,8 @@
         "Start Index T": "67664",
         "End Index T": "67804",
         "Start Index LS": "449876",
-        "End Index LS": "450040"
+        "End Index LS": "450040",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2592,7 +2764,8 @@
         "Start Index T": "67804",
         "End Index T": "67905",
         "Start Index LS": "451023",
-        "End Index LS": "451142"
+        "End Index LS": "451142",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2607,7 +2780,8 @@
         "Start Index T": "68060",
         "End Index T": "68149",
         "Start Index LS": "452093",
-        "End Index LS": "452208"
+        "End Index LS": "452208",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2622,7 +2796,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "452481",
-        "End Index LS": "452648"
+        "End Index LS": "452648",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2637,7 +2812,8 @@
         "Start Index T": "68451",
         "End Index T": "68649",
         "Start Index LS": "453137",
-        "End Index LS": "453355"
+        "End Index LS": "453355",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2652,7 +2828,8 @@
         "Start Index T": "105344",
         "End Index T": "105436",
         "Start Index LS": "453950",
-        "End Index LS": "454068"
+        "End Index LS": "454068",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2667,7 +2844,8 @@
         "Start Index T": "68941",
         "End Index T": "69202",
         "Start Index LS": "455128",
-        "End Index LS": "455400"
+        "End Index LS": "455400",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2682,7 +2860,8 @@
         "Start Index T": "69269",
         "End Index T": "69364",
         "Start Index LS": "455690",
-        "End Index LS": "455809"
+        "End Index LS": "455809",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2697,7 +2876,8 @@
         "Start Index T": "69643",
         "End Index T": "69954",
         "Start Index LS": "456236",
-        "End Index LS": "456576"
+        "End Index LS": "456576",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2712,7 +2892,8 @@
         "Start Index T": "69954",
         "End Index T": "70088",
         "Start Index LS": "456760",
-        "End Index LS": "456919"
+        "End Index LS": "456919",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2727,7 +2908,8 @@
         "Start Index T": "71620",
         "End Index T": "71796",
         "Start Index LS": "459637",
-        "End Index LS": "459833"
+        "End Index LS": "459833",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2742,7 +2924,8 @@
         "Start Index T": "72150",
         "End Index T": "72261",
         "Start Index LS": "460752",
-        "End Index LS": "460890"
+        "End Index LS": "460890",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2757,7 +2940,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "463434",
-        "End Index LS": "463991"
+        "End Index LS": "463991",
+        "textTitleTibetan": "སྙིང་ཐིག་གསང་བའི་ཡང་བཅུད་སྙིང་པོ་གསལ་བའི་མེ་ལོང"
     },
     {
         "Volume": "5",
@@ -2772,7 +2956,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "466610",
-        "End Index LS": "466706"
+        "End Index LS": "466706",
+        "textTitleTibetan": "རྣལ་འབྱོར་བཞི་ལས་ལྟ་བའི་རྣལ་འབྱོར"
     },
     {
         "Volume": "5",
@@ -2787,7 +2972,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "469825",
-        "End Index LS": "469915"
+        "End Index LS": "469915",
+        "textTitleTibetan": "ཐུན་བཞིའི་རྣལ་འབྱོར་ལས་སྒོམ་པའི་རྣལ་འབྱོར"
     },
     {
         "Volume": "5",
@@ -2802,7 +2988,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "507170",
-        "End Index LS": "507340"
+        "End Index LS": "507340",
+        "textTitleTibetan": "ཞལ་གདམས་གསང་བའི་དུམ་བུ"
     },
     {
         "Volume": "5",
@@ -2817,7 +3004,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "510501",
-        "End Index LS": "510558"
+        "End Index LS": "510558",
+        "textTitleTibetan": "ཞལ་གདམས་གསང་བའི་དུམ་བུ"
     },
     {
         "Volume": "5",
@@ -2832,7 +3020,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "512223",
-        "End Index LS": "512384"
+        "End Index LS": "512384",
+        "textTitleTibetan": "ཞལ་གདམས་གསང་བའི་དུམ་བུ"
     },
     {
         "Volume": "5",
@@ -2847,7 +3036,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "519001",
-        "End Index LS": "519057"
+        "End Index LS": "519057",
+        "textTitleTibetan": "ཞལ་གདམས་གསང་བའི་དུམ་བུ"
     },
     {
         "Volume": "5",
@@ -2862,7 +3052,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "523648",
-        "End Index LS": "524506"
+        "End Index LS": "524506",
+        "textTitleTibetan": "ཞལ་གདམས་གསང་བའི་དུམ་བུ"
     },
     {
         "Volume": "5",
@@ -2877,7 +3068,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "527229",
-        "End Index LS": "527424"
+        "End Index LS": "527424",
+        "textTitleTibetan": "ཞལ་གདམས་གསང་བའི་དུམ་བུ"
     },
     {
         "Volume": "5",
@@ -2892,7 +3084,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "528976",
-        "End Index LS": "529192"
+        "End Index LS": "529192",
+        "textTitleTibetan": "ཞལ་གདམས་གསང་བའི་དུམ་བུ"
     },
     {
         "Volume": "5",
@@ -2907,7 +3100,8 @@
         "Start Index T": "255546",
         "End Index T": "255618",
         "Start Index LS": "539607",
-        "End Index LS": "539710"
+        "End Index LS": "539710",
+        "textTitleTibetan": "གནད་ཀྱི་གདམས་པ་ལྔ་པ"
     },
     {
         "Volume": "5",
@@ -2922,7 +3116,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "561696",
-        "End Index LS": "561832"
+        "End Index LS": "561832",
+        "textTitleTibetan": "ཌཱཀྐིའི་ལམ་འབྲས་ཀྱི་སྐོར"
     },
     {
         "Volume": "5",
@@ -2937,7 +3132,8 @@
         "Start Index T": "255683",
         "End Index T": "255750",
         "Start Index LS": "571602",
-        "End Index LS": "571723"
+        "End Index LS": "571723",
+        "textTitleTibetan": "ཞལ་གདམས་གནད་ཀྱི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -2952,7 +3148,8 @@
         "Start Index T": "255750",
         "End Index T": "255866",
         "Start Index LS": "572848",
-        "End Index LS": "573023"
+        "End Index LS": "573023",
+        "textTitleTibetan": "ཞལ་གདམས་གནད་ཀྱི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -2967,7 +3164,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "574760",
-        "End Index LS": "574878"
+        "End Index LS": "574878",
+        "textTitleTibetan": "ཞལ་གདམས་གནད་ཀྱི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -2982,7 +3180,8 @@
         "Start Index T": "255939",
         "End Index T": "255971",
         "Start Index LS": "575573",
-        "End Index LS": "575629"
+        "End Index LS": "575629",
+        "textTitleTibetan": "ཞལ་གདམས་གནད་ཀྱི་ཕྲེང་བ"
     },
     {
         "Volume": "5",
@@ -2997,7 +3196,8 @@
         "Start Index T": "255546",
         "End Index T": "255651",
         "Start Index LS": "578077",
-        "End Index LS": "578177"
+        "End Index LS": "578177",
+        "textTitleTibetan": "ཌཀྐི་གནད་ཐིག"
     },
     {
         "Volume": "5",
@@ -3012,7 +3212,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "598427",
-        "End Index LS": "598616"
+        "End Index LS": "598616",
+        "textTitleTibetan": "ཞི་བ་བར་དོ་ལམ་གྱི་མཚན་ཉིད"
     },
     {
         "Volume": "5",
@@ -3027,7 +3228,8 @@
         "Start Index T": "36909",
         "End Index T": "37094",
         "Start Index LS": "611362",
-        "End Index LS": "611550"
+        "End Index LS": "611550",
+        "textTitleTibetan": "ཞི་བ་བར་དོ་ལམ་གྱི་མཚན་ཉིད"
     },
     {
         "Volume": "5",
@@ -3042,7 +3244,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "617587",
-        "End Index LS": "617733"
+        "End Index LS": "617733",
+        "textTitleTibetan": "ཁྲོ་བོ་བར་དོ་གནད་ཀྱི་སྒྲོན་མ"
     },
     {
         "Volume": "5",
@@ -3057,7 +3260,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "618573",
-        "End Index LS": "618670"
+        "End Index LS": "618670",
+        "textTitleTibetan": "ཁྲོ་བོ་བར་དོ་གནད་ཀྱི་སྒྲོན་མ"
     },
     {
         "Volume": "5",
@@ -3072,7 +3276,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "618756",
-        "End Index LS": "618843"
+        "End Index LS": "618843",
+        "textTitleTibetan": "ཁྲོ་བོ་བར་དོ་གནད་ཀྱི་སྒྲོན་མ"
     },
     {
         "Volume": "5",
@@ -3087,7 +3292,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "620066",
-        "End Index LS": "620199"
+        "End Index LS": "620199",
+        "textTitleTibetan": "ཁྲོ་བོ་བར་དོ་གནད་ཀྱི་སྒྲོན་མ"
     },
     {
         "Volume": "5",
@@ -3102,7 +3308,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "624522",
-        "End Index LS": "624655"
+        "End Index LS": "624655",
+        "textTitleTibetan": "ཁྲོ་བོ་བར་དོ་གནད་ཀྱི་སྒྲོན་མ"
     },
     {
         "Volume": "5",
@@ -3117,7 +3324,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "626516",
-        "End Index LS": "626851"
+        "End Index LS": "626851",
+        "textTitleTibetan": "ཁྲོ་བོ་བར་དོ་གནད་ཀྱི་སྒྲོན་མ"
     },
     {
         "Volume": "5",
@@ -3132,7 +3340,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "627092",
-        "End Index LS": "627275"
+        "End Index LS": "627275",
+        "textTitleTibetan": "ཁྲོ་བོ་བར་དོ་གནད་ཀྱི་སྒྲོན་མ"
     },
     {
         "Volume": "5",
@@ -3147,7 +3356,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "627310",
-        "End Index LS": "627517"
+        "End Index LS": "627517",
+        "textTitleTibetan": "ཁྲོ་བོ་བར་དོ་གནད་ཀྱི་སྒྲོན་མ"
     },
     {
         "Volume": "5",
@@ -3162,7 +3372,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "633589",
-        "End Index LS": "633781"
+        "End Index LS": "633781",
+        "textTitleTibetan": "ཁྲོ་བོ་བར་དོ་གནད་ཀྱི་སྒྲོན་མ"
     },
     {
         "Volume": "5",
@@ -3177,7 +3388,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "639141",
-        "End Index LS": "639644"
+        "End Index LS": "639644",
+        "textTitleTibetan": "བར་དོའི་གདམས་པ་འབྱུང་བ་འདུས་པ་འབྲལ་བ་རྟགས་ཀྱི་རིམ་པ"
     },
     {
         "Volume": "5",
@@ -3192,7 +3404,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "659161",
-        "End Index LS": "659434"
+        "End Index LS": "659434",
+        "textTitleTibetan": "ཨོད་གསལ་"
     },
     {
         "Volume": "6",
@@ -3207,7 +3420,8 @@
         "Start Index T": "6033",
         "End Index T": "6142",
         "Start Index LS": "715518",
-        "End Index LS": "715645"
+        "End Index LS": "715645",
+        "textTitleTibetan": "ཁྲེགས་ཆོད་ངོ་སྤྲོད་མཐའ་གྲོལ་ཀློང་ཡངས"
     },
     {
         "Volume": "6",
@@ -3222,7 +3436,8 @@
         "Start Index T": "5753",
         "End Index T": "5789",
         "Start Index LS": "716454",
-        "End Index LS": "716514"
+        "End Index LS": "716514",
+        "textTitleTibetan": "ཁྲེགས་ཆོད་ངོ་སྤྲོད་མཐའ་གྲོལ་ཀློང་ཡངས"
     },
     {
         "Volume": "6",
@@ -3237,7 +3452,8 @@
         "Start Index T": "67094",
         "End Index T": "67193",
         "Start Index LS": "718313",
-        "End Index LS": "718435"
+        "End Index LS": "718435",
+        "textTitleTibetan": "ཁྲེགས་ཆོད་ངོ་སྤྲོད་མཐའ་གྲོལ་ཀློང་ཡངས"
     },
     {
         "Volume": "6",
@@ -3252,7 +3468,8 @@
         "Start Index T": "5753",
         "End Index T": "5859",
         "Start Index LS": "722119",
-        "End Index LS": "722262"
+        "End Index LS": "722262",
+        "textTitleTibetan": "ཁྲེགས་ཆོད་ངོ་སྤྲོད་མཐའ་གྲོལ་ཀློང་ཡངས"
     },
     {
         "Volume": "6",
@@ -3267,7 +3484,8 @@
         "Start Index T": "159251",
         "End Index T": "159361",
         "Start Index LS": "722119",
-        "End Index LS": "722262"
+        "End Index LS": "722262",
+        "textTitleTibetan": "ཁྲེགས་ཆོད་ངོ་སྤྲོད་མཐའ་གྲོལ་ཀློང་ཡངས"
     },
     {
         "Volume": "6",
@@ -3282,12 +3500,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "733776",
-        "End Index LS": "733926"
+        "End Index LS": "733926",
+        "textTitleTibetan": "ཐིག་ལེ་དངས་སྙིགས་འབྱེད་པ་དང་༔ རིགས་རྒྱུད་གཞག་ཐབས་ལག་ལེན་"
     },
     {
         "Volume": "6",
         "Text No.": "10",
-        "Text Title": "bar do\u2019i ngo sprod",
+        "Text Title": "bar do’i ngo sprod",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "de yang klong gsal las:_ka dag nam mkha' lta bu la:_lhun grub thugs rje nyi ma ltar:_'od zer stong pa dbyer med do:_zhes pa dang :",
         "Ch. in T Text": "47",
@@ -3297,12 +3516,13 @@
         "Start Index T": "151166",
         "End Index T": "151266",
         "Start Index LS": "737122",
-        "End Index LS": "737252"
+        "End Index LS": "737252",
+        "textTitleTibetan": "བར་དོའི་ངོ་སྤྲོད"
     },
     {
         "Volume": "6",
         "Text No.": "10",
-        "Text Title": "bar do\u2019i ngo sprod",
+        "Text Title": "bar do’i ngo sprod",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las:_rig mdangs lhun grub ye shes sku:_tsit+ta'i nang na tshom bzhugs:_de'i rtsal klad pa dung khang na:_khro bo'i sku ru gsal bar bzhugs:_zhes pas so:_",
         "Ch. in T Text": "47",
@@ -3312,12 +3532,13 @@
         "Start Index T": "151336",
         "End Index T": "151474",
         "Start Index LS": "738370",
-        "End Index LS": "738533"
+        "End Index LS": "738533",
+        "textTitleTibetan": "བར་དོའི་ངོ་སྤྲོད"
     },
     {
         "Volume": "6",
         "Text No.": "10",
-        "Text Title": "bar do\u2019i ngo sprod",
+        "Text Title": "bar do’i ngo sprod",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las:_lam ni rtsa ste nyi zhur bzhin:_sgo ni dbang po'i mig la gsal:_ye shes me long byad ltar duH:_rkyen gyi dbang gis mthong bar 'gyur:_zhes pa dang :",
         "Ch. in T Text": "47",
@@ -3327,7 +3548,8 @@
         "Start Index T": "151540",
         "End Index T": "151674",
         "Start Index LS": "738666",
-        "End Index LS": "738828"
+        "End Index LS": "738828",
+        "textTitleTibetan": "བར་དོའི་ངོ་སྤྲོད"
     },
     {
         "Volume": "6",
@@ -3342,7 +3564,8 @@
         "Start Index T": "11535",
         "End Index T": "11639",
         "Start Index LS": "757008",
-        "End Index LS": "757143"
+        "End Index LS": "757143",
+        "textTitleTibetan": "བཏགས་གྲོལ་ཕྲན་དྲུག་གི་ཏི་ཀ"
     },
     {
         "Volume": "6",
@@ -3357,7 +3580,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "835844",
-        "End Index LS": "836041"
+        "End Index LS": "836041",
+        "textTitleTibetan": "པདྨ་ལས་འབྲེལ་རྩལ་གྱི་སྐྱེས་རབས་དང་༔ ལུང་བསྟན"
     },
     {
         "Volume": "6",
@@ -3372,7 +3596,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "838352",
-        "End Index LS": "838489"
+        "End Index LS": "838489",
+        "textTitleTibetan": "པདྨ་ལས་འབྲེལ་རྩལ་གྱི་སྐྱེས་རབས་དང་༔ ལུང་བསྟན"
     },
     {
         "Volume": "6",
@@ -3387,7 +3612,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "851420",
-        "End Index LS": "851665"
+        "End Index LS": "851665",
+        "textTitleTibetan": "ལོ་རྒྱུས་རྒྱལ་བ་གཡུང་གིས་མཛད་པ"
     },
     {
         "Volume": "6",
@@ -3402,7 +3628,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "889723",
-        "End Index LS": "889982"
+        "End Index LS": "889982",
+        "textTitleTibetan": "མཁའ་འགྲོ་སྙིང་ཐིག་གི་ཆ་རྐྱེན༔ ལྷ་མོ་ལྔའི་ཚེ་སྒྲུབ་"
     },
     {
         "Volume": "6",
@@ -3417,7 +3644,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "893031",
-        "End Index LS": "893262"
+        "End Index LS": "893262",
+        "textTitleTibetan": "མཁའ་འགྲོ་སྙིང་ཐིག་གི་ཆ་རྐྱེན༔ ལྷ་མོ་ལྔའི་ཚེ་སྒྲུབ་"
     },
     {
         "Volume": "6",
@@ -3432,7 +3660,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "912215",
-        "End Index LS": "912366"
+        "End Index LS": "912366",
+        "textTitleTibetan": "མཁའ་འགྲོ་སྙིང་ཐིག་གི་ལོ་རྒྱུས་རིན་པོ་ཆེའི་ཕྲེང་བ"
     },
     {
         "Volume": "6",
@@ -3447,7 +3676,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "931947",
-        "End Index LS": "932142"
+        "End Index LS": "932142",
+        "textTitleTibetan": "མཁའ་འགྲོ་སྙིང་ཐིག་གི་ལོ་རྒྱུས་རིན་པོ་ཆེའི་ཕྲེང་བ"
     },
     {
         "Volume": "6",
@@ -3462,7 +3692,8 @@
         "Start Index T": "28430",
         "End Index T": "28568",
         "Start Index LS": "951472",
-        "End Index LS": "951641"
+        "End Index LS": "951641",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3477,7 +3708,8 @@
         "Start Index T": "260203",
         "End Index T": "260279",
         "Start Index LS": "953303",
-        "End Index LS": "953415"
+        "End Index LS": "953415",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3492,7 +3724,8 @@
         "Start Index T": "261234",
         "End Index T": "261307",
         "Start Index LS": "984320",
-        "End Index LS": "984425"
+        "End Index LS": "984425",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3507,7 +3740,8 @@
         "Start Index T": "105498",
         "End Index T": "105636",
         "Start Index LS": "984999",
-        "End Index LS": "985120"
+        "End Index LS": "985120",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3522,7 +3756,8 @@
         "Start Index T": "261272",
         "End Index T": "261421",
         "Start Index LS": "986225",
-        "End Index LS": "986355"
+        "End Index LS": "986355",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3537,7 +3772,8 @@
         "Start Index T": "261099",
         "End Index T": "261202",
         "Start Index LS": "993068",
-        "End Index LS": "993197"
+        "End Index LS": "993197",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3552,7 +3788,8 @@
         "Start Index T": "261550",
         "End Index T": "261620",
         "Start Index LS": "993601",
-        "End Index LS": "993701"
+        "End Index LS": "993701",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3567,7 +3804,8 @@
         "Start Index T": "261834",
         "End Index T": "261907",
         "Start Index LS": "996518",
-        "End Index LS": "996613"
+        "End Index LS": "996613",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3582,7 +3820,8 @@
         "Start Index T": "22082",
         "End Index T": "22152",
         "Start Index LS": "997362",
-        "End Index LS": "997462"
+        "End Index LS": "997462",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3597,7 +3836,8 @@
         "Start Index T": "5753",
         "End Index T": "5789",
         "Start Index LS": "1000205",
-        "End Index LS": "1000269"
+        "End Index LS": "1000269",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3612,7 +3852,8 @@
         "Start Index T": "67094",
         "End Index T": "67193",
         "Start Index LS": "1005732",
-        "End Index LS": "1005856"
+        "End Index LS": "1005856",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3627,7 +3868,8 @@
         "Start Index T": "5753",
         "End Index T": "5859",
         "Start Index LS": "1007861",
-        "End Index LS": "1008006"
+        "End Index LS": "1008006",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3642,7 +3884,8 @@
         "Start Index T": "159251",
         "End Index T": "159361",
         "Start Index LS": "1007861",
-        "End Index LS": "1008006"
+        "End Index LS": "1008006",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3657,7 +3900,8 @@
         "Start Index T": "261940",
         "End Index T": "262047",
         "Start Index LS": "1017512",
-        "End Index LS": "1017646"
+        "End Index LS": "1017646",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3672,7 +3916,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1018655",
-        "End Index LS": "1018758"
+        "End Index LS": "1018758",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3687,7 +3932,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1021546",
-        "End Index LS": "1021640"
+        "End Index LS": "1021640",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3702,7 +3948,8 @@
         "Start Index T": "69502",
         "End Index T": "69540",
         "Start Index LS": "1023740",
-        "End Index LS": "1023819"
+        "End Index LS": "1023819",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3717,7 +3964,8 @@
         "Start Index T": "263183",
         "End Index T": "263220",
         "Start Index LS": "1023740",
-        "End Index LS": "1023819"
+        "End Index LS": "1023819",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3732,7 +3980,8 @@
         "Start Index T": "263325",
         "End Index T": "263397",
         "Start Index LS": "1024474",
-        "End Index LS": "1024568"
+        "End Index LS": "1024568",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3747,7 +3996,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1028890",
-        "End Index LS": "1029054"
+        "End Index LS": "1029054",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3762,7 +4012,8 @@
         "Start Index T": "263552",
         "End Index T": "263661",
         "Start Index LS": "1032836",
-        "End Index LS": "1032976"
+        "End Index LS": "1032976",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3777,7 +4028,8 @@
         "Start Index T": "183353",
         "End Index T": "183389",
         "Start Index LS": "1034651",
-        "End Index LS": "1034712"
+        "End Index LS": "1034712",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3792,7 +4044,8 @@
         "Start Index T": "264574",
         "End Index T": "264690",
         "Start Index LS": "1035684",
-        "End Index LS": "1035825"
+        "End Index LS": "1035825",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3807,7 +4060,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1037441",
-        "End Index LS": "1037540"
+        "End Index LS": "1037540",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3822,7 +4076,8 @@
         "Start Index T": "265543",
         "End Index T": "265610",
         "Start Index LS": "1039091",
-        "End Index LS": "1039182"
+        "End Index LS": "1039182",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3837,7 +4092,8 @@
         "Start Index T": "265688",
         "End Index T": "265754",
         "Start Index LS": "1040999",
-        "End Index LS": "1041093"
+        "End Index LS": "1041093",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3852,7 +4108,8 @@
         "Start Index T": "71620",
         "End Index T": "71796",
         "Start Index LS": "1041220",
-        "End Index LS": "1041428"
+        "End Index LS": "1041428",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3867,7 +4124,8 @@
         "Start Index T": "72150",
         "End Index T": "72261",
         "Start Index LS": "1042089",
-        "End Index LS": "1042222"
+        "End Index LS": "1042222",
+        "textTitleTibetan": "རྫོགས་པ་ཆེན་པོ་མཁའ་འགྲོ་སྙིང་ཏིག་གི་ཁྲིད་ཡིག་ཟབ་ལམ་གསལ་བྱེད"
     },
     {
         "Volume": "6",
@@ -3882,7 +4140,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1127081",
-        "End Index LS": "1127263"
+        "End Index LS": "1127263",
+        "textTitleTibetan": "གཏེར་འབྱུང་རིན་པོ་ཆེའི་ལོ་རྒྱུས་"
     },
     {
         "Volume": "6",
@@ -3897,7 +4156,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1167013",
-        "End Index LS": "1167348"
+        "End Index LS": "1167348",
+        "textTitleTibetan": "གཏེར་འབྱུང་རིན་པོ་ཆེའི་ལོ་རྒྱུས་"
     },
     {
         "Volume": "6",
@@ -3912,7 +4172,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1269814",
-        "End Index LS": "1269911"
+        "End Index LS": "1269911",
+        "textTitleTibetan": "རིན་པོ་ཆེ་དབང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "6",
@@ -3927,7 +4188,8 @@
         "Start Index T": "45116",
         "End Index T": "45256",
         "Start Index LS": "1275691",
-        "End Index LS": "1275871"
+        "End Index LS": "1275871",
+        "textTitleTibetan": "རིན་པོ་ཆེ་དབང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "6",
@@ -3942,7 +4204,8 @@
         "Start Index T": "45989",
         "End Index T": "46136",
         "Start Index LS": "1276608",
-        "End Index LS": "1276799"
+        "End Index LS": "1276799",
+        "textTitleTibetan": "རིན་པོ་ཆེ་དབང་གི་ཕྲེང་བ"
     },
     {
         "Volume": "7",
@@ -3957,7 +4220,8 @@
         "Start Index T": "62614",
         "End Index T": "62810",
         "Start Index LS": "1558375",
-        "End Index LS": "1558609"
+        "End Index LS": "1558609",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -3972,7 +4236,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1561577",
-        "End Index LS": "1561701"
+        "End Index LS": "1561701",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -3987,7 +4252,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1561906",
-        "End Index LS": "1562213"
+        "End Index LS": "1562213",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4002,7 +4268,8 @@
         "Start Index T": "63173",
         "End Index T": "63264",
         "Start Index LS": "1562962",
-        "End Index LS": "1563085"
+        "End Index LS": "1563085",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4017,7 +4284,8 @@
         "Start Index T": "67295",
         "End Index T": "67402",
         "Start Index LS": "1565392",
-        "End Index LS": "1565528"
+        "End Index LS": "1565528",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4032,7 +4300,8 @@
         "Start Index T": "67804",
         "End Index T": "67966",
         "Start Index LS": "1566646",
-        "End Index LS": "1566839"
+        "End Index LS": "1566839",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4047,7 +4316,8 @@
         "Start Index T": "68060",
         "End Index T": "68149",
         "Start Index LS": "1567074",
-        "End Index LS": "1567192"
+        "End Index LS": "1567192",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4062,7 +4332,8 @@
         "Start Index T": "68451",
         "End Index T": "68678",
         "Start Index LS": "1568008",
-        "End Index LS": "1568299"
+        "End Index LS": "1568299",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4077,7 +4348,8 @@
         "Start Index T": "69502",
         "End Index T": "69540",
         "Start Index LS": "1568869",
-        "End Index LS": "1568945"
+        "End Index LS": "1568945",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4092,7 +4364,8 @@
         "Start Index T": "263183",
         "End Index T": "263220",
         "Start Index LS": "1568869",
-        "End Index LS": "1568945"
+        "End Index LS": "1568945",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4107,7 +4380,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1570140",
-        "End Index LS": "1570846"
+        "End Index LS": "1570846",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4122,7 +4396,8 @@
         "Start Index T": "263661",
         "End Index T": "263931",
         "Start Index LS": "1571552",
-        "End Index LS": "1571856"
+        "End Index LS": "1571856",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4137,7 +4412,8 @@
         "Start Index T": "265297",
         "End Index T": "265368",
         "Start Index LS": "1574986",
-        "End Index LS": "1575083"
+        "End Index LS": "1575083",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4152,7 +4428,8 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1584888",
-        "End Index LS": "1584973"
+        "End Index LS": "1584973",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
@@ -4167,12 +4444,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1579679",
-        "End Index LS": "1579773"
+        "End Index LS": "1579773",
+        "textTitleTibetan": "ཚིག་དོན་རིན་པོ་ཆེའི་བང་མཛོད"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_ston pa thugs rje chen po yis/_/_'dul byed theg pa mang gsungs kyang /_/yang gsang rdzogs pa chen por 'dus/_/zhes pas/",
         "Ch. in T Text": "18",
@@ -4182,12 +4460,13 @@
         "Start Index T": "60716",
         "End Index T": "60827",
         "Start Index LS": "1609192",
-        "End Index LS": "1609326"
+        "End Index LS": "1609326",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_mtshan nyid ldan pa'i bla ma yis/_/dbang bskur bas ni sdug bsngal grol/_/zhes pa'o/_/",
         "Ch. in T Text": "48",
@@ -4197,12 +4476,13 @@
         "Start Index T": "155520",
         "End Index T": "155592",
         "Start Index LS": "1610689",
-        "End Index LS": "1610790"
+        "End Index LS": "1610790",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_/_mtshan nyid mi ldan bla mas ni/_/_dbang bskur byas na gnyis ka 'phung /_zhes so/_/",
         "Ch. in T Text": "51",
@@ -4212,12 +4492,13 @@
         "Start Index T": "159817",
         "End Index T": "159891",
         "Start Index LS": "1612902",
-        "End Index LS": "1613002"
+        "End Index LS": "1613002",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_gsang sngags snying po'i snod du rung /_'gro ba 'dren pa'i bu chen mchog_/ces so/",
         "Ch. in T Text": "101",
@@ -4227,12 +4508,13 @@
         "Start Index T": "259264",
         "End Index T": "259339",
         "Start Index LS": "1616801",
-        "End Index LS": "1616898"
+        "End Index LS": "1616898",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_snod dang mi ldan slob ma ni/_shes chung kha gsags gdong ltas che/_kha mkhas lag dam g.yo sgyu che/ bla ma'i gsung gcog drin la rtsod/_/yon tan mi mthong skyon la rtogs/_/rigs brgyud ngang rgyud ngan pa dang /_bka' drin khyad gsod rang la bstod/_/sdom dang dam tshig nyams len 'chal/_/slob ma ma brtag slob dpon dgra/_/nyams su mi len gang zag la/_/rdzogs pa chen po'i dbang dang ni/_don dam gdams pa bstan mi bya/_/zhes so/",
         "Ch. in T Text": "50",
@@ -4242,12 +4524,13 @@
         "Start Index T": "157077",
         "End Index T": "157464",
         "Start Index LS": "1618025",
-        "End Index LS": "1618465"
+        "End Index LS": "1618465",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_yang gsang bcud kyi bdud rtsi ni/_snod ngan rnams su blugs gyur na/_/snod 'chag bcud 'bo dmyal bar 'gro/_/zhes so/",
         "Ch. in T Text": "",
@@ -4257,12 +4540,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1619171",
-        "End Index LS": "1619301"
+        "End Index LS": "1619301",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_/_rin chen bu dang nor gyi dbyig_/rab tu gces dang yid 'thad dbul/_/zhes so/_/",
         "Ch. in T Text": "",
@@ -4272,12 +4556,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1620400",
-        "End Index LS": "1620494"
+        "End Index LS": "1620494",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_dam tshig gtsang ldan dag pa'i snang ba che/_/dug lnga'i shugs chung blo ldan khong yangs che/_/ngang rgyud ring zhing brtse ba'i grogs dang 'grogs/_/zhes so//_/",
         "Ch. in T Text": "9",
@@ -4287,12 +4572,13 @@
         "Start Index T": "28746",
         "End Index T": "28895",
         "Start Index LS": "1629184",
-        "End Index LS": "1629361"
+        "End Index LS": "1629361",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_lung stong gangs khrod ri rtse dur khrod dam/_/shin tu dben pa dngas shing mtho ba'i sar/_/skal ldan skyes bu nyams len byed pa'i gnas/_/zhes so/",
         "Ch. in T Text": "9",
@@ -4302,12 +4588,13 @@
         "Start Index T": "28430",
         "End Index T": "28567",
         "Start Index LS": "1632119",
-        "End Index LS": "1632280"
+        "End Index LS": "1632280",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_ngo* spyod dus kyi khyad par phyir/_mkhas pas dus gnad btsal bar bya/_zhes pas/",
         "Ch. in T Text": "101",
@@ -4317,12 +4604,13 @@
         "Start Index T": "259613",
         "End Index T": "259685",
         "Start Index LS": "1632900",
-        "End Index LS": "1632995"
+        "End Index LS": "1632995",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "2",
         "Quote in LS": "rdo rje phag mo la rigs bzhi'i mkha' 'gro bsam gyis mi khyab pas bskor ba las/chos phun sum tshogs pa klong gsal nyi ma'i rgyud/_dus phun sum tshogs pa bskal pa kun gyi sngon thog tu gsungs te/_don gsal me long las/_ye shes khyab gdal chos kyi pho brang du/_/cir yang ma grub chos dbyings gsal ba'i yum/_/kun tu bzang mo rigs bzhi'i mkha' 'gro dang /_/DA ki grangs las 'das pa'i 'khor tshogs la/_/kun tu bzang mo klong gsal nyi ma'i rgyud/_/bshad de brgyud nas shrI sid+ha yis/_/'di rgyud bcu bdun bdag la rdzogs par gtad/_/ces so/_/",
         "Ch. in T Text": "",
@@ -4332,12 +4620,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1657786",
-        "End Index LS": "1658319"
+        "End Index LS": "1658319",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__ngo bo ka dag ye shes ni/____/__ma rig rtog pa kun dang bral/____/__rang bzhin lhun grub ye shes ni/____/__stong gsal rang mdangs nyid du gnas/____/__thugs rje kun khyab ye shes ni/____/__'gags med snang stong nyid du gnas/____/__zhes so/",
         "Ch. in T Text": "18",
@@ -4347,12 +4636,13 @@
         "Start Index T": "62614",
         "End Index T": "62810",
         "Start Index LS": "1680393",
-        "End Index LS": "1680648"
+        "End Index LS": "1680648",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__stong dang gsal dang mi 'gags phyir/____/__rgya chad phyogs lhung med pa'o/____/__zhes pa dang /",
         "Ch. in T Text": "18",
@@ -4362,12 +4652,13 @@
         "Start Index T": "62810",
         "End Index T": "62885",
         "Start Index LS": "1683849",
-        "End Index LS": "1683962"
+        "End Index LS": "1683962",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__'gags med rtsal ni cir yang 'char/____/__stong gsal rig cing 'gyur ba med/____/__ces pa dang /__rang bzhin lhun grub ye shes ni/____/__stong gsal rang mdangs nyid du gnas/____/__zhes so/____",
         "Ch. in T Text": "18",
@@ -4377,12 +4668,13 @@
         "Start Index T": "62886",
         "End Index T": "62988",
         "Start Index LS": "1685888",
-        "End Index LS": "1686095"
+        "End Index LS": "1686095",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__ thugs rje kun khyab ye shes ni/____/__'gags med snang stong nyid du snang*/____/__zhes pas/__",
         "Ch. in T Text": "18",
@@ -4392,12 +4684,13 @@
         "Start Index T": "62744",
         "End Index T": "62810",
         "Start Index LS": "1690316",
-        "End Index LS": "1690427"
+        "End Index LS": "1690427",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__chos rnams ma lus thams cad kun/____/__rtsa ba thig le gcig las gyes/____/__zhes so",
         "Ch. in T Text": "53",
@@ -4407,12 +4700,13 @@
         "Start Index T": "164627",
         "End Index T": "164692",
         "Start Index LS": "1704378",
-        "End Index LS": "1704478"
+        "End Index LS": "1704478",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__ 'khor dang 'das pa'i thog mar ni/____/__rang byung ye shes 'di lta bu/____/__sus kyang ma byas rang 'byung ngo /____/__zhes so/",
         "Ch. in T Text": "",
@@ -4422,12 +4716,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1705920",
-        "End Index LS": "1706065"
+        "End Index LS": "1706065",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__gzhi dang ye shes lhun grub ni/____/__bar do'i yul la mngon par 'char/__zhes pas/__",
         "Ch. in T Text": "",
@@ -4437,12 +4732,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1718420",
-        "End Index LS": "1718520"
+        "End Index LS": "1718520",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__ye shes nyid las ma rig 'khrul/____/__ye shes kha dog 'byung ba lnga/____/__ gdod nas ye shes tsam nyid du/____/__'bral ba med de ma rig 'khrul/____/__zhes pa",
         "Ch. in T Text": "",
@@ -4452,12 +4748,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1731164",
-        "End Index LS": "1731339"
+        "End Index LS": "1731339",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__dang por ma rig drug las byung /____/__zhes pas/_",
         "Ch. in T Text": "18",
@@ -4467,12 +4764,13 @@
         "Start Index T": "63293",
         "End Index T": "63326",
         "Start Index LS": "1733462",
-        "End Index LS": "1733528"
+        "End Index LS": "1733528",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__ye shes ma rig yul la gzung /____/__der 'dzin rlung sems 'dus pa las/____/__'byung ba lnga yi sbubs su tshud/____/__der tshud 'byung ba'i skye 'jig las/____/__nyon mongs phung po lnga lnga grub/____/__ces so/",
         "Ch. in T Text": "",
@@ -4482,12 +4780,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1735568",
-        "End Index LS": "1735793"
+        "End Index LS": "1735793",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__lnga 'dus mtshan ma sbyor ba las/_____/__nyon mongs lnga dang yid drug dang /____/__ye shes lnga yi bdag nyid do/____/__zhes so/",
         "Ch. in T Text": "",
@@ -4497,12 +4796,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1736169",
-        "End Index LS": "1736314"
+        "End Index LS": "1736314",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__phyi nang gsang ba la sogs pa/____/__dar gud 'pho 'gyur 'byung ba'i las/____/__zhes pas/__",
         "Ch. in T Text": "",
@@ -4512,12 +4812,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1736495",
-        "End Index LS": "1736602"
+        "End Index LS": "1736602",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__ye shes ngo bo gcig nyid las/____/__'dzin pa log pas tha dad snang /____/__zhes so/____/",
         "Ch. in T Text": "",
@@ -4527,12 +4828,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1747318",
-        "End Index LS": "1747423"
+        "End Index LS": "1747423",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__ye shes ma rig yul la gzung /____/__der 'dzin rlung sems 'dus pa las/____/__'byung ba lnga yi sbubs su tshud/____/__der tshud 'byung ba'i skye 'jig las/____/__nyon mongs phung po lnga lnga grub/____/__ces pas ",
         "Ch. in T Text": "",
@@ -4542,12 +4844,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1756101",
-        "End Index LS": "1756327"
+        "End Index LS": "1756327",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "de'ang klong gsal las/__ gzung 'dzin sred pa'i sbyor mtshams su/____/__lte ba'i gru gsum rtsa mdud du/____/__rlung sems thig le rnam par phra/____/__mig gi rnam pa lta bu ru/____/__mer nur gor dang rus sbal ltar/____/__/__lte ba dag nas 'byung bzhis bskyed/____/__ces so/____/",
         "Ch. in T Text": "",
@@ -4557,12 +4860,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1760576",
-        "End Index LS": "1760852"
+        "End Index LS": "1760852",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__zhugs nas don te sprul pa'i sku/____/__zhes pa dang /__",
         "Ch. in T Text": "",
@@ -4572,12 +4876,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1763083",
-        "End Index LS": "1763155"
+        "End Index LS": "1763155",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__thog ma tha ma bar gsum du/____/__sku gsum dbye ba med pa ru/____/__sems can kun gyi rgyud la gnas/____/__zhes so/____/",
         "Ch. in T Text": "7",
@@ -4587,12 +4892,13 @@
         "Start Index T": "18590",
         "End Index T": "18681",
         "Start Index LS": "1764625",
-        "End Index LS": "1764761"
+        "End Index LS": "1764761",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "de skad du klong gsal las/__rtsa yi gtso bo gsum las ni/____/__yal ga grangs las 'das par gyes/____/__/__thad sor dbang po'i sgo rten byed/____/__de yis chos kun ston par byed/__ khyad par tsit+ta nas 'brel ba'i/____/__dar skad ba men rwa 'dra'i kha/____/__dbang po'i mig la zug pa ste/____/__de ni chos nyid kun gyi lam/____/__zhes so/____/_",
         "Ch. in T Text": "18",
@@ -4602,12 +4908,13 @@
         "Start Index T": "68941",
         "End Index T": "69202",
         "Start Index LS": "1772404",
-        "End Index LS": "1772746"
+        "End Index LS": "1772746",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__lus la ye shes kun khyab kyang /____/__rtsa yi dbus na dngas ma yin/____/__thig le'i yi ge thabs shes tshul/____/__lngar gnas khyad par tsit+ta'i nang /____/__dar dkar rtsa yi 'brel thag las/____/__ye shes mig gi tshul du gnas/____/__zhes pa dang /",
         "Ch. in T Text": "",
@@ -4617,12 +4924,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1781378",
-        "End Index LS": "1781643"
+        "End Index LS": "1781643",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__'khor lo lnga yi dbus gnas pas/____/__dngas ma'i ye shes don dam brgyad/____/__phyi ltar 'byung ba rnam lnga ste/____/__nang ltar de bzhin phung po lnga/____/__gsang bar dngas ma rnam lnga ste/____/__yang gsang yi ge rnam pa lnga/____/__bla med mkha' 'gro lnga yin no/____/__zhes so/",
         "Ch. in T Text": "",
@@ -4632,12 +4940,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1783519",
-        "End Index LS": "1783819"
+        "End Index LS": "1783819",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/__thog ma'i ka dag ye shes rtsal/____/__/__'byung ba lnga yi yul la shar/____/__'byung lnga'i 'od la 'dzin pa 'dus/____/__de nyid ma grol der 'dzin las/____/__'byung ba lnga yi dngas ma 'dus/____/__gcig grogs gcig gis bskyed pa las/____/__sha khrag lus rtsa thig le grub/____/__yi ge sku dang ye shes grub/____/__phyi ltar 'byung lnga nang ltar na/____/__yum chen lnga ni dngos yin no/____/__gsang ba ltar na mkha' 'gro lnga/____/__yang gsang ye shes lnga yin te/__de bzhin phyi ltar phung po lnga/____/__nang ltar nyon mongs dug lnga ste/____/__gsang ba ltar na sku lnga la/____/__yang gsang ye shes lnga yin no/____/__rgyu yi thig le spong ba ni/____/__sngags kyi dam tshig gtan nas nyams/____/__ 'bras bu rgyab kyis phyogs nas su/____/__bskal pa 'bum khrir na rag spyod/____/__ces so/____/",
         "Ch. in T Text": "",
@@ -4647,12 +4956,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1784397",
-        "End Index LS": "1785204"
+        "End Index LS": "1785204",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__'khor dang 'das pa'i chos rnams ni/____/__lus dang sems la ma tshang med/____/__ces gsungs pas/__",
         "Ch. in T Text": "33",
@@ -4662,12 +4972,13 @@
         "Start Index T": "112877",
         "End Index T": "112948",
         "Start Index LS": "1787440",
-        "End Index LS": "1787554"
+        "End Index LS": "1787554",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__thog ma'i rig rtsal ye shes lnga/____/__ma rig 'khrul pas 'byung bar grub/____/__des na lus 'di sangs rgyas dngos/____/__ye shes chen po'i 'byung gnas nyid/____/__/__lus can kun la bzang ngan med/____/__bde gshegs ngo bos 'gro kun la/____/__til la mar gyis khyab bzhin gnas/____/__ma rig grol tshe 'byung ba'i lus/____/__lhag med ye shes ngang du ldog/",
         "Ch. in T Text": "18",
@@ -4677,12 +4988,13 @@
         "Start Index T": "65551",
         "End Index T": "65859",
         "Start Index LS": "1810477",
-        "End Index LS": "1810846"
+        "End Index LS": "1810846",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__rig pa'i rtsal las ye shes gsum/____/__ngo bo stong pa'i ye shes dang /____/__rang bzhin gsal ba'i ye shes dang /____/__thugs rje kun khyab ye shes so/____/__zhes pa dang /",
         "Ch. in T Text": "18",
@@ -4692,12 +5004,13 @@
         "Start Index T": "66772",
         "End Index T": "66911",
         "Start Index LS": "1812148",
-        "End Index LS": "1812337"
+        "End Index LS": "1812337",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "dang po ni klong gsal las/__gdod nas dag pa'i ngo bo la/____/__dmigs su med pa'i chos sku'i 'od/____/__ye nas lhun grub longs sku'i 'od/____/__kun la khyab pas sprul sku'i 'od/____/__ces pas/__",
         "Ch. in T Text": "",
@@ -4707,12 +5020,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1812945",
-        "End Index LS": "1813138"
+        "End Index LS": "1813138",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__lus la gnas pa'i rig pa yang /____/__phyi ltar zhi khro'i rang bzhin la/____/__nang ltar DA ki yab yum mo/____/__gsang ba yi ge'i rang bzhin la/____/__yang gsang thig le nyag gcig go/__zhes pas/__",
         "Ch. in T Text": "18",
@@ -4722,12 +5036,13 @@
         "Start Index T": "67804",
         "End Index T": "67966",
         "Start Index LS": "1814020",
-        "End Index LS": "1814233"
+        "End Index LS": "1814233",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__sems can kun gyi lus kyi nang*/____/__tsit+ta dung khang rtsa nang sgo/____/__de ni rig pa'i gnas yin no/____/__zhes so/____/__",
         "Ch. in T Text": "18",
@@ -4737,12 +5052,13 @@
         "Start Index T": "67402",
         "End Index T": "67499",
         "Start Index LS": "1815047",
-        "End Index LS": "1815191"
+        "End Index LS": "1815191",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "gnyis pa klong gsal las/__ngo bo stong gsal sku ru gnas/____/__rang bzhin gsal stong ti la 'od/____/__thugs rje snang stong sgron mar snang /____/__zhes pas/",
         "Ch. in T Text": "18",
@@ -4752,12 +5068,13 @@
         "Start Index T": "67560",
         "End Index T": "67664",
         "Start Index LS": "1815192",
-        "End Index LS": "1815349"
+        "End Index LS": "1815349",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/__rang rig ngo bo skur gnas te/____/__gsal la rang bzhin ma grub pa/____/__snying nang yab yum zhi ba'i tshul/____/__dung khang khro bo'i tshul du gnas/____/__ zhes pas/__",
         "Ch. in T Text": "18",
@@ -4767,12 +5084,13 @@
         "Start Index T": "67664",
         "End Index T": "67803",
         "Start Index LS": "1816502",
-        "End Index LS": "1816688"
+        "End Index LS": "1816688",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_nang ltar DA ki yab yum lnga/_/rtsa rnams nang na yi ger gsal/_/de yang gsung gi tshul du 'o/_/zhes pas/",
         "Ch. in T Text": "",
@@ -4782,12 +5100,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1825908",
-        "End Index LS": "1826028"
+        "End Index LS": "1826028",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_rig pa sku yi rang gdangs 'od/_/rtsa yi nang na nyi zer bzhin/_/dbang po'i sgo nas nges 'thon te/_/sgron ma nam mkha'i mthongs su gsal/_/zhes so/_/",
         "Ch. in T Text": "18",
@@ -4797,12 +5116,13 @@
         "Start Index T": "68149",
         "End Index T": "68284",
         "Start Index LS": "1830317",
-        "End Index LS": "1830480"
+        "End Index LS": "1830480",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "de'ang klong gsal las/_rgyang zhags las ni gzugs bsdus te/_/rlung gis bskyed cing 'phel bar byed/_/'od dang 'gro ba'i 'phel 'grib kyis/_/ye shes dag ni sdud par byed/_/thig le stong pas las kun byed/_/'das pa las kyi rlung bzung nas/_/rlung gi bkrag dang gzi mdangs bskyed/_/bskyur zhing ye shes snang ba ston/_/shes rab rab byung sgron ma yis/_/chos kun mnyam pa ro gcig tu/_/bsdus te rang snang 'dzin par byed/_/'dis ni bag chags 'brel rgyun gcod/_/dbyings kyi dwangs ma sdud pa dang /_/rig pa'i sku rnams 'dzin pa dang /_gnad gsum bcud du smin pa ste/_'khor ba nyid ni spong bar byed/_/de ltar mig la sgron shar bas/_/sangs rgyas dgongs pa'i gnad bsdus par/_/rang snang yul rnams 'dzin pa'o/_/zhes so/_/",
         "Ch. in T Text": "",
@@ -4812,12 +5132,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1832446",
-        "End Index LS": "1833152"
+        "End Index LS": "1833152",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/ rig pa'i sku ni bum sku 'dra/_/ye shes bum pa'i mar me 'dra/_/thugs rje me long ngos ltar gsal/_/zhes pas/_",
         "Ch. in T Text": "18",
@@ -4827,12 +5148,13 @@
         "Start Index T": "68451",
         "End Index T": "68548",
         "Start Index LS": "1833246",
-        "End Index LS": "1833369"
+        "End Index LS": "1833369",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_sgyu ma lus kyi rtsa nang na/_rig pa'i ngo bo yi ger grub/_/ces pa dang /_",
         "Ch. in T Text": "18",
@@ -4842,12 +5164,13 @@
         "Start Index T": "67905",
         "End Index T": "67966",
         "Start Index LS": "1835289",
-        "End Index LS": "1835379"
+        "End Index LS": "1835379",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_rang byung rig pa'i rang rtsal las/_/ sku lnga dang ni ye shes lnga/_/rigs lnga 'od lnga rlung ni lnga/_/shes rab lnga la sogs par gnas/_/zhes pas/_",
         "Ch. in T Text": "18",
@@ -4857,12 +5180,13 @@
         "Start Index T": "66491",
         "End Index T": "66628",
         "Start Index LS": "1837048",
-        "End Index LS": "1837212"
+        "End Index LS": "1837212",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_rig pa'i rtsal las ye shes gsum/_/ngo bo stong pa'i ye shes dang /_/rang bzhin gsal ba'i ye shes dang /_/thugs rje kun khyab ye shes so/_/zhes so/_/",
         "Ch. in T Text": "18",
@@ -4872,12 +5196,13 @@
         "Start Index T": "66772",
         "End Index T": "66911",
         "Start Index LS": "1838715",
-        "End Index LS": "1838879"
+        "End Index LS": "1838879",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_sems ni dran bsam rig pa'i rtsal/_/snang shes dag tu gyur tshad kun/_/ rig pa nyid las logs na med/_/ces so/_/",
         "Ch. in T Text": "18",
@@ -4887,12 +5212,13 @@
         "Start Index T": "67094",
         "End Index T": "67193",
         "Start Index LS": "1842774",
-        "End Index LS": "1842900"
+        "End Index LS": "1842900",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_/_nyi ma'i 'od zer tshul bzhin du/_/ sems ni ye shes rig pa'i rtsal/_/ye shes med na sems med de/_/zhes so/",
         "Ch. in T Text": "",
@@ -4902,12 +5228,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1843897",
-        "End Index LS": "1844020"
+        "End Index LS": "1844020",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "des na klong gsal las/_/_sems can rang rgyud rtogs tshogs ni/_/bzhi bcu rtsa gnyis sangs rgyas te/_/phung po 'byung ba yab yum lnga/_/dug lnga ser sna thub pa drug/tshogs brgyad sems dpa' yab yum brgyad/_/sgo bzhi sgo ba yab yum bzhi/_/g.yas g.yon nyi ma zla ba 'o/_/zhes pas/_",
         "Ch. in T Text": "18",
@@ -4917,12 +5244,13 @@
         "Start Index T": "66250",
         "End Index T": "66491",
         "Start Index LS": "1844913",
-        "End Index LS": "1845190"
+        "End Index LS": "1845190",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_dbang thob rgyud smin chos sgo phyed/_/gsang sngags don kun 'grub par 'gyur/_/_zhes pas/",
         "Ch. in T Text": "101",
@@ -4932,12 +5260,13 @@
         "Start Index T": "260726",
         "End Index T": "260804",
         "Start Index LS": "1850497",
-        "End Index LS": "1850601"
+        "End Index LS": "1850601",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_spros bcas phyi yi bum dbang dang /_/spros med nang gi gsang dbang dang /_/shin tu spros med shes rab ye shes dbang /_/ Rab tu spros med tshig dbang Rin po che/_/snod ldan bu la rim pa bzhin du bskur/_/_zhes pa dang /",
         "Ch. in T Text": "101",
@@ -4947,12 +5276,13 @@
         "Start Index T": "260458",
         "End Index T": "260651",
         "Start Index LS": "1851421",
-        "End Index LS": "1851654"
+        "End Index LS": "1851654",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_mtshan nyid ldan pa'i bla ma yis/_/dbang bskur bas ni sdug bsngal grol/_/_mtshan nyid mi ldan bla mas ni/_/dbang bskur byas na gnyis ka 'phung /_/zhes so/_/",
         "Ch. in T Text": "48",
@@ -4962,12 +5292,13 @@
         "Start Index T": "155520",
         "End Index T": "155653",
         "Start Index LS": "1853231",
-        "End Index LS": "1853403"
+        "End Index LS": "1853403",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_dga' ston bar chad sel ba dang /_yon tan kun rdzogs 'grub par 'gyur/_zhes pa dang /_",
         "Ch. in T Text": "",
@@ -4977,12 +5308,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1854936",
-        "End Index LS": "1855036"
+        "End Index LS": "1855036",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "lnga*pa*ni*klong gsal las/_bar chad mi zhugs bsrung bya'i phyir/_hUM gi sbyor bas bsrung mtshams bya/_zhes pas/",
         "Ch. in T Text": "",
@@ -4992,12 +5324,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1855735",
-        "End Index LS": "1855846"
+        "End Index LS": "1855846",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_/_dam tshig khas len gyur na sbyin/_/ces so/ ",
         "Ch. in T Text": "",
@@ -5007,12 +5340,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1856301",
-        "End Index LS": "1856362"
+        "End Index LS": "1856362",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_bkra shis rdzas dang sa bzang la/_/rin po che yis legs par rtsig_/rab ni ji ltar 'grub pa la/_/tha ma mda' gang mdung gang tshad/_/ces pas/",
         "Ch. in T Text": "",
@@ -5022,12 +5356,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1857002",
-        "End Index LS": "1857157"
+        "End Index LS": "1857157",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_rdo rje slob dpon bya ba'i las/_/bum pa lha dang sbyin sreg dang*/_/slob ma sta gon nye bar bya/_/zhes pas/_",
         "Ch. in T Text": "",
@@ -5037,12 +5372,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1857841",
-        "End Index LS": "1857965"
+        "End Index LS": "1857965",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_thig skud ye shes lnga sgril la/_/ dkyil 'khor steng gi nam mkha' la/_/tshangs thig cha chen dag kyang gdab/_/ skad cig de la lha tshogs bskyed/_/mchod pa dang ni bstod pa bya/_/zhes pas/ ",
         "Ch. in T Text": "",
@@ -5052,12 +5388,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1859320",
-        "End Index LS": "1859524"
+        "End Index LS": "1859524",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "dang po ni klong gsal las/_maN+Dal yon phul gsol ba gdab/_/me tog gang la phog pa yis/_/rigs sbyong rig pa'i dbang lnga bskur/_/zhes pas/_",
         "Ch. in T Text": "",
@@ -5067,12 +5404,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1866054",
-        "End Index LS": "1866192"
+        "End Index LS": "1866192",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_sku gsung thugs dang yon tan dang /_/phrin las dag gi dbang bskur bya/_/zhes pas/_",
         "Ch. in T Text": "",
@@ -5082,12 +5420,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1866393",
-        "End Index LS": "1866491"
+        "End Index LS": "1866491",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "dang po klong gsal las/_dbang bskur thog ma tha ma ru/_/dga' ston ma byas dngos grub med/_/_/dga' ston chen pos mchod pa yis/_/bla ma dang ni de yi 'khor/_/de bzhin rang gi rdo rje spyan/_/gcig dang gnyis dang gsum dag nas/_/brgya stong grangs med dag la ni/_/tshogs kyi dga' ba sus byas pa/_/ston mo yon dang bcas pa yis/_/rnal 'byor pa rnams mgu byas na/_/legs pa thams cad 'grub pa dang /_/nyes pa kun las grol bar 'gyur/_/zhes pa dang /",
         "Ch. in T Text": "61",
@@ -5097,12 +5436,13 @@
         "Start Index T": "179871",
         "End Index T": "179938",
         "Start Index LS": "1868100",
-        "End Index LS": "1868540"
+        "End Index LS": "1868540",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "gnyis pa klong gsal las/_bla ma dang ni dbang mchog gi_/gsung dang gzhung las 'gal ba na/_na rag sdug bsngal myong bar 'gyur/_zhes pas/",
         "Ch. in T Text": "52",
@@ -5112,12 +5452,13 @@
         "Start Index T": "162784",
         "End Index T": "162890",
         "Start Index LS": "1869231",
-        "End Index LS": "1869366"
+        "End Index LS": "1869366",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "khyad par klong gsal las/_dbang thob rigs kyi bu de nyid/_/tshe 'dir bsam pa kun 'grub dang /_/phyi ma mngon par rdzogs sangs rgyas/_/zhes so/_/",
         "Ch. in T Text": "11",
@@ -5127,12 +5468,13 @@
         "Start Index T": "36186",
         "End Index T": "36294",
         "Start Index LS": "1869518",
-        "End Index LS": "1869662"
+        "End Index LS": "1869662",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_lus kyi khyab tshad thams cad la/_/_/phung po lnga ni rigs lnga dngos/_khams lnga yum lnga nyid du gnas/_/zhes pas",
         "Ch. in T Text": "11",
@@ -5142,12 +5484,13 @@
         "Start Index T": "35067",
         "End Index T": "35172",
         "Start Index LS": "1870184",
-        "End Index LS": "1870314"
+        "End Index LS": "1870314",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_stong dang snang ba kun bdag nyid/_/yab yum 'khril sbyor gcig gi ngang /_/zhes pas/",
         "Ch. in T Text": "",
@@ -5157,12 +5500,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1871820",
-        "End Index LS": "1871919"
+        "End Index LS": "1871919",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_stong gsal rig pa'i ye shes lnga/_/thabs shes zung 'jug ngang nyid dngos/_/",
         "Ch. in T Text": "11",
@@ -5172,12 +5516,13 @@
         "Start Index T": "35172",
         "End Index T": "35245",
         "Start Index LS": "1875775",
-        "End Index LS": "1875866"
+        "End Index LS": "1875866",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "de'ang klong gsal las/_'byung ba'i gdangs las grub pa yi/_/_lus 'di bde gshegs pho brang nyid/_/rigs lnga yab yum lnga yi gnas/_/_phung khams skye mched lha yi sku/_/zhes pas/",
         "Ch. in T Text": "13",
@@ -5187,12 +5532,13 @@
         "Start Index T": "45116",
         "End Index T": "45256",
         "Start Index LS": "1878552",
-        "End Index LS": "1878727"
+        "End Index LS": "1878727",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "dang po ni klong gsal las/_yid sgrib dag dang nus ldan phyir/_/de la de yi nub phyogs su/_/dus ni nam phyed dus dag tu/_/gsum pa'i phyag rgya mtshan ldan ma/_khrus byas rgyan gyis spras pa bzhag_/ces pas/_",
         "Ch. in T Text": "",
@@ -5202,12 +5548,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1881529",
-        "End Index LS": "1881734"
+        "End Index LS": "1881734",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "de'ang klong gsal le'u brgyad pa las/dus gsum sangs rgyas thams cad kyang /_/b+ha ga'i dbyings nas rang byung ste/_/chos rnams kun gyi 'byung gnas nyid/_/b+ha ga gsang sngags kun gyi gnas/_/bde chen ye shes 'byung ba yin/_/'di nyid ma brten thabs gzhan med/_/thabs kyi rgyud kyis grol ba yin/_/bde chen 'di brten grol ba thob/_/ yang dag sangs rgyas 'di las byung /_zhes pas/_",
         "Ch. in T Text": "11",
@@ -5217,12 +5564,13 @@
         "Start Index T": "36909",
         "End Index T": "37239",
         "Start Index LS": "1882616",
-        "End Index LS": "1882992"
+        "End Index LS": "1882992",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_bud med brnyas shing mkha' la gshe_/bde dang bral na na rag spyod/_ces gsungs so/",
         "Ch. in T Text": "11",
@@ -5232,12 +5580,13 @@
         "Start Index T": "37239",
         "End Index T": "37344",
         "Start Index LS": "1883371",
-        "End Index LS": "1883468"
+        "End Index LS": "1883468",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "dang po klong gsal las/_dad dang ngo tsha med pa dang /_rigs dang rang bzhin nyams pa spang /_/zhes pas/_",
         "Ch. in T Text": "",
@@ -5247,12 +5596,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1885479",
-        "End Index LS": "1885584"
+        "End Index LS": "1885584",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal nyi ma'i rgyud las/_/_phyi nang gsang ba'i rtags tshang zhing /_/dri zhim skad snyan yid 'ong mdzes/_/_/bde ba'i mdangs ldan chos la mos/_/_gsang thub shes rab che ba 'o/_/zhes pas/_",
         "Ch. in T Text": "99",
@@ -5262,12 +5612,13 @@
         "Start Index T": "255750",
         "End Index T": "255900",
         "Start Index LS": "1887097",
-        "End Index LS": "1887290"
+        "End Index LS": "1887290",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "mdor na klong gsal las/_skyon can spang zhing yon tan ldan pa bsten/ 'bras bu gnas skabs mthar thug phun sum tshogs/_zhes so/_/",
         "Ch. in T Text": "",
@@ -5277,12 +5628,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1888669",
-        "End Index LS": "1888796"
+        "End Index LS": "1888796",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "kun tu bzang mo klong gsal nyi ma'i rgyud las/_byang chub sems kyis kun blangs nas/_/gzhan don lhur len sems dpa' yis/_/sprul pa 'dzin la nyes pa med/_/ces so/_/",
         "Ch. in T Text": "99",
@@ -5292,12 +5644,13 @@
         "Start Index T": "256037",
         "End Index T": "256140",
         "Start Index LS": "1913538",
-        "End Index LS": "1913699"
+        "End Index LS": "1913699",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "dang po klong gsal las/_skal ldan nges shes bskyed pa'i phyir/_/_brgyud pa'i lo rgyus bshad par bya/_zhes pas/",
         "Ch. in T Text": "101",
@@ -5307,12 +5660,13 @@
         "Start Index T": "260203",
         "End Index T": "260279",
         "Start Index LS": "1948951",
-        "End Index LS": "1949061"
+        "End Index LS": "1949061",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "gsum pa klong gsal las/_brgyud pa nye zab khungs btsun phyir/_kun tu bzang nas rim pas bshad/_ces pa dang /",
         "Ch. in T Text": "",
@@ -5322,12 +5676,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1949403",
-        "End Index LS": "1949510"
+        "End Index LS": "1949510",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "dang po klong gsal las/_byams dang snying rje chos spyi'i lam/_/theg pa chen por 'jug phyir du/_/ zhes pa dang /",
         "Ch. in T Text": "101",
@@ -5337,12 +5692,13 @@
         "Start Index T": "260908",
         "End Index T": "260990",
         "Start Index LS": "1952154",
-        "End Index LS": "1952266"
+        "End Index LS": "1952266",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_mi rtag snying rje byang sems kyis/_/chos 'jug theg chen lam du 'gro/_/zhes so/_/",
         "Ch. in T Text": "101",
@@ -5352,12 +5708,13 @@
         "Start Index T": "261028",
         "End Index T": "261098",
         "Start Index LS": "1954677",
-        "End Index LS": "1954774"
+        "End Index LS": "1954774",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_'khrul rgyu zad par bya ba'i phyir/_/'khor 'das ru shan nang ltar dbye/_/zhes pas/",
         "Ch. in T Text": "101",
@@ -5367,12 +5724,13 @@
         "Start Index T": "261234",
         "End Index T": "261307",
         "Start Index LS": "1966728",
-        "End Index LS": "1966826"
+        "End Index LS": "1966826",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_spyi bo mgrin pa snying ga dang /_/lte ba gsang ba rkang mthil du/_a su nr-itri pre du gnas/_/zhes pas/",
         "Ch. in T Text": "31",
@@ -5382,12 +5740,13 @@
         "Start Index T": "105498",
         "End Index T": "105593",
         "Start Index LS": "1967301",
-        "End Index LS": "1967420"
+        "End Index LS": "1967420",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal*las/_ru shan*nang*ltar*sus dbye ba/_/'khrul rgyud 'khor ba'i sa bon stongs/_/gsum po 'khor bar ldog pa med/_/ces so/",
         "Ch. in T Text": "",
@@ -5397,12 +5756,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1969395",
-        "End Index LS": "1969522"
+        "End Index LS": "1969522",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_lus ngag yid gsum sngon 'gro ni/_/thun mong khyad par mthar thug gi_/dgos pa gsum du shes par bya/_/zhes pas/",
         "Ch. in T Text": "101",
@@ -5412,12 +5772,13 @@
         "Start Index T": "261099",
         "End Index T": "261202",
         "Start Index LS": "1969772",
-        "End Index LS": "1969897"
+        "End Index LS": "1969897",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_'di ltar rnal du sus phab pas/_/'byung 'khrugs nad rkyen zhi ba dang /_/'dzin pa rang grol nyid du 'gyur/_/zhes so/_/ma phab pa'i skyon ni/_de nyid las/_yon tan rnams las ldog skyon yod/_/ces so/",
         "Ch. in T Text": "101",
@@ -5427,12 +5788,13 @@
         "Start Index T": "261620",
         "End Index T": "261801",
         "Start Index LS": "1971611",
-        "End Index LS": "1971822"
+        "End Index LS": "1971822",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "gnyis pa sor gzhug pa ni klong gsal las/_ka dag don ni rtogs bya'i phyir/___/_rnal du phab nas sor ni 'jug/_ces par/_",
         "Ch. in T Text": "101",
@@ -5442,12 +5804,13 @@
         "Start Index T": "261834",
         "End Index T": "261907",
         "Start Index LS": "1972173",
-        "End Index LS": "1972290"
+        "End Index LS": "1972290",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "de skad du klong gsal las/_nyan thos zhi ba'i lta stangs kyis/___/_lus ngag yid gsum rnal du phebs/___/_zhes so/___/",
         "Ch. in T Text": "8",
@@ -5457,12 +5820,13 @@
         "Start Index T": "22082",
         "End Index T": "22152",
         "Start Index LS": "1972736",
-        "End Index LS": "1972852"
+        "End Index LS": "1972852",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "skad du klong gsal las/_khro bo nyid kyi lta stangs kyis/___/_rnal phebs yon tan gsum yang 'grub/___/_ces so/___",
         "Ch. in T Text": "8",
@@ -5472,12 +5836,13 @@
         "Start Index T": "22224",
         "End Index T": "22295",
         "Start Index LS": "1973275",
-        "End Index LS": "1973387"
+        "End Index LS": "1973387",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_mngon sum gnad du dbab pa'i phyir/___/_phyi nang gsang ba'i bya ba ni/___/_lus ngag yid kyis dgu phrugs gtong /___/_ zhes so/___/",
         "Ch. in T Text": "101",
@@ -5487,12 +5852,13 @@
         "Start Index T": "261940",
         "End Index T": "262047",
         "Start Index LS": "1985930",
-        "End Index LS": "1986075"
+        "End Index LS": "1986075",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_lus ngag 'khrul pa rgyun chad nas/___/_ye shes rgyud la gnas par 'gyur/___/_zhes so/___/_ma btang ba'i skyon ni/_de nyid las/_byar med rgyud la ma gnas na/___/_rig pa'i don la rig pa med/___/_ces so/___/_",
         "Ch. in T Text": "101",
@@ -5502,12 +5868,13 @@
         "Start Index T": "262306",
         "End Index T": "262436",
         "Start Index LS": "1987110",
-        "End Index LS": "1987330"
+        "End Index LS": "1987330",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_ rig pa lus la gnas gyur kyang /___/_'khrul 'khor dag gis ma bcun na/___/_ye shes dbang por snang mi nus/___/_zhes pa dang /",
         "Ch. in T Text": "101",
@@ -5517,12 +5884,13 @@
         "Start Index T": "262470",
         "End Index T": "262537",
         "Start Index LS": "1988158",
-        "End Index LS": "1988298"
+        "End Index LS": "1988298",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_lus kyi gnad ni ma gzir na/___/_'byung tshad rlang ni mi zin cing /___/_de bzhin lus la drod mi skye/___/_rig pa dngos su snang mi nus/___/_zhes so/",
         "Ch. in T Text": "101",
@@ -5532,12 +5900,13 @@
         "Start Index T": "262570",
         "End Index T": "262670",
         "Start Index LS": "1990882",
-        "End Index LS": "1991046"
+        "End Index LS": "1991046",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_rang gi gnad gzir mchog tu gces/_zhes so/___/",
         "Ch. in T Text": "101",
@@ -5547,12 +5916,13 @@
         "Start Index T": "262772",
         "End Index T": "262805",
         "Start Index LS": "1991471",
-        "End Index LS": "1991532"
+        "End Index LS": "1991532",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_de ltar ngag gnad sus gzir ba/_/ ngag gi rkyen zad mya ngan 'da'/___/_zhes so/___/",
         "Ch. in T Text": "",
@@ -5562,12 +5932,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1992124",
-        "End Index LS": "1992222"
+        "End Index LS": "1992222",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/___/_gnad gzir gtad pa'i 'bem nyid bca'/___/_zhes",
         "Ch. in T Text": "",
@@ -5577,12 +5948,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1992717",
-        "End Index LS": "1992781"
+        "End Index LS": "1992781",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_de ltar sems kyi gnad gzir bas/___/_sku gsum rig pa stong par 'char/___/_zhes so",
         "Ch. in T Text": "",
@@ -5592,12 +5964,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1993356",
-        "End Index LS": "1993452"
+        "End Index LS": "1993452",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_gnad gsum sngon du ma gzir na/___/_mngon sum rang thog mi phebs te/_/_yid dpyod 'dzin dang khyad med pas/___/_gnad gsum btsal ba mchog tu gces/___/_zhes pa dang /",
         "Ch. in T Text": "101",
@@ -5607,12 +5980,13 @@
         "Start Index T": "262978",
         "End Index T": "263116",
         "Start Index LS": "1993908",
-        "End Index LS": "1994086"
+        "End Index LS": "1994086",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_ye shes snying gi dkyil na gnas/___/_ dar dkar skud pa lta bu yi/___/_rtsa yi lam la snang bar byed/___/_ces pa dang de nyid las/___/_'khor lo lnga yi dbus dag na/___/_ro ma rkyang ma kun d+har ma/___/_dbang po'i sgo la zug par gnas/___/_rtsa yi gtso bo gsum las ni/___/_yal ga grangs las 'das par gyes/___/_thad sor dbang po'i sgo rten byed/___/_de yis chos kun ston par byed/___/_khyad par tsit+ta nas 'brel ba'i/___/_dar skud ba men rwa yi kha/___/_dbang po'i mig la zug pa ste/___/_de ni chos nyid kun gyi lam/___/_zhes pas/",
         "Ch. in T Text": "",
@@ -5622,12 +5996,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1995210",
-        "End Index LS": "1995754"
+        "End Index LS": "1995754",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_phyi yi rlung ni dal zhing snyoms/___/_yud tsam phyi ru 'dus pa yis/___/_rlung gi 'gro 'ong chad par 'gyur/___/_zhes pas/",
         "Ch. in T Text": "101",
@@ -5637,12 +6012,13 @@
         "Start Index T": "263220",
         "End Index T": "263325",
         "Start Index LS": "1997625",
-        "End Index LS": "1997762"
+        "End Index LS": "1997762",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_rig gnad lug rgyud btson du bzung /___/_dngos snang dal ba nyid kyis brten/___/_zhes pa dang /",
         "Ch. in T Text": "101",
@@ -5652,12 +6028,13 @@
         "Start Index T": "263325",
         "End Index T": "263397",
         "Start Index LS": "1998052",
-        "End Index LS": "1998162"
+        "End Index LS": "1998162",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_sangs rgyas mkha' 'gro'i zhing khams su/___/_rdo rje mkha' 'gro'i me long la/___/_rin chen mkha' 'gros de sgo phye/___/_sgo la las kyi DA ki byon/___/_pad+ma DA kis mngon sum bstan/___/_zhes so/",
         "Ch. in T Text": "",
@@ -5667,12 +6044,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "1998682",
-        "End Index LS": "1998892"
+        "End Index LS": "1998892",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_gnad gsum bstun par ma byas na/___/_rig pa'i don la reg mi 'gyur/___/_zhes so/",
         "Ch. in T Text": "101",
@@ -5682,12 +6060,13 @@
         "Start Index T": "263459",
         "End Index T": "263523",
         "Start Index LS": "1999780",
-        "End Index LS": "1999874"
+        "End Index LS": "1999874",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_ngo sprod bla mas rgyas par gdab/_ces pas/_'di la sku gsum du ngo sprad pa/___/_ dkon mchog gsum du ngo sprad pa/___/_lnga tshan bdun du ngo sprad pa gsum las/_ dang po thal 'gyur las/_gzhan yang khams gsum sems can kun/___/_lus ngag yid las ma 'das pas/___/_sku gsum gzhan nas btsal mi dgos/___/_zhes pa ste/",
         "Ch. in T Text": "",
@@ -5697,12 +6076,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2000356",
-        "End Index LS": "2000681"
+        "End Index LS": "2000681",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "gnyis pa klong gsal las/_sangs rgyas chos dang dge 'dun ni/___/_ye rdzogs rang gi lus la gnas/___/_zhes pas/",
         "Ch. in T Text": "",
@@ -5712,12 +6092,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2001004",
-        "End Index LS": "2001112"
+        "End Index LS": "2001112",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "gsum pa klong gsal las/_sems can kun rig dri ma med/___/_phung po 'byung ba yab yum lnga/___/_rtsa khams skye mched sems dpa'i tshogs/___/_srid gsum dkyil 'khor rang lus rdzogs/___/_zhes pas",
         "Ch. in T Text": "18",
@@ -5727,12 +6108,13 @@
         "Start Index T": "66075",
         "End Index T": "66175",
         "Start Index LS": "2001351",
-        "End Index LS": "2001541"
+        "End Index LS": "2001541",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "dang po sku lnga ni klong gsal las/_rang gi rig rtsal sku lngar shar/___/_rnam snang mi bskyod rin chen 'byung /___/_snang mtha' don yod grub par shar/___/_zhes pas/",
         "Ch. in T Text": "18",
@@ -5742,12 +6124,13 @@
         "Start Index T": "66628",
         "End Index T": "66737",
         "Start Index LS": "2001812",
-        "End Index LS": "2001977"
+        "End Index LS": "2001977",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_rig pa'i yon tan 'od lngar gsal/___/_zhes pas/",
         "Ch. in T Text": "18",
@@ -5757,12 +6140,13 @@
         "Start Index T": "66738",
         "End Index T": "66772",
         "Start Index LS": "2004584",
-        "End Index LS": "2004646"
+        "End Index LS": "2004646",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_stong gsal rig pa'i ye shes ni/___/_mkha' 'gro rnam pa lngar gnas so/___/_zhes pas/",
         "Ch. in T Text": "",
@@ -5772,12 +6156,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2006088",
-        "End Index LS": "2006187"
+        "End Index LS": "2006187",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_phyi nang gsang ba thams cad kyang /_ngo bo nyid ni mthong zhing rtogs/_zhes so/",
         "Ch. in T Text": "",
@@ -5787,12 +6172,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2010232",
-        "End Index LS": "2010328"
+        "End Index LS": "2010328",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_rim dgu so so'i 'dod pa la/___/_yid dpyod 'dzin pa nyid du 'dod/___/_ces so/",
         "Ch. in T Text": "",
@@ -5802,12 +6188,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2011337",
-        "End Index LS": "2011429"
+        "End Index LS": "2011429",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_'gyu byed nyid la tshur bltas pas/___/_ma spangs rang grol ser bu 'dra/___/_zhes so/",
         "Ch. in T Text": "",
@@ -5817,12 +6204,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2012028",
-        "End Index LS": "2012128"
+        "End Index LS": "2012128",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_nges tshig sgom pa gnas pa 'o/___/_zhes pa'o/___",
         "Ch. in T Text": "",
@@ -5832,12 +6220,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2014001",
-        "End Index LS": "2014065"
+        "End Index LS": "2014065",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_zung 'jug sgom pa mchog tu zab/___/_ces so/___/",
         "Ch. in T Text": "",
@@ -5847,12 +6236,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2014284",
-        "End Index LS": "2014347"
+        "End Index LS": "2014347",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_dge sbyor srang du 'jug pa'i phyir/___/_thun bzhi'i rnal 'byor nyid la bslab/___/_ces so/___/_",
         "Ch. in T Text": "",
@@ -5862,12 +6252,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2015197",
-        "End Index LS": "2015307"
+        "End Index LS": "2015307",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_stong gsal yid gnyis bsgom dang bral/___/_sgom pa kun gyi mchog yin no/___/_zhes so/___/",
         "Ch. in T Text": "4",
@@ -5877,12 +6268,13 @@
         "Start Index T": "6708",
         "End Index T": "6781",
         "Start Index LS": "2018201",
-        "End Index LS": "2018305"
+        "End Index LS": "2018305",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_'bras bu zhes bya btsan sa zin/___/_rgyal po gdan la zin pa ltar/___/_mi 'gyur ldog pa med pa 'o/___/_zhes pas/",
         "Ch. in T Text": "",
@@ -5892,12 +6284,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2020685",
-        "End Index LS": "2020812"
+        "End Index LS": "2020812",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_ snang bzhi'i 'char tshul mi shes na/___/_sa zin med pa'i skyon nyid 'byung /___/_snang ba bzhi ru shes par bya/___/_zhes pas/_",
         "Ch. in T Text": "101",
@@ -5907,12 +6300,13 @@
         "Start Index T": "263552",
         "End Index T": "263661",
         "Start Index LS": "2022567",
-        "End Index LS": "2022710"
+        "End Index LS": "2022710",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_rkyen bral mkha' la bla ma yis/___/_gzigs stangs gcun zhing ngo sprad pas/___/_dbang po'i sgo la sgron ma ni/___/_'ja' 'am rma bya'i mdongs lta bu/___/_thig le lug rgyud 'brel ba las/___/_'gul 'phrigs 'gyu ba'i rnam par rgyu/___/_zhes pas/",
         "Ch. in T Text": "101",
@@ -5922,12 +6316,13 @@
         "Start Index T": "263661",
         "End Index T": "263865",
         "Start Index LS": "2023908",
-        "End Index LS": "2024163"
+        "End Index LS": "2024163",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_ de ltar gsal ba'i dbyings rig ni/_nyi ma'i 'od kyi tshul du gnas/_zhes so/___/_ ",
         "Ch. in T Text": "101",
@@ -5937,12 +6332,13 @@
         "Start Index T": "263865",
         "End Index T": "263931",
         "Start Index LS": "2024947",
-        "End Index LS": "2025044"
+        "End Index LS": "2025044",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_de yang ngo bo ka dag la/___/_rang bzhin lhun grub nyid du ste/___/_thugs rje kun la khyab pa nyid/___/_tsit+ta dag nas rtsa la 'char/___/_ngo bo mngon sum sgo la 'char/___/_rig pa mngon sum zhes su brjod/___/_yid dpyod rnams dang bral ba 'o/___/_zhes pas/",
         "Ch. in T Text": "101",
@@ -5952,12 +6348,13 @@
         "Start Index T": "263931",
         "End Index T": "264154",
         "Start Index LS": "2025540",
-        "End Index LS": "2025812"
+        "End Index LS": "2025812",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_rig pa mngon sum mthong ba ni/___/_bden pa mthong ba'i gnad kyis su/_khams gsum ldog pa ma yin no/___/_zhes pa",
         "Ch. in T Text": "101",
@@ -5967,12 +6364,13 @@
         "Start Index T": "264154",
         "End Index T": "264253",
         "Start Index LS": "2027085",
-        "End Index LS": "2027211"
+        "End Index LS": "2027211",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_gong du 'phel ba'i snang ba yis/_nyams kyi 'phel shan dbye ba gces/_zhes pas/_",
         "Ch. in T Text": "101",
@@ -5982,12 +6380,13 @@
         "Start Index T": "264359",
         "End Index T": "264427",
         "Start Index LS": "2027749",
-        "End Index LS": "2027843"
+        "End Index LS": "2027843",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_ nyams snang gong du 'phel ba ni/___/_'od ni sna tshogs 'gyur 'phel dang*/___/_thig le 'phel zhing rig brtan tshad/___/_sa bon 'bras bu bar bzhin 'byung /___/_zhes pas/_",
         "Ch. in T Text": "101",
@@ -5997,12 +6396,13 @@
         "Start Index T": "264427",
         "End Index T": "264574",
         "Start Index LS": "2028523",
-        "End Index LS": "2028708"
+        "End Index LS": "2028708",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_sku shar nyams kyi 'phel rdzogs na/___/_bar do'i snang 'byung 'dir chod pas/___/_longs spyod ngos zin bar do stongs/___/_zhes so/",
         "Ch. in T Text": "101",
@@ -6012,12 +6412,13 @@
         "Start Index T": "264574",
         "End Index T": "264690",
         "Start Index LS": "2031507",
-        "End Index LS": "2031652"
+        "End Index LS": "2031652",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_rig pa tshad la ma phebs na/___/_rnal 'byor drod tshad rnyed mi 'gyur/___/_zhes pas/_",
         "Ch. in T Text": "101",
@@ -6027,12 +6428,13 @@
         "Start Index T": "264754",
         "End Index T": "264821",
         "Start Index LS": "2032021",
-        "End Index LS": "2032122"
+        "End Index LS": "2032122",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_rig pa tshad phebs snang ba yis/_phyi nang gzung 'dzin rdos bcas grol/_ces pa dang*/_ma phebs pa'i skyon ni/_de ltar tshad la ma phebs na/_ phung po'i snang 'dzin dag mi 'gyur/_zhes so/___/",
         "Ch. in T Text": "101",
@@ -6042,12 +6444,13 @@
         "Start Index T": "264822",
         "End Index T": "264990",
         "Start Index LS": "2034212",
-        "End Index LS": "2034417"
+        "End Index LS": "2034417",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_de ltar lus 'byung rgyun chad nas/___/_zag bcas phung po mi snang bar/___/_'di la mngon par sangs rgya 'o/___/_zhes pa dang /_",
         "Ch. in T Text": "101",
@@ -6057,12 +6460,13 @@
         "Start Index T": "265098",
         "End Index T": "265164",
         "Start Index LS": "2036329",
-        "End Index LS": "2036471"
+        "End Index LS": "2036471",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_mtha' rten man ngag rnam pa bzhi/_gong ma'i rgyab tu med thabs med/_ces pas/",
         "Ch. in T Text": "101",
@@ -6072,12 +6476,13 @@
         "Start Index T": "265688",
         "End Index T": "265754",
         "Start Index LS": "2036808",
-        "End Index LS": "2036900"
+        "End Index LS": "2036900",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_ thob pa gsum gyis gzer gdab pas/_zag bcas phung po mi snang ba'o/___/_zhes pas/_",
         "Ch. in T Text": "101",
@@ -6087,12 +6492,13 @@
         "Start Index T": "265543",
         "End Index T": "265610",
         "Start Index LS": "2040150",
-        "End Index LS": "2040247"
+        "End Index LS": "2040247",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_mtha' rten dag gi man ngag gis/___/_gong ma'i yon tan mtha' ru 'byin/___/_zhes so/___/",
         "Ch. in T Text": "101",
@@ -6102,12 +6508,13 @@
         "Start Index T": "265688",
         "End Index T": "265754",
         "Start Index LS": "2042195",
-        "End Index LS": "2042297"
+        "End Index LS": "2042297",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/___/_bar do'i dbye ba sa mtshams dang /___/_gnas lugs snang lugs bzhi nyid do/___/_zhes pas/_",
         "Ch. in T Text": "",
@@ -6117,12 +6524,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2043056",
-        "End Index LS": "2043164"
+        "End Index LS": "2043164",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_'chi rkyen nad kyi 'byung ba 'khrugs/___/_lus ngag yid gsum sdug bsngal lo/___/_zhes so/___/_ gsum pa de nyid las/_bdag 'dzin lus kyi rten bor gnas/___/_",
         "Ch. in T Text": "",
@@ -6132,12 +6540,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2043825",
-        "End Index LS": "2043994"
+        "End Index LS": "2043994",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_gang zhig skyes bu'i 'chi ba'i tshe/___/_rtags zhwa rnam pa gnyis su bshad/___/_ces pas/",
         "Ch. in T Text": "",
@@ -6147,12 +6556,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2047291",
-        "End Index LS": "2047395"
+        "End Index LS": "2047395",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_'degs byed don gyi rlung 'bros pas/___/_ lus ni mi thig sgyid pa skyur/___/_/_yan lag mi 'dus smra ba dka'/___/_mi ldog dbugs ni phyi ru 'phul/___/_bkrag mdangs bskyed pa'i rlung 'bros pas/___/_lus nyams kha snar bal dud chags/___/_sha tsha kha skam gshin dri bsnams/___/_dwangs snyigs 'byed pa'i rlang 'bros pas/___/_bza' btung mi len lus stobs 'chor/___/_ me dang mnyam pa'i rlung bros pas/___/_lus kyi drod ni mtha' nas 'chor/___/_bskal pa las kyi rlung bros pas/___/_lus la zang zing phyad phyod la/___/_rtsa bran khrag ni srog rtsar 'dus/___/_zhes so/___/_",
         "Ch. in T Text": "",
@@ -6162,12 +6572,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2048844",
-        "End Index LS": "2049421"
+        "End Index LS": "2049421",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_de tshe snang ba 'di ltar 'du/___/_phyi yi dbang po dran byed rnams/___/_mun sros bzhin du 'ub kyis 'dus/___/_ rig pa snying gi dkyil du 'dus/___/_smra yang mi shes dran pa nyams/___/_de nas lus kyi khrag 'dus nas/___/_srog rtsa'i nang nas snying du brgyab/_kha dang mig ni skya log 'gro/_dbugs ni khru gang tsam du 'chad/___/_de nas khrag thigs gnyis brgyab pas/___/_mgo dgug dbugs ni mda' gang 'chad/___/_de nas khrag thigs gsum brgyab pas/___/_ig cing dbugs ni 'dom gang chad/_de nas phyi dbugs chad pa dang*/___/_rig pa snying dkyil brgyal nas sdod/___/_de nas nang gi dbugs chad nas/_ chos nyid bar do 'char ba yin/___/_zhes pas",
         "Ch. in T Text": "",
@@ -6177,12 +6588,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2049431",
-        "End Index LS": "2050080"
+        "End Index LS": "2050080",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "de tshe sgra 'od zer du 'khrigs/___/_sku yi snang bas skrag par byed/___/_ces pas/_skad ",
         "Ch. in T Text": "",
@@ -6192,12 +6604,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2054655",
-        "End Index LS": "2054743"
+        "End Index LS": "2054743",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_de ltar snang ba de dag la/_rigs lnga yab yum tshom bur gsal/___/_dpag med grangs las 'das pa la/___/_de dag phyag rgya rgyan dang ldan/___/_gdan khri bzhugs tshul cha snyoms par/___/_lnga lnga'i zung la 'od kyis bskor/___/_yab yum so so'i cha 'dzin pa/_sems dpa' dang ni sems mar bcas/___/_dkyil 'khor chig rdzogs nyid du 'char/___/_zhes so/___/",
         "Ch. in T Text": "",
@@ -6207,12 +6620,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2058897",
-        "End Index LS": "2059259"
+        "End Index LS": "2059259",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_de tshe rang gi snying ga nas/_zer thag 'od kyi lu gu rgyud/_tshom bu'i thugs kar 'brel snyam las/___/_de dag thig le rab brgyan pas/___/_shes pa zin pas bsam gtan skye/___/_zhes pa dang /",
         "Ch. in T Text": "",
@@ -6222,12 +6636,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2059497",
-        "End Index LS": "2059701"
+        "End Index LS": "2059701",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_phung po lnga yi gzung 'dzin dwangs/___/_longs spyod rdzogs pa'i sku ru grol/___/_'byung ba nyon mongs rang grol bas/___/_'od gsal ma bur rig pa grol/___/_ces pas/",
         "Ch. in T Text": "",
@@ -6237,12 +6652,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2060738",
-        "End Index LS": "2060917"
+        "End Index LS": "2060917",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_lhun grub rig pa'i 'char tshul las/___/_rnam pa brgyad du 'char ba'o/___/_zhes pas/",
         "Ch. in T Text": "",
@@ -6252,12 +6668,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2063843",
-        "End Index LS": "2063942"
+        "End Index LS": "2063942",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_de tshe rigs kyi bu de la/_ mngon par shes pa drug phrag drug/_ces pas/_dbang",
         "Ch. in T Text": "",
@@ -6267,12 +6684,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2065596",
-        "End Index LS": "2065689"
+        "End Index LS": "2065689",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_de tshe sgra 'od zer du 'khrigs/___/_sku yi snang bas skrag par byed/___/_ces pas/_",
         "Ch. in T Text": "",
@@ -6282,12 +6700,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2054639",
-        "End Index LS": "2054738"
+        "End Index LS": "2054738",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_bden pa mthong ba'i gang zag gis/___/_dang po'i sa nas bcu drug pa'o/___/_rim pas nyams su blangs bas 'byung /___/_gzhan dang sgo bstun gnas skabs kyi/___/_yon tan 'bras bu thob tshul lo/___/_zhes gsungs so/___/",
         "Ch. in T Text": "18",
@@ -6297,12 +6716,13 @@
         "Start Index T": "71620",
         "End Index T": "71796",
         "Start Index LS": "2082183",
-        "End Index LS": "2082410"
+        "End Index LS": "2082410",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_ngo bo stong gsal ye shes sku/___/_rang bzhin thugs rje phyogs ris med/___/_dbyer med chen por ye sangs rgyas/___/_zhes so/",
         "Ch. in T Text": "18",
@@ -6312,12 +6732,13 @@
         "Start Index T": "72150",
         "End Index T": "72261",
         "Start Index LS": "2088612",
-        "End Index LS": "2088751"
+        "End Index LS": "2088751",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "0",
         "Quote in LS": "klong gsal las/_rig pa rdo rje lu gu rgyud/___/_ mthong ba tsam gyis shes pa dang /___/_shes pa tsam gyis grol bar 'gyur/___/_mngon sum gnad 'di sus mthong ba/_khams gsum ldog pa ma yin no/___/_zhes so/___/",
         "Ch. in T Text": "",
@@ -6327,12 +6748,13 @@
         "Start Index T": "0",
         "End Index T": "0",
         "Start Index LS": "2098827",
-        "End Index LS": "2099033"
+        "End Index LS": "2099033",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "klong gsal las/_yid bzhin nor bu'i gsang rgyud 'di/___/_las can rnams dang ma 'ongs 'phrad/___/_ces pa dang /",
         "Ch. in T Text": "101",
@@ -6342,12 +6764,13 @@
         "Start Index T": "265894",
         "End Index T": "265984",
         "Start Index LS": "2109171",
-        "End Index LS": "2109280"
+        "End Index LS": "2109280",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "_klong gsal las/_ rkyen bral gsum la gsal bar 'gyur/___/_zhes pa dang yi ge med pa las/_",
         "Ch. in T Text": "18",
@@ -6357,12 +6780,13 @@
         "Start Index T": "69502",
         "End Index T": "69540",
         "Start Index LS": "1996995",
-        "End Index LS": "1997083"
+        "End Index LS": "1997083",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     },
     {
         "Volume": "7",
         "Text No.": "14",
-        "Text Title": "zab don rgya mtsho\u2019i sprin",
+        "Text Title": "zab don rgya mtsho’i sprin",
         "Match with T Text? (1=yes 0=no 2 = ref)": "1",
         "Quote in LS": "_klong gsal las/_ rkyen bral gsum la gsal bar 'gyur/___/_zhes pa dang yi ge med pa las/_",
         "Ch. in T Text": "101",
@@ -6372,6 +6796,7 @@
         "Start Index T": "263183",
         "End Index T": "263220",
         "Start Index LS": "1996995",
-        "End Index LS": "1997083"
+        "End Index LS": "1997083",
+        "textTitleTibetan": "ཟབ་དོན་རྒྱ་མཚོའི་སྤྲིན"
     }
 ]

@@ -8,7 +8,7 @@ const scrollToPrev = (el, selector, vOffset = 20) => {
       return true;
     }
   }
-  flashEl(els.at(-1));
+  if (els.length) flashEl(els.at(-1));
   return false;
 };
 
@@ -22,7 +22,7 @@ const scrollToNext = (el, selector, vOffset = 20) => {
       return true;
     }
   }
-  flashEl(els.at(-1));
+  if (els.length) flashEl(els.at(-1));
   return false;
 };
 
