@@ -96,11 +96,19 @@
 
               <div class="search-options">
                 <sl-radio-group name="where" value="anywhere">
-                  <sl-radio value="anywhere">Anywhere</sl-radio>
-                  <sl-radio value="correspondences">Correspondences</sl-radio>
-                  <sl-radio value="deep-correspondences"
-                    >Correspondences &gt; 1</sl-radio
+                  <sl-tooltip content="Show all matches">
+                    <sl-radio value="anywhere">Anywhere</sl-radio>
+                  </sl-tooltip>
+                  <sl-tooltip content="Show only matches in correspondences">
+                    <sl-radio value="correspondences">Correspondences</sl-radio>
+                  </sl-tooltip>
+                  <sl-tooltip
+                    content="Show only matches in correspondences &gt;1"
                   >
+                    <sl-radio value="deep-correspondences"
+                      >Correspondences &gt; 1</sl-radio
+                    >
+                  </sl-tooltip>
                 </sl-radio-group>
               </div>
 
@@ -181,10 +189,20 @@
 
               <div class="search-options">
                 <sl-radio-group name="where" value="anywhere">
-                  <sl-radio value="anywhere">Anywhere</sl-radio>
-                  <sl-radio value="correspondences">Correspondences</sl-radio>
-                  <sl-radio value="references">References</sl-radio>
-                  <sl-radio value="untraced">Untraced Quotations</sl-radio>
+                  <sl-tooltip content="Show all matches">
+                    <sl-radio value="anywhere">Anywhere</sl-radio>
+                  </sl-tooltip>
+                  <sl-tooltip content="Show only matches in correspondences">
+                    <sl-radio value="correspondences">Correspondences</sl-radio>
+                  </sl-tooltip>
+                  <sl-tooltip content="Show only matches in references">
+                    <sl-radio value="references">References</sl-radio>
+                  </sl-tooltip>
+                  <sl-tooltip
+                    content="Show only matches in untraced quotations"
+                  >
+                    <sl-radio value="untraced">Untraced Quotations</sl-radio>
+                  </sl-tooltip>
                 </sl-radio-group>
               </div>
 
