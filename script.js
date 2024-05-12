@@ -189,9 +189,12 @@ document.addEventListener("DOMContentLoaded", async function () {
             ? ` (${seen[key] + 1})`
             : "";
           seen[key] = seen[key] ? seen[key]++ : 1;
+          const title = document.querySelector("#toggle-unicode")?.checked
+            ? datum.textTitleTibetan
+            : datum["Text Title"];
           return `
           <span class="uid-link" data-uid="${datum["UID"]}">
-            ➡️ Vol. ${datum["Volume"]}, No. ${datum["Text No."]}: ${datum["Text Title"]} ${affix}
+            ➡️ Vol. ${datum["Volume"]}, No. ${datum["Text No."]}: ${title} ${affix}
           </span><br>
           `;
         })
