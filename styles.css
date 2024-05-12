@@ -126,6 +126,7 @@ label[for="toggle-unicode"] {
   text-align: left;
   width: 90%;
   margin: 0 auto;
+  text-decoration: none;
 }
 
 .about-body ul {
@@ -163,6 +164,15 @@ label[for="toggle-unicode"] {
   font-size: 0.7em;
   margin: 0 10px;
   text-align: center;
+}
+
+.name-card h3 a {
+  text-decoration: underline;
+  color: #000; 
+}
+
+.name-card a:hover {
+  color: rgb(255, 145, 0);
 }
 
 .photo-card img {
