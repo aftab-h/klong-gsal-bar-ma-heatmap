@@ -158,15 +158,12 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // Click anywhere? Remove tooltips
   document.addEventListener("click", clearMatchPopup);
+
   // Scroll ls corpus? Remove tooltips
-  document
-    .getElementById("ls-corpus")
-    .addEventListener("scroll", clearMatchPopup);
+  lsCorpusContent.addEventListener("scroll", clearMatchPopup);
 
   // Scroll t text? Remove tooltips
-  document
-    .getElementById("tantra-of-the-sun")
-    .addEventListener("scroll", clearMatchPopup);
+  tTextContent.addEventListener("scroll", clearMatchPopup);
 
   // T Text Click-Scroll functionality
   tTextContent.addEventListener("click", function (event) {
